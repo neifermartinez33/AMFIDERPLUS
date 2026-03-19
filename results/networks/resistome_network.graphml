@@ -1,0 +1,4700 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="p_adj" attr.type="double" />
+  <key id="d6" for="edge" attr.name="n11" attr.type="long" />
+  <key id="d5" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="node" attr.name="n_genomes" attr.type="long" />
+  <key id="d3" for="node" attr.name="prevalence" attr.type="double" />
+  <key id="d2" for="node" attr.name="Scope" attr.type="string" />
+  <key id="d1" for="node" attr.name="Subclass" attr.type="string" />
+  <key id="d0" for="node" attr.name="Class" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="aac(3)-IId">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.97</data>
+      <data key="d4">73</data>
+    </node>
+    <node id="aac(3)-IIe">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">4.07</data>
+      <data key="d4">100</data>
+    </node>
+    <node id="aac(3)-Ia">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">13.18</data>
+      <data key="d4">324</data>
+    </node>
+    <node id="aac(6')-Ian">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">AMIKACIN/KANAMYCIN/TOBRAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">5.41</data>
+      <data key="d4">133</data>
+    </node>
+    <node id="aac(6')-Ib'">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">15.62</data>
+      <data key="d4">384</data>
+    </node>
+    <node id="aac(6')-Ib3">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">AMIKACIN/KANAMYCIN/TOBRAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.55</data>
+      <data key="d4">38</data>
+    </node>
+    <node id="aac(6')-Ib4">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.1</data>
+      <data key="d4">27</data>
+    </node>
+    <node id="aacA16">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">AMINOGLYCOSIDE</data>
+      <data key="d2">core</data>
+      <data key="d3">1.87</data>
+      <data key="d4">46</data>
+    </node>
+    <node id="aadA1">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">STREPTOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">24.86</data>
+      <data key="d4">611</data>
+    </node>
+    <node id="aadA2">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">STREPTOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">3.74</data>
+      <data key="d4">92</data>
+    </node>
+    <node id="aadA5">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">STREPTOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.42</data>
+      <data key="d4">35</data>
+    </node>
+    <node id="aadT">
+      <data key="d0">EFFLUX</data>
+      <data key="d1">EFFLUX</data>
+      <data key="d2">plus</data>
+      <data key="d3">2.4</data>
+      <data key="d4">59</data>
+    </node>
+    <node id="adeC">
+      <data key="d0">EFFLUX</data>
+      <data key="d1">EFFLUX</data>
+      <data key="d2">plus</data>
+      <data key="d3">53.42</data>
+      <data key="d4">1313</data>
+    </node>
+    <node id="adeS_G336S">
+      <data key="d0">EFFLUX</data>
+      <data key="d1">EFFLUX</data>
+      <data key="d2">core</data>
+      <data key="d3">3.01</data>
+      <data key="d4">74</data>
+    </node>
+    <node id="adeS_H189Y">
+      <data key="d0">EFFLUX</data>
+      <data key="d1">EFFLUX</data>
+      <data key="d2">core</data>
+      <data key="d3">3.38</data>
+      <data key="d4">83</data>
+    </node>
+    <node id="adeS_N125K">
+      <data key="d0">EFFLUX</data>
+      <data key="d1">EFFLUX</data>
+      <data key="d2">core</data>
+      <data key="d3">2.03</data>
+      <data key="d4">50</data>
+    </node>
+    <node id="ant(2'')-Ia">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN/KANAMYCIN/TOBRAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">7.53</data>
+      <data key="d4">185</data>
+    </node>
+    <node id="aph(3'')-Ib">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">STREPTOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">51.22</data>
+      <data key="d4">1259</data>
+    </node>
+    <node id="aph(3')-Ia">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">KANAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">31.24</data>
+      <data key="d4">768</data>
+    </node>
+    <node id="aph(3')-VI">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">AMIKACIN/KANAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">3.95</data>
+      <data key="d4">97</data>
+    </node>
+    <node id="aph(3')-VIa">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">AMIKACIN/KANAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">14.2</data>
+      <data key="d4">349</data>
+    </node>
+    <node id="aph(6)-Id">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">STREPTOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">50.9</data>
+      <data key="d4">1251</data>
+    </node>
+    <node id="armA">
+      <data key="d0">AMINOGLYCOSIDE</data>
+      <data key="d1">GENTAMICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">34.5</data>
+      <data key="d4">848</data>
+    </node>
+    <node id="arr-2">
+      <data key="d0">RIFAMYCIN</data>
+      <data key="d1">RIFAMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">3.54</data>
+      <data key="d4">87</data>
+    </node>
+    <node id="blaADC">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">15.09</data>
+      <data key="d4">371</data>
+    </node>
+    <node id="blaADC-11">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.07</data>
+      <data key="d4">51</data>
+    </node>
+    <node id="blaADC-152">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.22</data>
+      <data key="d4">30</data>
+    </node>
+    <node id="blaADC-154">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.02</data>
+      <data key="d4">25</data>
+    </node>
+    <node id="blaADC-158">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.22</data>
+      <data key="d4">30</data>
+    </node>
+    <node id="blaADC-169">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.79</data>
+      <data key="d4">44</data>
+    </node>
+    <node id="blaADC-176">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.46</data>
+      <data key="d4">36</data>
+    </node>
+    <node id="blaADC-199">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.18</data>
+      <data key="d4">29</data>
+    </node>
+    <node id="blaADC-222">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.2</data>
+      <data key="d4">54</data>
+    </node>
+    <node id="blaADC-25">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">3.25</data>
+      <data key="d4">80</data>
+    </node>
+    <node id="blaADC-26">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">5.86</data>
+      <data key="d4">144</data>
+    </node>
+    <node id="blaADC-277">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.14</data>
+      <data key="d4">28</data>
+    </node>
+    <node id="blaADC-30">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">21.85</data>
+      <data key="d4">537</data>
+    </node>
+    <node id="blaADC-33">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.32</data>
+      <data key="d4">57</data>
+    </node>
+    <node id="blaADC-52">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.59</data>
+      <data key="d4">39</data>
+    </node>
+    <node id="blaADC-73">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">13.71</data>
+      <data key="d4">337</data>
+    </node>
+    <node id="blaADC-76">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.4</data>
+      <data key="d4">59</data>
+    </node>
+    <node id="blaADC-79">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.26</data>
+      <data key="d4">31</data>
+    </node>
+    <node id="blaCARB-16">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">BETA-LACTAM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.03</data>
+      <data key="d4">50</data>
+    </node>
+    <node id="blaCARB-2">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">BETA-LACTAM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.18</data>
+      <data key="d4">29</data>
+    </node>
+    <node id="blaNDM-1">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">8.18</data>
+      <data key="d4">201</data>
+    </node>
+    <node id="blaOXA">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">5.66</data>
+      <data key="d4">139</data>
+    </node>
+    <node id="blaOXA-100">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.06</data>
+      <data key="d4">26</data>
+    </node>
+    <node id="blaOXA-104">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">3.01</data>
+      <data key="d4">74</data>
+    </node>
+    <node id="blaOXA-120">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.3</data>
+      <data key="d4">32</data>
+    </node>
+    <node id="blaOXA-23">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">49.67</data>
+      <data key="d4">1221</data>
+    </node>
+    <node id="blaOXA-235">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.42</data>
+      <data key="d4">35</data>
+    </node>
+    <node id="blaOXA-239">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.3</data>
+      <data key="d4">32</data>
+    </node>
+    <node id="blaOXA-259">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.07</data>
+      <data key="d4">51</data>
+    </node>
+    <node id="blaOXA-402">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.46</data>
+      <data key="d4">36</data>
+    </node>
+    <node id="blaOXA-51">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.44</data>
+      <data key="d4">60</data>
+    </node>
+    <node id="blaOXA-58">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">3.58</data>
+      <data key="d4">88</data>
+    </node>
+    <node id="blaOXA-64">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">5.41</data>
+      <data key="d4">133</data>
+    </node>
+    <node id="blaOXA-65">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">4.52</data>
+      <data key="d4">111</data>
+    </node>
+    <node id="blaOXA-66">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">41.38</data>
+      <data key="d4">1017</data>
+    </node>
+    <node id="blaOXA-68">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.24</data>
+      <data key="d4">55</data>
+    </node>
+    <node id="blaOXA-69">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">5.49</data>
+      <data key="d4">135</data>
+    </node>
+    <node id="blaOXA-72">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">3.46</data>
+      <data key="d4">85</data>
+    </node>
+    <node id="blaOXA-82">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.52</data>
+      <data key="d4">62</data>
+    </node>
+    <node id="blaOXA-91">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.16</data>
+      <data key="d4">53</data>
+    </node>
+    <node id="blaOXA-95">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.28</data>
+      <data key="d4">56</data>
+    </node>
+    <node id="blaOXA-98">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.38</data>
+      <data key="d4">34</data>
+    </node>
+    <node id="blaPER-1">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.42</data>
+      <data key="d4">35</data>
+    </node>
+    <node id="blaPER-7">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CEPHALOSPORIN</data>
+      <data key="d2">core</data>
+      <data key="d3">2.81</data>
+      <data key="d4">69</data>
+    </node>
+    <node id="blaTEM-1">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">BETA-LACTAM</data>
+      <data key="d2">core</data>
+      <data key="d3">26.69</data>
+      <data key="d4">656</data>
+    </node>
+    <node id="ble">
+      <data key="d0">BLEOMYCIN</data>
+      <data key="d1">BLEOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">8.34</data>
+      <data key="d4">205</data>
+    </node>
+    <node id="catA1">
+      <data key="d0">PHENICOL</data>
+      <data key="d1">CHLORAMPHENICOL</data>
+      <data key="d2">core</data>
+      <data key="d3">2.93</data>
+      <data key="d4">72</data>
+    </node>
+    <node id="catB8">
+      <data key="d0">PHENICOL</data>
+      <data key="d1">CHLORAMPHENICOL</data>
+      <data key="d2">core</data>
+      <data key="d3">15.58</data>
+      <data key="d4">383</data>
+    </node>
+    <node id="cmlA5">
+      <data key="d0">PHENICOL</data>
+      <data key="d1">CHLORAMPHENICOL</data>
+      <data key="d2">core</data>
+      <data key="d3">3.46</data>
+      <data key="d4">85</data>
+    </node>
+    <node id="dfrA1">
+      <data key="d0">TRIMETHOPRIM</data>
+      <data key="d1">TRIMETHOPRIM</data>
+      <data key="d2">core</data>
+      <data key="d3">2.03</data>
+      <data key="d4">50</data>
+    </node>
+    <node id="dfrA45">
+      <data key="d0">TRIMETHOPRIM</data>
+      <data key="d1">TRIMETHOPRIM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.46</data>
+      <data key="d4">36</data>
+    </node>
+    <node id="floR">
+      <data key="d0">PHENICOL</data>
+      <data key="d1">CHLORAMPHENICOL/FLORFENICOL</data>
+      <data key="d2">core</data>
+      <data key="d3">4.07</data>
+      <data key="d4">100</data>
+    </node>
+    <node id="fos">
+      <data key="d0">FOSFOMYCIN</data>
+      <data key="d1">FOSFOMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">3.38</data>
+      <data key="d4">83</data>
+    </node>
+    <node id="ftsI_A515V">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">CARBAPENEM/SULBACTAM-DURLOBACTAM</data>
+      <data key="d2">core</data>
+      <data key="d3">15.01</data>
+      <data key="d4">369</data>
+    </node>
+    <node id="ftsI_T526S">
+      <data key="d0">BETA-LACTAM</data>
+      <data key="d1">SULBACTAM-DURLOBACTAM</data>
+      <data key="d2">core</data>
+      <data key="d3">1.75</data>
+      <data key="d4">43</data>
+    </node>
+    <node id="gyrA_S81L">
+      <data key="d0">QUINOLONE</data>
+      <data key="d1">QUINOLONE</data>
+      <data key="d2">core</data>
+      <data key="d3">72.29</data>
+      <data key="d4">1777</data>
+    </node>
+    <node id="mph(E)">
+      <data key="d0">MACROLIDE</data>
+      <data key="d1">ERYTHROMYCIN</data>
+      <data key="d2">core</data>
+      <data key="d3">39.3</data>
+      <data key="d4">966</data>
+    </node>
+    <node id="msr(E)">
+      <data key="d0">MACROLIDE/STREPTOGRAMIN</data>
+      <data key="d1">AZITHROMYCIN/ERYTHROMYCIN/STREPTOGRAMIN</data>
+      <data key="d2">core</data>
+      <data key="d3">39.54</data>
+      <data key="d4">972</data>
+    </node>
+    <node id="parC_E88K">
+      <data key="d0">QUINOLONE</data>
+      <data key="d1">QUINOLONE</data>
+      <data key="d2">core</data>
+      <data key="d3">2.64</data>
+      <data key="d4">65</data>
+    </node>
+    <node id="parC_S84L">
+      <data key="d0">QUINOLONE</data>
+      <data key="d1">QUINOLONE</data>
+      <data key="d2">core</data>
+      <data key="d3">63.83</data>
+      <data key="d4">1569</data>
+    </node>
+    <node id="sat2">
+      <data key="d0">STREPTOTHRICIN</data>
+      <data key="d1">STREPTOTHRICIN</data>
+      <data key="d2">core</data>
+      <data key="d3">1.67</data>
+      <data key="d4">41</data>
+    </node>
+    <node id="sul1">
+      <data key="d0">SULFONAMIDE</data>
+      <data key="d1">SULFONAMIDE</data>
+      <data key="d2">core</data>
+      <data key="d3">36.49</data>
+      <data key="d4">897</data>
+    </node>
+    <node id="sul2">
+      <data key="d0">SULFONAMIDE</data>
+      <data key="d1">SULFONAMIDE</data>
+      <data key="d2">core</data>
+      <data key="d3">39.63</data>
+      <data key="d4">974</data>
+    </node>
+    <node id="tet(39)">
+      <data key="d0">TETRACYCLINE</data>
+      <data key="d1">TETRACYCLINE</data>
+      <data key="d2">core</data>
+      <data key="d3">3.74</data>
+      <data key="d4">92</data>
+    </node>
+    <node id="tet(A)">
+      <data key="d0">TETRACYCLINE</data>
+      <data key="d1">TETRACYCLINE</data>
+      <data key="d2">core</data>
+      <data key="d3">1.91</data>
+      <data key="d4">47</data>
+    </node>
+    <node id="tet(B)">
+      <data key="d0">TETRACYCLINE</data>
+      <data key="d1">TETRACYCLINE</data>
+      <data key="d2">core</data>
+      <data key="d3">42.15</data>
+      <data key="d4">1036</data>
+    </node>
+    <node id="tet(X5)">
+      <data key="d0">TETRACYCLINE</data>
+      <data key="d1">TIGECYCLINE</data>
+      <data key="d2">core</data>
+      <data key="d3">1.02</data>
+      <data key="d4">25</data>
+    </node>
+    <edge source="aac(3)-IId" target="tet(39)">
+      <data key="d5">0.5331</data>
+      <data key="d6">45</data>
+      <data key="d7">1.4350682802574338e-48</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaOXA-402">
+      <data key="d5">0.4571</data>
+      <data key="d6">24</data>
+      <data key="d7">1.312182185108055e-28</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaADC-169">
+      <data key="d5">0.4097</data>
+      <data key="d6">24</data>
+      <data key="d7">1.4536942841676002e-25</data>
+    </edge>
+    <edge source="aac(3)-IId" target="floR">
+      <data key="d5">0.4</data>
+      <data key="d6">36</data>
+      <data key="d7">1.6362243435370677e-31</data>
+    </edge>
+    <edge source="aac(3)-IId" target="aadT">
+      <data key="d5">0.3948</data>
+      <data key="d6">27</data>
+      <data key="d7">2.822384330644645e-26</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaOXA-58">
+      <data key="d5">0.3783</data>
+      <data key="d6">32</data>
+      <data key="d7">9.69103921036663e-28</data>
+    </edge>
+    <edge source="aac(3)-IId" target="mph(E)">
+      <data key="d5">0.1655</data>
+      <data key="d6">63</data>
+      <data key="d7">3.839531582794173e-15</data>
+    </edge>
+    <edge source="aac(3)-IId" target="msr(E)">
+      <data key="d5">0.1644</data>
+      <data key="d6">63</data>
+      <data key="d7">5.433508381031731e-15</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaCARB-2">
+      <data key="d5">0.1579</data>
+      <data key="d6">8</data>
+      <data key="d7">9.894055178215127e-06</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaNDM-1">
+      <data key="d5">0.1562</data>
+      <data key="d6">24</data>
+      <data key="d7">1.2054753481199626e-08</data>
+    </edge>
+    <edge source="aac(3)-IId" target="ble">
+      <data key="d5">0.1538</data>
+      <data key="d6">24</data>
+      <data key="d7">1.8188024928698337e-08</data>
+    </edge>
+    <edge source="aac(3)-IId" target="sul2">
+      <data key="d5">0.1393</data>
+      <data key="d6">58</data>
+      <data key="d7">1.0337057154260916e-10</data>
+    </edge>
+    <edge source="aac(3)-IId" target="aac(6')-Ib4">
+      <data key="d5">0.119</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0007580239449665186</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaOXA-68">
+      <data key="d5">0.1024</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0012496323092593424</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaADC-76">
+      <data key="d5">0.097</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0020136544636537653</data>
+    </edge>
+    <edge source="aac(3)-IId" target="blaOXA-120">
+      <data key="d5">0.085</data>
+      <data key="d6">5</data>
+      <data key="d7">0.013552371746303436</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="aac(6')-Ian">
+      <data key="d5">0.6055</data>
+      <data key="d6">72</data>
+      <data key="d7">5.691868512039261e-75</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="adeS_H189Y">
+      <data key="d5">0.5538</data>
+      <data key="d6">52</data>
+      <data key="d7">2.983029967728384e-55</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="blaOXA-64">
+      <data key="d5">0.4596</data>
+      <data key="d6">56</data>
+      <data key="d7">4.470745314023809e-47</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="blaADC-26">
+      <data key="d5">0.3157</data>
+      <data key="d6">42</data>
+      <data key="d7">4.719160395702826e-26</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="sul2">
+      <data key="d5">0.2004</data>
+      <data key="d6">88</data>
+      <data key="d7">3.260979249891188e-22</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="aph(3'')-Ib">
+      <data key="d5">0.1219</data>
+      <data key="d6">82</data>
+      <data key="d7">4.991038768251116e-09</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="aph(6)-Id">
+      <data key="d5">0.1149</data>
+      <data key="d6">80</data>
+      <data key="d7">5.0414253756864426e-08</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="gyrA_S81L">
+      <data key="d5">0.1121</data>
+      <data key="d6">98</data>
+      <data key="d7">6.90110928755313e-10</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="tet(B)">
+      <data key="d5">0.1116</data>
+      <data key="d6">70</data>
+      <data key="d7">3.6315523927163014e-07</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="dfrA1">
+      <data key="d5">0.0861</data>
+      <data key="d6">8</data>
+      <data key="d7">0.005184079778596304</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="parC_S84L">
+      <data key="d5">0.0796</data>
+      <data key="d6">84</data>
+      <data key="d7">0.00022160407568410812</data>
+    </edge>
+    <edge source="aac(3)-IIe" target="blaOXA-23">
+      <data key="d5">0.0697</data>
+      <data key="d6">68</data>
+      <data key="d7">0.002529554437131425</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aadA1">
+      <data key="d5">0.5379</data>
+      <data key="d6">275</data>
+      <data key="d7">4.1168304316175754e-131</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="sul1">
+      <data key="d5">0.442</data>
+      <data key="d6">297</data>
+      <data key="d7">3.437629918231741e-105</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="adeC">
+      <data key="d5">0.3453</data>
+      <data key="d6">319</data>
+      <data key="d7">5.3278021661944e-81</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aacA16">
+      <data key="d5">0.2824</data>
+      <data key="d6">38</data>
+      <data key="d7">2.7060068253772383e-25</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="tet(A)">
+      <data key="d5">0.2694</data>
+      <data key="d6">37</data>
+      <data key="d7">3.2828354231079985e-23</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaADC-30">
+      <data key="d5">0.2662</data>
+      <data key="d6">164</data>
+      <data key="d7">4.113118390709297e-32</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aph(3')-Ia">
+      <data key="d5">0.263</data>
+      <data key="d6">205</data>
+      <data key="d7">7.195875609384231e-34</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="catA1">
+      <data key="d5">0.2589</data>
+      <data key="d6">46</data>
+      <data key="d7">1.3425262798951931e-22</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaOXA-69">
+      <data key="d5">0.2257</data>
+      <data key="d6">61</data>
+      <data key="d7">2.4349377092241315e-19</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaOXA-66">
+      <data key="d5">0.1992</data>
+      <data key="d6">219</data>
+      <data key="d7">4.207219281475118e-21</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="gyrA_S81L">
+      <data key="d5">0.197</data>
+      <data key="d6">312</data>
+      <data key="d7">2.4338353886454903e-27</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaTEM-1">
+      <data key="d5">0.1634</data>
+      <data key="d6">149</data>
+      <data key="d7">1.7650757407543996e-13</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaOXA-72">
+      <data key="d5">0.1612</data>
+      <data key="d6">36</data>
+      <data key="d7">2.6054224393170915e-10</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="tet(B)">
+      <data key="d5">0.1577</data>
+      <data key="d6">205</data>
+      <data key="d7">1.5545314191395977e-13</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="sat2">
+      <data key="d5">0.1546</data>
+      <data key="d6">22</data>
+      <data key="d7">8.526249833465815e-09</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="dfrA1">
+      <data key="d5">0.1468</data>
+      <data key="d6">24</data>
+      <data key="d7">2.713776857623316e-08</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaADC-11">
+      <data key="d5">0.1358</data>
+      <data key="d6">23</data>
+      <data key="d7">2.486189857459916e-07</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="parC_S84L">
+      <data key="d5">0.135</data>
+      <data key="d6">266</data>
+      <data key="d7">4.588770744746591e-11</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaPER-1">
+      <data key="d5">0.1143</data>
+      <data key="d6">16</data>
+      <data key="d7">2.429878884828107e-05</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaADC-176">
+      <data key="d5">0.1114</data>
+      <data key="d6">16</data>
+      <data key="d7">3.7929970691905994e-05</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaOXA-82">
+      <data key="d5">0.1042</data>
+      <data key="d6">22</data>
+      <data key="d7">6.002104308189374e-05</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aph(3')-VIa">
+      <data key="d5">0.102</data>
+      <data key="d6">77</data>
+      <data key="d7">1.3076993210432184e-05</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aph(6)-Id">
+      <data key="d5">0.1019</data>
+      <data key="d6">212</data>
+      <data key="d7">2.802897443577981e-06</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="aph(3'')-Ib">
+      <data key="d5">0.0992</data>
+      <data key="d6">212</data>
+      <data key="d7">5.276317105130086e-06</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaADC-33">
+      <data key="d5">0.082</data>
+      <data key="d6">18</data>
+      <data key="d7">0.001957877583432805</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaOXA-23">
+      <data key="d5">0.0652</data>
+      <data key="d6">193</data>
+      <data key="d7">0.005010668985725501</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="blaADC-25">
+      <data key="d5">0.0618</data>
+      <data key="d6">20</data>
+      <data key="d7">0.020970277049838268</data>
+    </edge>
+    <edge source="aac(3)-Ia" target="catB8">
+      <data key="d5">0.0593</data>
+      <data key="d6">70</data>
+      <data key="d7">0.016714457622675948</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="adeS_H189Y">
+      <data key="d5">0.542</data>
+      <data key="d6">59</data>
+      <data key="d7">3.490670040543365e-59</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaOXA-64">
+      <data key="d5">0.4425</data>
+      <data key="d6">63</data>
+      <data key="d7">9.883291030923843e-48</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaADC-152">
+      <data key="d5">0.3004</data>
+      <data key="d6">20</data>
+      <data key="d7">5.311010478948695e-18</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaADC-26">
+      <data key="d5">0.2835</data>
+      <data key="d6">45</data>
+      <data key="d7">2.5019428889314886e-23</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="sul2">
+      <data key="d5">0.2773</data>
+      <data key="d6">129</data>
+      <data key="d7">2.1460886303706594e-45</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="adeS_N125K">
+      <data key="d5">0.2067</data>
+      <data key="d6">19</data>
+      <data key="d7">3.134991708748473e-11</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="adeS_G336S">
+      <data key="d5">0.1777</data>
+      <data key="d6">21</data>
+      <data key="d7">1.2093902526785529e-09</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaCARB-16">
+      <data key="d5">0.1684</data>
+      <data key="d6">16</data>
+      <data key="d7">3.071576062536964e-08</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaOXA-65">
+      <data key="d5">0.163</data>
+      <data key="d6">25</data>
+      <data key="d7">4.0849441486409284e-09</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaOXA-239">
+      <data key="d5">0.1463</data>
+      <data key="d6">11</data>
+      <data key="d7">3.858989316546776e-06</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="parC_S84L">
+      <data key="d5">0.1438</data>
+      <data key="d6">125</data>
+      <data key="d7">3.312226954127815e-14</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="gyrA_S81L">
+      <data key="d5">0.1415</data>
+      <data key="d6">133</data>
+      <data key="d7">5.378410871343833e-17</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="aadA5">
+      <data key="d5">0.107</data>
+      <data key="d6">9</data>
+      <data key="d7">0.0005276608499950473</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaOXA">
+      <data key="d5">0.1032</data>
+      <data key="d6">21</data>
+      <data key="d7">0.00010710117549211997</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="blaPER-7">
+      <data key="d5">0.0996</data>
+      <data key="d6">13</data>
+      <data key="d7">0.00048271479288472335</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="aph(3'')-Ib">
+      <data key="d5">0.0974</data>
+      <data key="d6">97</data>
+      <data key="d7">7.265787403028287e-06</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="floR">
+      <data key="d5">0.0949</data>
+      <data key="d6">16</data>
+      <data key="d7">0.0005627540171912282</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="aph(6)-Id">
+      <data key="d5">0.0917</data>
+      <data key="d6">95</data>
+      <data key="d7">2.9371827619691215e-05</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="ant(2'')-Ia">
+      <data key="d5">0.0864</data>
+      <data key="d6">23</data>
+      <data key="d7">0.000926842682283838</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="cmlA5">
+      <data key="d5">0.0813</data>
+      <data key="d6">13</data>
+      <data key="d7">0.0038582993545550484</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="arr-2">
+      <data key="d5">0.0793</data>
+      <data key="d6">13</data>
+      <data key="d7">0.004795996329264527</data>
+    </edge>
+    <edge source="aac(6')-Ian" target="tet(B)">
+      <data key="d5">0.0629</data>
+      <data key="d6">75</data>
+      <data key="d7">0.008495351876891462</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="catB8">
+      <data key="d5">0.9767</data>
+      <data key="d6">376</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="aadA1">
+      <data key="d5">0.7227</data>
+      <data key="d6">375</data>
+      <data key="d7">5.987727837301921e-254</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="blaADC-30">
+      <data key="d5">0.6512</data>
+      <data key="d6">325</data>
+      <data key="d7">2.913657661725953e-186</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="armA">
+      <data key="d5">0.5584</data>
+      <data key="d6">371</data>
+      <data key="d7">5.566292147085084e-171</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="sul1">
+      <data key="d5">0.5379</data>
+      <data key="d6">373</data>
+      <data key="d7">2.8342005397076676e-163</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="mph(E)">
+      <data key="d5">0.4444</data>
+      <data key="d6">347</data>
+      <data key="d7">2.7716106213585668e-108</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="msr(E)">
+      <data key="d5">0.4417</data>
+      <data key="d6">347</data>
+      <data key="d7">3.329487318516841e-107</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="blaOXA-66">
+      <data key="d5">0.4406</data>
+      <data key="d6">355</data>
+      <data key="d7">6.616042477520449e-110</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="aph(3')-Ia">
+      <data key="d5">0.4105</data>
+      <data key="d6">292</data>
+      <data key="d7">2.986013109139316e-82</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="adeC">
+      <data key="d5">0.363</data>
+      <data key="d6">370</data>
+      <data key="d7">3.8140739566973357e-85</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="blaTEM-1">
+      <data key="d5">0.2737</data>
+      <data key="d6">213</data>
+      <data key="d7">1.2069313734210505e-35</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="tet(B)">
+      <data key="d5">0.2735</data>
+      <data key="d6">286</data>
+      <data key="d7">1.0642681459686702e-39</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="parC_S84L">
+      <data key="d5">0.2595</data>
+      <data key="d6">361</data>
+      <data key="d7">5.658851460725226e-44</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="blaOXA-23">
+      <data key="d5">0.2487</data>
+      <data key="d6">306</data>
+      <data key="d7">1.5908441185063276e-34</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="gyrA_S81L">
+      <data key="d5">0.2472</data>
+      <data key="d6">381</data>
+      <data key="d7">3.3247454594187806e-47</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="aph(6)-Id">
+      <data key="d5">0.2173</data>
+      <data key="d6">297</data>
+      <data key="d7">2.263197257417766e-26</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="aph(3'')-Ib">
+      <data key="d5">0.2167</data>
+      <data key="d6">298</data>
+      <data key="d7">2.787133561451861e-26</data>
+    </edge>
+    <edge source="aac(6')-Ib'" target="blaOXA-235">
+      <data key="d5">0.1456</data>
+      <data key="d6">21</data>
+      <data key="d7">3.1047248610950816e-08</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="blaADC-11">
+      <data key="d5">0.2589</data>
+      <data key="d6">12</data>
+      <data key="d7">4.271428526153404e-11</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="aadA2">
+      <data key="d5">0.2527</data>
+      <data key="d6">16</data>
+      <data key="d7">7.953451617797591e-13</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="aph(3')-VIa">
+      <data key="d5">0.2125</data>
+      <data key="d6">28</data>
+      <data key="d7">2.4561499484414233e-15</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="ant(2'')-Ia">
+      <data key="d5">0.1633</data>
+      <data key="d6">16</data>
+      <data key="d7">3.886208707765959e-08</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="sul1">
+      <data key="d5">0.1499</data>
+      <data key="d6">36</data>
+      <data key="d7">1.130959859137797e-12</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="blaOXA-69">
+      <data key="d5">0.1426</data>
+      <data key="d6">12</data>
+      <data key="d7">3.858989316546776e-06</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="tet(A)">
+      <data key="d5">0.1265</data>
+      <data key="d6">6</data>
+      <data key="d7">0.000468652716075924</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="blaOXA-58">
+      <data key="d5">0.1171</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0003274418998507054</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="blaOXA-65">
+      <data key="d5">0.099</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0016073012394774466</data>
+    </edge>
+    <edge source="aac(6')-Ib3" target="catA1">
+      <data key="d5">0.0949</data>
+      <data key="d6">6</data>
+      <data key="d7">0.004572345510244547</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="aadT">
+      <data key="d5">0.4932</data>
+      <data key="d6">20</data>
+      <data key="d7">2.9144201499735317e-27</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="aadA5">
+      <data key="d5">0.4483</data>
+      <data key="d6">14</data>
+      <data key="d7">2.7442323641444806e-19</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaOXA-58">
+      <data key="d5">0.3995</data>
+      <data key="d6">20</data>
+      <data key="d7">2.738135578854804e-23</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="aph(3')-VI">
+      <data key="d5">0.3391</data>
+      <data key="d6">18</data>
+      <data key="d7">8.990935409602308e-19</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaOXA-65">
+      <data key="d5">0.2773</data>
+      <data key="d6">16</data>
+      <data key="d7">1.7038431646434064e-14</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaNDM-1">
+      <data key="d5">0.2528</data>
+      <data key="d6">20</data>
+      <data key="d7">9.002822118505023e-16</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="ble">
+      <data key="d5">0.2499</data>
+      <data key="d6">20</data>
+      <data key="d7">1.3333801406150275e-15</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="ant(2'')-Ia">
+      <data key="d5">0.1763</data>
+      <data key="d6">14</data>
+      <data key="d7">1.2941289106927429e-08</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="floR">
+      <data key="d5">0.1753</data>
+      <data key="d6">10</data>
+      <data key="d7">4.0678381422901575e-07</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="sul1">
+      <data key="d5">0.1377</data>
+      <data key="d6">27</data>
+      <data key="d7">2.901980911169948e-11</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="aph(3')-VIa">
+      <data key="d5">0.135</data>
+      <data key="d6">16</data>
+      <data key="d7">7.314101044885189e-07</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaCARB-2">
+      <data key="d5">0.1327</data>
+      <data key="d6">4</data>
+      <data key="d7">0.001566477248708148</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaOXA-120">
+      <data key="d5">0.1253</data>
+      <data key="d6">4</data>
+      <data key="d7">0.00226011176878144</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="blaADC">
+      <data key="d5">0.107</data>
+      <data key="d6">14</data>
+      <data key="d7">7.807404572305379e-05</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="mph(E)">
+      <data key="d5">0.1053</data>
+      <data key="d6">24</data>
+      <data key="d7">1.797967228597929e-06</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="msr(E)">
+      <data key="d5">0.1046</data>
+      <data key="d6">24</data>
+      <data key="d7">2.0460694739854935e-06</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="tet(39)">
+      <data key="d5">0.102</data>
+      <data key="d6">6</data>
+      <data key="d7">0.002572107739354086</data>
+    </edge>
+    <edge source="aac(6')-Ib4" target="sul2">
+      <data key="d5">0.0883</data>
+      <data key="d6">22</data>
+      <data key="d7">0.00012234354660557275</data>
+    </edge>
+    <edge source="aacA16" target="blaOXA-72">
+      <data key="d5">0.3019</data>
+      <data key="d6">20</data>
+      <data key="d7">3.9603823469080475e-17</data>
+    </edge>
+    <edge source="aacA16" target="parC_E88K">
+      <data key="d5">0.2011</data>
+      <data key="d6">12</data>
+      <data key="d7">1.0017311940669508e-08</data>
+    </edge>
+    <edge source="aacA16" target="aadA5">
+      <data key="d5">0.1857</data>
+      <data key="d6">8</data>
+      <data key="d7">1.2709334373205025e-06</data>
+    </edge>
+    <edge source="aacA16" target="blaOXA-66">
+      <data key="d5">0.1501</data>
+      <data key="d6">44</data>
+      <data key="d7">1.399513131883527e-13</data>
+    </edge>
+    <edge source="aacA16" target="tet(B)">
+      <data key="d5">0.1475</data>
+      <data key="d6">44</data>
+      <data key="d7">3.0474790897793093e-13</data>
+    </edge>
+    <edge source="aacA16" target="blaADC-30">
+      <data key="d5">0.1432</data>
+      <data key="d6">30</data>
+      <data key="d7">4.463454525807244e-09</data>
+    </edge>
+    <edge source="aacA16" target="aph(6)-Id">
+      <data key="d5">0.1333</data>
+      <data key="d6">46</data>
+      <data key="d7">1.0601631035628462e-12</data>
+    </edge>
+    <edge source="aacA16" target="aph(3'')-Ib">
+      <data key="d5">0.1324</data>
+      <data key="d6">46</data>
+      <data key="d7">1.4145455597828332e-12</data>
+    </edge>
+    <edge source="aacA16" target="adeC">
+      <data key="d5">0.1265</data>
+      <data key="d6">46</data>
+      <data key="d7">9.759966002008511e-12</data>
+    </edge>
+    <edge source="aacA16" target="sul1">
+      <data key="d5">0.1048</data>
+      <data key="d6">34</data>
+      <data key="d7">3.858989316546776e-06</data>
+    </edge>
+    <edge source="aacA16" target="sul2">
+      <data key="d5">0.0817</data>
+      <data key="d6">32</data>
+      <data key="d7">0.0004551289932868934</data>
+    </edge>
+    <edge source="aacA16" target="gyrA_S81L">
+      <data key="d5">0.0816</data>
+      <data key="d6">46</data>
+      <data key="d7">9.580019250716621e-06</data>
+    </edge>
+    <edge source="aadA1" target="catB8">
+      <data key="d5">0.7268</data>
+      <data key="d6">376</data>
+      <data key="d7">4.889821732783436e-258</data>
+    </edge>
+    <edge source="aadA1" target="sul1">
+      <data key="d5">0.7099</data>
+      <data key="d6">588</data>
+      <data key="d7">4.761048941455741e-285</data>
+    </edge>
+    <edge source="aadA1" target="blaADC-30">
+      <data key="d5">0.6146</data>
+      <data key="d6">405</data>
+      <data key="d7">7.940539526192392e-178</data>
+    </edge>
+    <edge source="aadA1" target="aph(3')-Ia">
+      <data key="d5">0.4891</data>
+      <data key="d6">435</data>
+      <data key="d7">4.99986772764443e-119</data>
+    </edge>
+    <edge source="aadA1" target="adeC">
+      <data key="d5">0.4695</data>
+      <data key="d6">580</data>
+      <data key="d7">6.3812946785203794e-136</data>
+    </edge>
+    <edge source="aadA1" target="blaOXA-66">
+      <data key="d5">0.4117</data>
+      <data key="d6">473</data>
+      <data key="d7">8.836397317761032e-90</data>
+    </edge>
+    <edge source="aadA1" target="armA">
+      <data key="d5">0.3537</data>
+      <data key="d6">394</data>
+      <data key="d7">2.4242144946942682e-63</data>
+    </edge>
+    <edge source="aadA1" target="gyrA_S81L">
+      <data key="d5">0.3063</data>
+      <data key="d6">595</data>
+      <data key="d7">1.6622770576276214e-64</data>
+    </edge>
+    <edge source="aadA1" target="blaTEM-1">
+      <data key="d5">0.2916</data>
+      <data key="d6">304</data>
+      <data key="d7">8.271554081376922e-42</data>
+    </edge>
+    <edge source="aadA1" target="tet(B)">
+      <data key="d5">0.2732</data>
+      <data key="d6">407</data>
+      <data key="d7">3.01244213673677e-39</data>
+    </edge>
+    <edge source="aadA1" target="parC_S84L">
+      <data key="d5">0.2656</data>
+      <data key="d6">534</data>
+      <data key="d7">1.450479888848539e-41</data>
+    </edge>
+    <edge source="aadA1" target="mph(E)">
+      <data key="d5">0.262</data>
+      <data key="d6">382</data>
+      <data key="d7">9.865089904473751e-36</data>
+    </edge>
+    <edge source="aadA1" target="msr(E)">
+      <data key="d5">0.2568</data>
+      <data key="d6">381</data>
+      <data key="d7">2.239900700477851e-34</data>
+    </edge>
+    <edge source="aadA1" target="blaOXA-23">
+      <data key="d5">0.2256</data>
+      <data key="d6">431</data>
+      <data key="d7">1.1838370517886971e-27</data>
+    </edge>
+    <edge source="aadA1" target="sat2">
+      <data key="d5">0.2252</data>
+      <data key="d6">41</data>
+      <data key="d7">3.622021139794055e-24</data>
+    </edge>
+    <edge source="aadA1" target="dfrA1">
+      <data key="d5">0.2022</data>
+      <data key="d6">43</data>
+      <data key="d7">2.6688415716774385e-18</data>
+    </edge>
+    <edge source="aadA1" target="aph(6)-Id">
+      <data key="d5">0.1956</data>
+      <data key="d6">423</data>
+      <data key="d7">5.797451205698381e-21</data>
+    </edge>
+    <edge source="aadA1" target="aph(3'')-Ib">
+      <data key="d5">0.1917</data>
+      <data key="d6">423</data>
+      <data key="d7">3.549028429752386e-20</data>
+    </edge>
+    <edge source="aadA1" target="tet(A)">
+      <data key="d5">0.1723</data>
+      <data key="d6">37</data>
+      <data key="d7">2.368545951225521e-13</data>
+    </edge>
+    <edge source="aadA1" target="catA1">
+      <data key="d5">0.1544</data>
+      <data key="d6">46</data>
+      <data key="d7">4.5490492752331335e-11</data>
+    </edge>
+    <edge source="aadA1" target="blaOXA-69">
+      <data key="d5">0.1011</data>
+      <data key="d6">59</data>
+      <data key="d7">1.5466206546019936e-05</data>
+    </edge>
+    <edge source="aadA1" target="ftsI_T526S">
+      <data key="d5">0.0791</data>
+      <data key="d6">22</data>
+      <data key="d7">0.0016393259710428501</data>
+    </edge>
+    <edge source="aadA1" target="blaADC-11">
+      <data key="d5">0.0657</data>
+      <data key="d6">23</data>
+      <data key="d7">0.010346513735761901</data>
+    </edge>
+    <edge source="aadA2" target="ant(2'')-Ia">
+      <data key="d5">0.593</data>
+      <data key="d6">80</data>
+      <data key="d7">8.7392936865786e-82</data>
+    </edge>
+    <edge source="aadA2" target="blaOXA-95">
+      <data key="d5">0.4146</data>
+      <data key="d6">31</data>
+      <data key="d7">3.466546336618058e-30</data>
+    </edge>
+    <edge source="aadA2" target="blaADC-222">
+      <data key="d5">0.3353</data>
+      <data key="d6">25</data>
+      <data key="d7">1.6442782323531818e-21</data>
+    </edge>
+    <edge source="aadA2" target="blaCARB-2">
+      <data key="d5">0.3154</data>
+      <data key="d6">17</data>
+      <data key="d7">9.7195817689235e-17</data>
+    </edge>
+    <edge source="aadA2" target="parC_E88K">
+      <data key="d5">0.2338</data>
+      <data key="d6">20</data>
+      <data key="d7">5.273658542684888e-13</data>
+    </edge>
+    <edge source="aadA2" target="sul1">
+      <data key="d5">0.2307</data>
+      <data key="d6">86</data>
+      <data key="d7">2.6399829943923827e-29</data>
+    </edge>
+    <edge source="aadA2" target="blaOXA-82">
+      <data key="d5">0.1998</data>
+      <data key="d6">17</data>
+      <data key="d7">3.722238116117837e-10</data>
+    </edge>
+    <edge source="aadA2" target="blaADC-33">
+      <data key="d5">0.1681</data>
+      <data key="d6">14</data>
+      <data key="d7">9.976560220401468e-08</data>
+    </edge>
+    <edge source="aadA2" target="blaADC-11">
+      <data key="d5">0.1509</data>
+      <data key="d6">12</data>
+      <data key="d7">1.9032320092807372e-06</data>
+    </edge>
+    <edge source="aadA2" target="adeS_N125K">
+      <data key="d5">0.1226</data>
+      <data key="d6">10</data>
+      <data key="d7">8.916305949169656e-05</data>
+    </edge>
+    <edge source="aadA2" target="gyrA_S81L">
+      <data key="d5">0.1166</data>
+      <data key="d6">92</data>
+      <data key="d7">1.2938876029899983e-11</data>
+    </edge>
+    <edge source="aadA2" target="aph(3')-VIa">
+      <data key="d5">0.1016</data>
+      <data key="d6">30</data>
+      <data key="d7">5.168822253078577e-05</data>
+    </edge>
+    <edge source="aadA2" target="adeS_G336S">
+      <data key="d5">0.0896</data>
+      <data key="d6">10</data>
+      <data key="d7">0.0025154011537998305</data>
+    </edge>
+    <edge source="aadA2" target="blaPER-1">
+      <data key="d5">0.0841</data>
+      <data key="d6">6</data>
+      <data key="d7">0.010245161190488811</data>
+    </edge>
+    <edge source="aadA2" target="blaOXA-69">
+      <data key="d5">0.0827</data>
+      <data key="d6">14</data>
+      <data key="d7">0.002979553433104946</data>
+    </edge>
+    <edge source="aadA2" target="blaOXA-23">
+      <data key="d5">0.0731</data>
+      <data key="d6">64</data>
+      <data key="d7">0.0014172172094533968</data>
+    </edge>
+    <edge source="aadA5" target="blaOXA-72">
+      <data key="d5">0.3715</data>
+      <data key="d6">21</data>
+      <data key="d7">7.096358153165998e-22</data>
+    </edge>
+    <edge source="aadA5" target="aadT">
+      <data key="d5">0.2948</data>
+      <data key="d6">14</data>
+      <data key="d7">1.1626488428124457e-13</data>
+    </edge>
+    <edge source="aadA5" target="blaOXA-65">
+      <data key="d5">0.2378</data>
+      <data key="d6">16</data>
+      <data key="d7">3.435226933713591e-12</data>
+    </edge>
+    <edge source="aadA5" target="blaOXA-58">
+      <data key="d5">0.235</data>
+      <data key="d6">14</data>
+      <data key="d7">3.876064427791072e-11</data>
+    </edge>
+    <edge source="aadA5" target="blaADC-152">
+      <data key="d5">0.2052</data>
+      <data key="d6">7</data>
+      <data key="d7">9.798101821593091e-07</data>
+    </edge>
+    <edge source="aadA5" target="ant(2'')-Ia">
+      <data key="d5">0.1992</data>
+      <data key="d6">18</data>
+      <data key="d7">6.692249100539832e-11</data>
+    </edge>
+    <edge source="aadA5" target="aph(3')-VI">
+      <data key="d5">0.1866</data>
+      <data key="d6">12</data>
+      <data key="d7">3.458095630726839e-08</data>
+    </edge>
+    <edge source="aadA5" target="blaADC">
+      <data key="d5">0.1784</data>
+      <data key="d6">24</data>
+      <data key="d7">1.781556746512648e-11</data>
+    </edge>
+    <edge source="aadA5" target="sul1">
+      <data key="d5">0.157</data>
+      <data key="d6">35</data>
+      <data key="d7">1.1710909893524728e-14</data>
+    </edge>
+    <edge source="aadA5" target="parC_E88K">
+      <data key="d5">0.1508</data>
+      <data key="d6">8</data>
+      <data key="d7">1.865132534458657e-05</data>
+    </edge>
+    <edge source="aadA5" target="blaNDM-1">
+      <data key="d5">0.1386</data>
+      <data key="d6">14</data>
+      <data key="d7">2.169980169579739e-06</data>
+    </edge>
+    <edge source="aadA5" target="ble">
+      <data key="d5">0.1366</data>
+      <data key="d6">14</data>
+      <data key="d7">2.7745264346088607e-06</data>
+    </edge>
+    <edge source="aadA5" target="mph(E)">
+      <data key="d5">0.1335</data>
+      <data key="d6">33</data>
+      <data key="d7">1.9024004782009241e-10</data>
+    </edge>
+    <edge source="aadA5" target="msr(E)">
+      <data key="d5">0.1328</data>
+      <data key="d6">33</data>
+      <data key="d7">2.3174835616906321e-10</data>
+    </edge>
+    <edge source="aadA5" target="floR">
+      <data key="d5">0.131</data>
+      <data key="d6">9</data>
+      <data key="d7">5.6202613617782015e-05</data>
+    </edge>
+    <edge source="aadA5" target="sul2">
+      <data key="d5">0.1183</data>
+      <data key="d6">31</data>
+      <data key="d7">4.4083663985254796e-08</data>
+    </edge>
+    <edge source="aadA5" target="aph(3')-VIa">
+      <data key="d5">0.1072</data>
+      <data key="d6">16</data>
+      <data key="d7">6.437204267054295e-05</data>
+    </edge>
+    <edge source="aadA5" target="blaCARB-16">
+      <data key="d5">0.1038</data>
+      <data key="d6">5</data>
+      <data key="d7">0.0038925752354055207</data>
+    </edge>
+    <edge source="aadA5" target="gyrA_S81L">
+      <data key="d5">0.071</data>
+      <data key="d6">35</data>
+      <data key="d7">0.0002276596568012013</data>
+    </edge>
+    <edge source="aadT" target="blaOXA-58">
+      <data key="d5">0.5702</data>
+      <data key="d6">42</data>
+      <data key="d7">3.726948936928696e-50</data>
+    </edge>
+    <edge source="aadT" target="blaNDM-1">
+      <data key="d5">0.3111</data>
+      <data key="d6">37</data>
+      <data key="d7">2.3224988531877254e-25</data>
+    </edge>
+    <edge source="aadT" target="ble">
+      <data key="d5">0.2978</data>
+      <data key="d6">36</data>
+      <data key="d7">1.0041490495767676e-23</data>
+    </edge>
+    <edge source="aadT" target="blaADC-76">
+      <data key="d5">0.2526</data>
+      <data key="d6">16</data>
+      <data key="d7">1.2600797061754025e-12</data>
+    </edge>
+    <edge source="aadT" target="blaOXA-65">
+      <data key="d5">0.1954</data>
+      <data key="d6">18</data>
+      <data key="d7">3.4894015019137514e-10</data>
+    </edge>
+    <edge source="aadT" target="blaOXA-68">
+      <data key="d5">0.1913</data>
+      <data key="d6">12</data>
+      <data key="d7">2.812570703215338e-08</data>
+    </edge>
+    <edge source="aadT" target="aph(3')-VI">
+      <data key="d5">0.1858</data>
+      <data key="d6">16</data>
+      <data key="d7">3.95965783740404e-09</data>
+    </edge>
+    <edge source="aadT" target="sul2">
+      <data key="d5">0.153</data>
+      <data key="d6">52</data>
+      <data key="d7">3.620460334044427e-13</data>
+    </edge>
+    <edge source="aadT" target="ant(2'')-Ia">
+      <data key="d5">0.1353</data>
+      <data key="d6">18</data>
+      <data key="d7">1.4082996926601913e-06</data>
+    </edge>
+    <edge source="aadT" target="blaCARB-2">
+      <data key="d5">0.1301</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0003565337393711344</data>
+    </edge>
+    <edge source="aadT" target="aph(3')-VIa">
+      <data key="d5">0.1172</data>
+      <data key="d6">24</data>
+      <data key="d7">5.385067159767594e-06</data>
+    </edge>
+    <edge source="aadT" target="tet(X5)">
+      <data key="d5">0.1161</data>
+      <data key="d6">5</data>
+      <data key="d7">0.0017321581263203803</data>
+    </edge>
+    <edge source="aadT" target="msr(E)">
+      <data key="d5">0.1148</data>
+      <data key="d6">45</data>
+      <data key="d7">1.9334915834150943e-07</data>
+    </edge>
+    <edge source="aadT" target="floR">
+      <data key="d5">0.1147</data>
+      <data key="d6">11</data>
+      <data key="d7">0.0001450768284402155</data>
+    </edge>
+    <edge source="aadT" target="mph(E)">
+      <data key="d5">0.1102</data>
+      <data key="d6">44</data>
+      <data key="d7">6.988276574585379e-07</data>
+    </edge>
+    <edge source="aadT" target="blaOXA-120">
+      <data key="d5">0.0987</data>
+      <data key="d6">5</data>
+      <data key="d7">0.0053921257079613824</data>
+    </edge>
+    <edge source="aadT" target="tet(39)">
+      <data key="d5">0.0942</data>
+      <data key="d6">9</data>
+      <data key="d7">0.0019940547477218778</data>
+    </edge>
+    <edge source="aadT" target="blaOXA-100">
+      <data key="d5">0.0872</data>
+      <data key="d6">4</data>
+      <data key="d7">0.018081208832720613</data>
+    </edge>
+    <edge source="aadT" target="blaADC-79">
+      <data key="d5">0.077</data>
+      <data key="d6">4</data>
+      <data key="d7">0.033478201744771806</data>
+    </edge>
+    <edge source="aadT" target="blaPER-7">
+      <data key="d5">0.0691</data>
+      <data key="d6">6</data>
+      <data key="d7">0.033015581808833044</data>
+    </edge>
+    <edge source="aadT" target="blaADC">
+      <data key="d5">0.0581</data>
+      <data key="d6">17</data>
+      <data key="d7">0.03402398640336933</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-66">
+      <data key="d5">0.6912</data>
+      <data key="d6">966</data>
+      <data key="d7">9.768438214024227e-286</data>
+    </edge>
+    <edge source="adeC" target="tet(B)">
+      <data key="d5">0.5387</data>
+      <data key="d6">888</data>
+      <data key="d7">1.6363175158773312e-161</data>
+    </edge>
+    <edge source="adeC" target="armA">
+      <data key="d5">0.4691</data>
+      <data key="d6">734</data>
+      <data key="d7">4.585516528137826e-124</data>
+    </edge>
+    <edge source="adeC" target="gyrA_S81L">
+      <data key="d5">0.4644</data>
+      <data key="d6">1220</data>
+      <data key="d7">1.0500114312617125e-117</data>
+    </edge>
+    <edge source="adeC" target="blaADC-30">
+      <data key="d5">0.462</data>
+      <data key="d6">525</data>
+      <data key="d7">7.038262162597233e-139</data>
+    </edge>
+    <edge source="adeC" target="parC_S84L">
+      <data key="d5">0.4382</data>
+      <data key="d6">1112</data>
+      <data key="d7">2.855785185386121e-102</data>
+    </edge>
+    <edge source="adeC" target="aph(3'')-Ib">
+      <data key="d5">0.4196</data>
+      <data key="d6">943</data>
+      <data key="d7">5.591136782917915e-94</data>
+    </edge>
+    <edge source="adeC" target="aph(6)-Id">
+      <data key="d5">0.4168</data>
+      <data key="d6">937</data>
+      <data key="d7">1.0128606289551362e-92</data>
+    </edge>
+    <edge source="adeC" target="aph(3')-Ia">
+      <data key="d5">0.4103</data>
+      <data key="d6">651</data>
+      <data key="d7">1.5346477676400346e-94</data>
+    </edge>
+    <edge source="adeC" target="blaTEM-1">
+      <data key="d5">0.4006</data>
+      <data key="d6">574</data>
+      <data key="d7">2.9814447713661642e-92</data>
+    </edge>
+    <edge source="adeC" target="sul1">
+      <data key="d5">0.3884</data>
+      <data key="d6">718</data>
+      <data key="d7">1.5363263666795968e-82</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-23">
+      <data key="d5">0.3733</data>
+      <data key="d6">895</data>
+      <data key="d7">3.226032759934767e-74</data>
+    </edge>
+    <edge source="adeC" target="catB8">
+      <data key="d5">0.3669</data>
+      <data key="d6">371</data>
+      <data key="d7">8.629244504333288e-88</data>
+    </edge>
+    <edge source="adeC" target="mph(E)">
+      <data key="d5">0.3452</data>
+      <data key="d6">734</data>
+      <data key="d7">2.5811742805284213e-64</data>
+    </edge>
+    <edge source="adeC" target="msr(E)">
+      <data key="d5">0.3409</data>
+      <data key="d6">735</data>
+      <data key="d7">1.1640363935797713e-62</data>
+    </edge>
+    <edge source="adeC" target="blaADC-73">
+      <data key="d5">0.2858</data>
+      <data key="d6">304</data>
+      <data key="d7">2.5051213107970813e-49</data>
+    </edge>
+    <edge source="adeC" target="ftsI_A515V">
+      <data key="d5">0.2738</data>
+      <data key="d6">321</data>
+      <data key="d7">5.149776819009244e-44</data>
+    </edge>
+    <edge source="adeC" target="blaADC-25">
+      <data key="d5">0.168</data>
+      <data key="d6">80</data>
+      <data key="d7">1.088254762518523e-20</data>
+    </edge>
+    <edge source="adeC" target="catA1">
+      <data key="d5">0.1394</data>
+      <data key="d6">68</data>
+      <data key="d7">7.018404454399228e-13</data>
+    </edge>
+    <edge source="adeC" target="blaADC-11">
+      <data key="d5">0.1333</data>
+      <data key="d6">51</data>
+      <data key="d7">4.915679726913545e-13</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-69">
+      <data key="d5">0.1295</data>
+      <data key="d6">110</data>
+      <data key="d7">3.750558054149988e-10</data>
+    </edge>
+    <edge source="adeC" target="tet(A)">
+      <data key="d5">0.1279</data>
+      <data key="d6">47</data>
+      <data key="d7">5.344359821231831e-12</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-82">
+      <data key="d5">0.1102</data>
+      <data key="d6">55</data>
+      <data key="d7">7.774327985583054e-08</data>
+    </edge>
+    <edge source="adeC" target="blaADC-33">
+      <data key="d5">0.1024</data>
+      <data key="d6">50</data>
+      <data key="d7">8.467771408151804e-07</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-235">
+      <data key="d5">0.082</data>
+      <data key="d6">31</data>
+      <data key="d7">0.00014884680370454593</data>
+    </edge>
+    <edge source="adeC" target="blaOXA-72">
+      <data key="d5">0.0686</data>
+      <data key="d6">62</data>
+      <data key="d7">0.0028479274413508635</data>
+    </edge>
+    <edge source="adeC" target="blaPER-1">
+      <data key="d5">0.0539</data>
+      <data key="d6">27</data>
+      <data key="d7">0.03029050221613257</data>
+    </edge>
+    <edge source="adeS_G336S" target="adeS_N125K">
+      <data key="d5">0.8177</data>
+      <data key="d6">50</data>
+      <data key="d7">5.038808110040634e-84</data>
+    </edge>
+    <edge source="adeS_G336S" target="blaOXA-239">
+      <data key="d5">0.6517</data>
+      <data key="d6">32</data>
+      <data key="d7">6.599355267275443e-51</data>
+    </edge>
+    <edge source="adeS_G336S" target="blaOXA-65">
+      <data key="d5">0.4655</data>
+      <data key="d6">44</data>
+      <data key="d7">8.70649452565189e-42</data>
+    </edge>
+    <edge source="adeS_G336S" target="blaADC">
+      <data key="d5">0.2967</data>
+      <data key="d6">56</data>
+      <data key="d7">1.6066260960576365e-30</data>
+    </edge>
+    <edge source="adeS_G336S" target="aph(3')-VIa">
+      <data key="d5">0.1173</data>
+      <data key="d6">28</data>
+      <data key="d7">3.7868392452444853e-06</data>
+    </edge>
+    <edge source="adeS_G336S" target="blaOXA-51">
+      <data key="d5">0.1101</data>
+      <data key="d6">9</data>
+      <data key="d7">0.0004417483813361861</data>
+    </edge>
+    <edge source="adeS_G336S" target="sat2">
+      <data key="d5">0.0879</data>
+      <data key="d6">6</data>
+      <data key="d7">0.00782389764472266</data>
+    </edge>
+    <edge source="adeS_G336S" target="sul2">
+      <data key="d5">0.0871</data>
+      <data key="d6">48</data>
+      <data key="d7">0.0001450768284402155</data>
+    </edge>
+    <edge source="adeS_G336S" target="dfrA1">
+      <data key="d5">0.075</data>
+      <data key="d6">6</data>
+      <data key="d7">0.020921089372494803</data>
+    </edge>
+    <edge source="adeS_H189Y" target="blaOXA-64">
+      <data key="d5">0.7813</data>
+      <data key="d6">83</data>
+      <data key="d7">8.334487963292159e-117</data>
+    </edge>
+    <edge source="adeS_H189Y" target="blaADC-26">
+      <data key="d5">0.4993</data>
+      <data key="d6">57</data>
+      <data key="d7">4.338506323337637e-53</data>
+    </edge>
+    <edge source="adeS_H189Y" target="sul2">
+      <data key="d5">0.191</data>
+      <data key="d6">75</data>
+      <data key="d7">1.668730455045476e-20</data>
+    </edge>
+    <edge source="adeS_H189Y" target="tet(B)">
+      <data key="d5">0.1332</data>
+      <data key="d6">65</data>
+      <data key="d7">5.055267740954116e-10</data>
+    </edge>
+    <edge source="adeS_H189Y" target="aph(6)-Id">
+      <data key="d5">0.1254</data>
+      <data key="d6">71</data>
+      <data key="d7">1.16938994942506e-09</data>
+    </edge>
+    <edge source="adeS_H189Y" target="aph(3'')-Ib">
+      <data key="d5">0.1241</data>
+      <data key="d6">71</data>
+      <data key="d7">1.6879915729555718e-09</data>
+    </edge>
+    <edge source="adeS_H189Y" target="blaPER-7">
+      <data key="d5">0.1173</data>
+      <data key="d6">11</data>
+      <data key="d7">0.00011321357427704739</data>
+    </edge>
+    <edge source="adeS_H189Y" target="parC_S84L">
+      <data key="d5">0.1075</data>
+      <data key="d6">77</data>
+      <data key="d7">4.499869699299652e-08</data>
+    </edge>
+    <edge source="adeS_H189Y" target="gyrA_S81L">
+      <data key="d5">0.1</data>
+      <data key="d6">81</data>
+      <data key="d7">7.367657536758023e-08</data>
+    </edge>
+    <edge source="adeS_H189Y" target="cmlA5">
+      <data key="d5">0.0991</data>
+      <data key="d6">11</data>
+      <data key="d7">0.0007808099493696467</data>
+    </edge>
+    <edge source="adeS_H189Y" target="arr-2">
+      <data key="d5">0.0972</data>
+      <data key="d6">11</data>
+      <data key="d7">0.0009548166599794369</data>
+    </edge>
+    <edge source="adeS_H189Y" target="blaOXA-23">
+      <data key="d5">0.0796</data>
+      <data key="d6">60</data>
+      <data key="d7">0.00040505559894275914</data>
+    </edge>
+    <edge source="adeS_N125K" target="blaOXA-239">
+      <data key="d5">0.7969</data>
+      <data key="d6">32</data>
+      <data key="d7">1.4534100394891732e-58</data>
+    </edge>
+    <edge source="adeS_N125K" target="blaOXA-65">
+      <data key="d5">0.4678</data>
+      <data key="d6">36</data>
+      <data key="d7">3.299177305552293e-38</data>
+    </edge>
+    <edge source="adeS_N125K" target="blaADC">
+      <data key="d5">0.2924</data>
+      <data key="d6">44</data>
+      <data key="d7">3.8346220594479553e-29</data>
+    </edge>
+    <edge source="adeS_N125K" target="aph(3')-VIa">
+      <data key="d5">0.1214</data>
+      <data key="d6">22</data>
+      <data key="d7">3.1708145483527e-06</data>
+    </edge>
+    <edge source="adeS_N125K" target="sul2">
+      <data key="d5">0.1163</data>
+      <data key="d6">40</data>
+      <data key="d7">1.1556878906464779e-07</data>
+    </edge>
+    <edge source="adeS_N125K" target="parC_S84L">
+      <data key="d5">0.1052</data>
+      <data key="d6">50</data>
+      <data key="d7">6.359979965393461e-09</data>
+    </edge>
+    <edge source="adeS_N125K" target="gyrA_S81L">
+      <data key="d5">0.0852</data>
+      <data key="d6">50</data>
+      <data key="d7">3.0005050497109803e-06</data>
+    </edge>
+    <edge source="adeS_N125K" target="aph(6)-Id">
+      <data key="d5">0.0804</data>
+      <data key="d6">40</data>
+      <data key="d7">0.00030979064798238086</data>
+    </edge>
+    <edge source="adeS_N125K" target="aph(3'')-Ib">
+      <data key="d5">0.0794</data>
+      <data key="d6">40</data>
+      <data key="d7">0.00037238065899037985</data>
+    </edge>
+    <edge source="adeS_N125K" target="ant(2'')-Ia">
+      <data key="d5">0.0668</data>
+      <data key="d6">10</data>
+      <data key="d7">0.022002907395215168</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA-95">
+      <data key="d5">0.2758</data>
+      <data key="d6">31</data>
+      <data key="d7">5.1960252223402037e-20</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC-152">
+      <data key="d5">0.2626</data>
+      <data key="d6">21</data>
+      <data key="d7">1.6664188015262231e-16</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC-222">
+      <data key="d5">0.2192</data>
+      <data key="d6">25</data>
+      <data key="d7">1.0383979772617054e-13</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="parC_E88K">
+      <data key="d5">0.1824</data>
+      <data key="d6">24</data>
+      <data key="d7">1.3205273404352179e-10</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="aph(3')-VIa">
+      <data key="d5">0.159</data>
+      <data key="d6">63</data>
+      <data key="d7">3.5249873756816195e-11</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA">
+      <data key="d5">0.1485</data>
+      <data key="d6">33</data>
+      <data key="d7">1.1329189541115247e-08</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC-11">
+      <data key="d5">0.1304</data>
+      <data key="d6">16</data>
+      <data key="d7">4.443727376268166e-06</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="sul1">
+      <data key="d5">0.1302</data>
+      <data key="d6">110</data>
+      <data key="d7">3.31028879020671e-09</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaCARB-2">
+      <data key="d5">0.1251</data>
+      <data key="d6">11</data>
+      <data key="d7">3.29641890680888e-05</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaCARB-16">
+      <data key="d5">0.1216</data>
+      <data key="d6">15</data>
+      <data key="d7">1.8627808946889373e-05</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA-100">
+      <data key="d5">0.1204</data>
+      <data key="d6">10</data>
+      <data key="d7">7.705510652040849e-05</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA-82">
+      <data key="d5">0.12</data>
+      <data key="d6">17</data>
+      <data key="d7">1.583745275641218e-05</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA-58">
+      <data key="d5">0.1177</data>
+      <data key="d6">21</data>
+      <data key="d7">1.1881859590667892e-05</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC">
+      <data key="d5">0.1087</data>
+      <data key="d6">54</data>
+      <data key="d7">5.435216746569953e-06</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC-79">
+      <data key="d5">0.105</data>
+      <data key="d6">10</data>
+      <data key="d7">0.0004295367325511515</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="gyrA_S81L">
+      <data key="d5">0.1001</data>
+      <data key="d6">166</data>
+      <data key="d7">7.992066472588468e-07</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaADC-33">
+      <data key="d5">0.0982</data>
+      <data key="d6">14</data>
+      <data key="d7">0.0004541858095080586</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="ble">
+      <data key="d5">0.0842</data>
+      <data key="d6">31</data>
+      <data key="d7">0.0008812450813763426</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="aph(3')-VI">
+      <data key="d5">0.0829</data>
+      <data key="d6">18</data>
+      <data key="d7">0.00200150674583734</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaOXA-65">
+      <data key="d5">0.0697</data>
+      <data key="d6">18</data>
+      <data key="d7">0.009828769030441695</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="floR">
+      <data key="d5">0.0643</data>
+      <data key="d6">16</data>
+      <data key="d7">0.019466069190009774</data>
+    </edge>
+    <edge source="ant(2'')-Ia" target="blaNDM-1">
+      <data key="d5">0.0641</data>
+      <data key="d6">27</data>
+      <data key="d7">0.014018657874857895</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="aph(6)-Id">
+      <data key="d5">0.9882</data>
+      <data key="d6">1248</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="tet(B)">
+      <data key="d5">0.762</data>
+      <data key="d6">997</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaOXA-66">
+      <data key="d5">0.5798</data>
+      <data key="d6">879</data>
+      <data key="d7">3.67496291188141e-188</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="gyrA_S81L">
+      <data key="d5">0.572</data>
+      <data key="d6">1236</data>
+      <data key="d7">2.145472906236386e-196</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="parC_S84L">
+      <data key="d5">0.516</data>
+      <data key="d6">1121</data>
+      <data key="d7">9.730795151256753e-146</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="mph(E)">
+      <data key="d5">0.4931</data>
+      <data key="d6">799</data>
+      <data key="d7">9.105640993765506e-134</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="msr(E)">
+      <data key="d5">0.4889</data>
+      <data key="d6">800</data>
+      <data key="d7">2.787531486210154e-131</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="armA">
+      <data key="d5">0.4871</data>
+      <data key="d6">726</data>
+      <data key="d7">9.970968662154437e-133</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaOXA-23">
+      <data key="d5">0.4457</data>
+      <data key="d6">911</data>
+      <data key="d7">1.687570769771022e-106</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaTEM-1">
+      <data key="d5">0.4385</data>
+      <data key="d6">580</data>
+      <data key="d7">2.0630749981796237e-110</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="sul2">
+      <data key="d5">0.4081</data>
+      <data key="d6">754</data>
+      <data key="d7">4.584213945787578e-90</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="ftsI_A515V">
+      <data key="d5">0.3481</data>
+      <data key="d6">345</data>
+      <data key="d7">1.940906418416035e-74</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaADC-30">
+      <data key="d5">0.3438</data>
+      <data key="d6">455</data>
+      <data key="d7">5.478905946597422e-67</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaADC-73">
+      <data key="d5">0.3347</data>
+      <data key="d6">317</data>
+      <data key="d7">1.7249680355375316e-69</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="aph(3')-Ia">
+      <data key="d5">0.3248</data>
+      <data key="d6">587</data>
+      <data key="d7">2.4123790623923664e-57</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="catB8">
+      <data key="d5">0.2273</data>
+      <data key="d6">302</data>
+      <data key="d7">5.451243598128579e-29</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="sul1">
+      <data key="d5">0.165</data>
+      <data key="d6">570</data>
+      <data key="d7">5.316125217821934e-15</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="cmlA5">
+      <data key="d5">0.1452</data>
+      <data key="d6">77</data>
+      <data key="d7">3.235979314458406e-13</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="arr-2">
+      <data key="d5">0.1388</data>
+      <data key="d6">77</data>
+      <data key="d7">6.10155284386274e-12</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaADC-25">
+      <data key="d5">0.1385</data>
+      <data key="d6">72</data>
+      <data key="d7">5.05130540185623e-12</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="aph(3')-VIa">
+      <data key="d5">0.1337</data>
+      <data key="d6">241</data>
+      <data key="d7">2.797706885902435e-10</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaPER-1">
+      <data key="d5">0.1152</data>
+      <data key="d6">35</data>
+      <data key="d7">1.578076540988121e-09</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaOXA-239">
+      <data key="d5">0.1101</data>
+      <data key="d6">32</data>
+      <data key="d7">1.0495930215042196e-08</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="dfrA45">
+      <data key="d5">0.1031</data>
+      <data key="d6">34</data>
+      <data key="d7">4.028884134281859e-07</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaPER-7">
+      <data key="d5">0.1027</data>
+      <data key="d6">57</data>
+      <data key="d7">1.3142891719507607e-06</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaOXA-235">
+      <data key="d5">0.1012</data>
+      <data key="d6">33</data>
+      <data key="d7">7.158078767526999e-07</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="tet(X5)">
+      <data key="d5">0.0724</data>
+      <data key="d6">22</data>
+      <data key="d7">0.0013449851751629884</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="ftsI_T526S">
+      <data key="d5">0.0647</data>
+      <data key="d6">33</data>
+      <data key="d7">0.00593773219564788</data>
+    </edge>
+    <edge source="aph(3'')-Ib" target="blaOXA-402">
+      <data key="d5">0.0616</data>
+      <data key="d6">28</data>
+      <data key="d7">0.009857896417905725</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaTEM-1">
+      <data key="d5">0.5294</data>
+      <data key="d6">475</data>
+      <data key="d7">1.2043395112033396e-140</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaOXA-66">
+      <data key="d5">0.4535</data>
+      <data key="d6">578</data>
+      <data key="d7">6.599483638073963e-109</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="catB8">
+      <data key="d5">0.419</data>
+      <data key="d6">295</data>
+      <data key="d7">8.691144346052467e-86</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="tet(B)">
+      <data key="d5">0.3688</data>
+      <data key="d6">538</data>
+      <data key="d7">1.2936117259920795e-71</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="armA">
+      <data key="d5">0.3681</data>
+      <data key="d6">470</data>
+      <data key="d7">2.0179059468418082e-69</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaADC-30">
+      <data key="d5">0.3496</data>
+      <data key="d6">336</data>
+      <data key="d7">2.3308538808205884e-60</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="sul1">
+      <data key="d5">0.3418</data>
+      <data key="d6">474</data>
+      <data key="d7">2.8145974827442883e-60</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="gyrA_S81L">
+      <data key="d5">0.3373</data>
+      <data key="d6">737</data>
+      <data key="d7">3.858381548481611e-73</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="aph(6)-Id">
+      <data key="d5">0.3276</data>
+      <data key="d6">586</data>
+      <data key="d7">2.9263898420921427e-58</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="parC_S84L">
+      <data key="d5">0.3078</data>
+      <data key="d6">669</data>
+      <data key="d7">1.23963641236742e-54</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="mph(E)">
+      <data key="d5">0.3002</data>
+      <data key="d6">476</data>
+      <data key="d7">5.786130898167375e-47</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="msr(E)">
+      <data key="d5">0.2945</data>
+      <data key="d6">475</data>
+      <data key="d7">2.9653305863855254e-45</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaOXA-23">
+      <data key="d5">0.2007</data>
+      <data key="d6">506</data>
+      <data key="d7">7.568347216064222e-22</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="ftsI_A515V">
+      <data key="d5">0.1609</data>
+      <data key="d6">184</data>
+      <data key="d7">1.8350552827564952e-13</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaADC-73">
+      <data key="d5">0.1318</data>
+      <data key="d6">160</data>
+      <data key="d7">2.3452137788395767e-09</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaADC-152">
+      <data key="d5">0.1072</data>
+      <data key="d6">23</data>
+      <data key="d7">4.914519456340847e-06</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="tet(X5)">
+      <data key="d5">0.0963</data>
+      <data key="d6">19</data>
+      <data key="d7">5.777979984582005e-05</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="tet(A)">
+      <data key="d5">0.0957</data>
+      <data key="d6">30</data>
+      <data key="d7">5.143597367802124e-05</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="catA1">
+      <data key="d5">0.0931</data>
+      <data key="d6">41</data>
+      <data key="d7">7.206289693184008e-05</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="sat2">
+      <data key="d5">0.0812</data>
+      <data key="d6">25</data>
+      <data key="d7">0.0008247217708215287</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaADC-25">
+      <data key="d5">0.0806</data>
+      <data key="d6">42</data>
+      <data key="d7">0.0007133166436934284</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="dfrA1">
+      <data key="d5">0.0805</data>
+      <data key="d6">29</data>
+      <data key="d7">0.0008573587708070036</data>
+    </edge>
+    <edge source="aph(3')-Ia" target="blaOXA-72">
+      <data key="d5">0.0704</data>
+      <data key="d6">42</data>
+      <data key="d7">0.003659693690153929</data>
+    </edge>
+    <edge source="aph(3')-VI" target="ble">
+      <data key="d5">0.6562</data>
+      <data key="d6">95</data>
+      <data key="d7">4.8837916919322874e-107</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaNDM-1">
+      <data key="d5">0.6328</data>
+      <data key="d6">91</data>
+      <data key="d7">1.1460679017322652e-97</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaADC-199">
+      <data key="d5">0.4613</data>
+      <data key="d6">25</data>
+      <data key="d7">2.7300846876298555e-31</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaADC-52">
+      <data key="d5">0.3584</data>
+      <data key="d6">23</data>
+      <data key="d7">2.4444601142349963e-22</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaCARB-16">
+      <data key="d5">0.3402</data>
+      <data key="d6">25</data>
+      <data key="d7">6.099745643043183e-22</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaOXA-91">
+      <data key="d5">0.3289</data>
+      <data key="d6">25</data>
+      <data key="d7">3.8885668358285075e-21</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaOXA-58">
+      <data key="d5">0.1848</data>
+      <data key="d6">20</data>
+      <data key="d7">6.953082495231983e-10</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaOXA-120">
+      <data key="d5">0.1235</data>
+      <data key="d6">8</data>
+      <data key="d7">0.00017801025166316596</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaADC-176">
+      <data key="d5">0.1137</data>
+      <data key="d6">8</data>
+      <data key="d7">0.00043323554834403757</data>
+    </edge>
+    <edge source="aph(3')-VI" target="floR">
+      <data key="d5">0.0839</data>
+      <data key="d6">12</data>
+      <data key="d7">0.003304688500133591</data>
+    </edge>
+    <edge source="aph(3')-VI" target="blaOXA-65">
+      <data key="d5">0.0753</data>
+      <data key="d6">12</data>
+      <data key="d7">0.008186544138716133</data>
+    </edge>
+    <edge source="aph(3')-VI" target="aph(3')-VIa">
+      <data key="d5">0.0586</data>
+      <data key="d6">24</data>
+      <data key="d7">0.027247773048069922</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="dfrA45">
+      <data key="d5">0.2405</data>
+      <data key="d6">30</data>
+      <data key="d7">3.6962237518786137e-19</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="gyrA_S81L">
+      <data key="d5">0.2274</data>
+      <data key="d6">344</data>
+      <data key="d7">5.276899490045282e-39</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="ble">
+      <data key="d5">0.2155</data>
+      <data key="d6">81</data>
+      <data key="d7">3.63705651130281e-19</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaNDM-1">
+      <data key="d5">0.2114</data>
+      <data key="d6">79</data>
+      <data key="d7">1.767078937605696e-18</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-65">
+      <data key="d5">0.1899</data>
+      <data key="d6">50</data>
+      <data key="d7">2.9811152299629335e-14</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="cmlA5">
+      <data key="d5">0.189</data>
+      <data key="d6">42</data>
+      <data key="d7">1.0736794139328578e-13</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="arr-2">
+      <data key="d5">0.185</data>
+      <data key="d6">42</data>
+      <data key="d7">2.9717262740922133e-13</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="sul1">
+      <data key="d5">0.1822</data>
+      <data key="d6">206</data>
+      <data key="d7">2.4689319302670493e-17</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaADC-33">
+      <data key="d5">0.1758</data>
+      <data key="d6">31</data>
+      <data key="d7">1.4204216983189984e-11</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="sul2">
+      <data key="d5">0.174</data>
+      <data key="d6">215</data>
+      <data key="d7">4.068774585513695e-16</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-58">
+      <data key="d5">0.1642</data>
+      <data key="d6">39</data>
+      <data key="d7">7.430670494303448e-11</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-82">
+      <data key="d5">0.1633</data>
+      <data key="d6">31</data>
+      <data key="d7">2.5088872756695284e-10</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-239">
+      <data key="d5">0.1578</data>
+      <data key="d6">20</data>
+      <data key="d7">4.828280860465542e-09</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="sat2">
+      <data key="d5">0.155</data>
+      <data key="d6">23</data>
+      <data key="d7">4.95520523220155e-09</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaPER-7">
+      <data key="d5">0.1548</data>
+      <data key="d6">32</data>
+      <data key="d7">1.429645129700278e-09</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="parC_S84L">
+      <data key="d5">0.1496</data>
+      <data key="d6">290</data>
+      <data key="d7">1.7142738566914165e-13</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="aph(6)-Id">
+      <data key="d5">0.1365</data>
+      <data key="d6">241</data>
+      <data key="d7">1.1468310851852919e-10</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="dfrA1">
+      <data key="d5">0.1297</data>
+      <data key="d6">23</data>
+      <data key="d7">6.521861178201773e-07</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-104">
+      <data key="d5">0.1173</data>
+      <data key="d6">28</data>
+      <data key="d7">3.7868392452444853e-06</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-23">
+      <data key="d5">0.1016</data>
+      <data key="d6">222</data>
+      <data key="d7">3.12515170884681e-06</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-69">
+      <data key="d5">0.0985</data>
+      <data key="d6">39</data>
+      <data key="d7">6.0687427415894314e-05</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaADC-11">
+      <data key="d5">0.0944</data>
+      <data key="d6">19</data>
+      <data key="d7">0.0003170451389789264</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaADC-76">
+      <data key="d5">0.0866</data>
+      <data key="d6">20</data>
+      <data key="d7">0.0008976172940915866</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="blaOXA-68">
+      <data key="d5">0.0785</data>
+      <data key="d6">18</data>
+      <data key="d7">0.002986286155386585</data>
+    </edge>
+    <edge source="aph(3')-VIa" target="tet(A)">
+      <data key="d5">0.0606</data>
+      <data key="d6">14</data>
+      <data key="d7">0.029140556815257103</data>
+    </edge>
+    <edge source="aph(6)-Id" target="tet(B)">
+      <data key="d5">0.7523</data>
+      <data key="d6">988</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaOXA-66">
+      <data key="d5">0.5837</data>
+      <data key="d6">878</data>
+      <data key="d7">1.2632248592837698e-190</data>
+    </edge>
+    <edge source="aph(6)-Id" target="gyrA_S81L">
+      <data key="d5">0.5679</data>
+      <data key="d6">1228</data>
+      <data key="d7">5.637984534088543e-194</data>
+    </edge>
+    <edge source="aph(6)-Id" target="parC_S84L">
+      <data key="d5">0.5234</data>
+      <data key="d6">1120</data>
+      <data key="d7">1.3424818771418888e-150</data>
+    </edge>
+    <edge source="aph(6)-Id" target="mph(E)">
+      <data key="d5">0.4951</data>
+      <data key="d6">797</data>
+      <data key="d7">1.0576932540072165e-134</data>
+    </edge>
+    <edge source="aph(6)-Id" target="msr(E)">
+      <data key="d5">0.4926</data>
+      <data key="d6">799</data>
+      <data key="d7">3.2807652765807125e-133</data>
+    </edge>
+    <edge source="aph(6)-Id" target="armA">
+      <data key="d5">0.4902</data>
+      <data key="d6">725</data>
+      <data key="d7">3.0075702911197376e-134</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaTEM-1">
+      <data key="d5">0.4444</data>
+      <data key="d6">581</data>
+      <data key="d7">2.27280348304507e-113</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaOXA-23">
+      <data key="d5">0.4406</data>
+      <data key="d6">904</data>
+      <data key="d7">4.788818823367628e-104</data>
+    </edge>
+    <edge source="aph(6)-Id" target="sul2">
+      <data key="d5">0.3981</data>
+      <data key="d6">745</data>
+      <data key="d7">1.5996711834328273e-85</data>
+    </edge>
+    <edge source="aph(6)-Id" target="ftsI_A515V">
+      <data key="d5">0.3462</data>
+      <data key="d6">343</data>
+      <data key="d7">4.659707412999768e-73</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaADC-30">
+      <data key="d5">0.3453</data>
+      <data key="d6">454</data>
+      <data key="d7">1.9854203028639326e-67</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaADC-73">
+      <data key="d5">0.3373</data>
+      <data key="d6">317</data>
+      <data key="d7">1.9545536789196038e-70</data>
+    </edge>
+    <edge source="aph(6)-Id" target="catB8">
+      <data key="d5">0.2302</data>
+      <data key="d6">302</data>
+      <data key="d7">1.1211180927418554e-29</data>
+    </edge>
+    <edge source="aph(6)-Id" target="sul1">
+      <data key="d5">0.1685</data>
+      <data key="d6">569</data>
+      <data key="d7">1.3486676314001351e-15</data>
+    </edge>
+    <edge source="aph(6)-Id" target="cmlA5">
+      <data key="d5">0.1419</data>
+      <data key="d6">76</data>
+      <data key="d7">1.6379077032999152e-12</data>
+    </edge>
+    <edge source="aph(6)-Id" target="arr-2">
+      <data key="d5">0.1356</data>
+      <data key="d6">76</data>
+      <data key="d7">2.6288992603638603e-11</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaPER-1">
+      <data key="d5">0.116</data>
+      <data key="d6">35</data>
+      <data key="d7">1.2670155620469435e-09</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaADC-25">
+      <data key="d5">0.1116</data>
+      <data key="d6">66</data>
+      <data key="d7">1.0967061659196218e-07</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaOXA-239">
+      <data key="d5">0.1108</data>
+      <data key="d6">32</data>
+      <data key="d7">8.591410950183025e-09</data>
+    </edge>
+    <edge source="aph(6)-Id" target="dfrA45">
+      <data key="d5">0.1039</data>
+      <data key="d6">34</data>
+      <data key="d7">3.297222315979446e-07</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaPER-7">
+      <data key="d5">0.1038</data>
+      <data key="d6">57</data>
+      <data key="d7">9.894966990602584e-07</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaOXA-235">
+      <data key="d5">0.102</data>
+      <data key="d6">33</data>
+      <data key="d7">5.918474197188128e-07</data>
+    </edge>
+    <edge source="aph(6)-Id" target="tet(X5)">
+      <data key="d5">0.073</data>
+      <data key="d6">22</data>
+      <data key="d7">0.0011993764670955485</data>
+    </edge>
+    <edge source="aph(6)-Id" target="ftsI_T526S">
+      <data key="d5">0.0656</data>
+      <data key="d6">33</data>
+      <data key="d7">0.005153496138305738</data>
+    </edge>
+    <edge source="aph(6)-Id" target="blaOXA-402">
+      <data key="d5">0.0625</data>
+      <data key="d6">28</data>
+      <data key="d7">0.008741232684075005</data>
+    </edge>
+    <edge source="armA" target="mph(E)">
+      <data key="d5">0.8196</data>
+      <data key="d6">803</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="armA" target="msr(E)">
+      <data key="d5">0.815</data>
+      <data key="d6">803</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="armA" target="blaOXA-66">
+      <data key="d5">0.6287</data>
+      <data key="d6">717</data>
+      <data key="d7">5.10264580264891e-217</data>
+    </edge>
+    <edge source="armA" target="catB8">
+      <data key="d5">0.5527</data>
+      <data key="d6">368</data>
+      <data key="d7">1.4056903025213458e-166</data>
+    </edge>
+    <edge source="armA" target="tet(B)">
+      <data key="d5">0.5356</data>
+      <data key="d6">672</data>
+      <data key="d7">2.0279527818154087e-154</data>
+    </edge>
+    <edge source="armA" target="blaOXA-23">
+      <data key="d5">0.5226</data>
+      <data key="d6">733</data>
+      <data key="d7">4.751672209287988e-153</data>
+    </edge>
+    <edge source="armA" target="ftsI_A515V">
+      <data key="d5">0.4786</data>
+      <data key="d6">329</data>
+      <data key="d7">3.3295427267324043e-119</data>
+    </edge>
+    <edge source="armA" target="blaADC-73">
+      <data key="d5">0.4627</data>
+      <data key="d6">304</data>
+      <data key="d7">6.727030793114046e-112</data>
+    </edge>
+    <edge source="armA" target="gyrA_S81L">
+      <data key="d5">0.4287</data>
+      <data key="d6">846</data>
+      <data key="d7">4.8719451947195785e-132</data>
+    </edge>
+    <edge source="armA" target="blaTEM-1">
+      <data key="d5">0.4145</data>
+      <data key="d6">445</data>
+      <data key="d7">2.804694886572634e-87</data>
+    </edge>
+    <edge source="armA" target="parC_S84L">
+      <data key="d5">0.4065</data>
+      <data key="d6">779</data>
+      <data key="d7">3.7083262619637946e-98</data>
+    </edge>
+    <edge source="armA" target="sul1">
+      <data key="d5">0.3424</data>
+      <data key="d6">509</data>
+      <data key="d7">8.274906272089819e-61</data>
+    </edge>
+    <edge source="armA" target="blaADC-30">
+      <data key="d5">0.3327</data>
+      <data key="d6">350</data>
+      <data key="d7">8.1461046167256055e-56</data>
+    </edge>
+    <edge source="armA" target="arr-2">
+      <data key="d5">0.243</data>
+      <data key="d6">83</data>
+      <data key="d7">3.9240619786752896e-32</data>
+    </edge>
+    <edge source="armA" target="cmlA5">
+      <data key="d5">0.2397</data>
+      <data key="d6">81</data>
+      <data key="d7">3.135589705565796e-31</data>
+    </edge>
+    <edge source="armA" target="blaPER-7">
+      <data key="d5">0.2008</data>
+      <data key="d6">63</data>
+      <data key="d7">2.01873561693153e-21</data>
+    </edge>
+    <edge source="armA" target="dfrA45">
+      <data key="d5">0.1665</data>
+      <data key="d6">36</data>
+      <data key="d7">5.782867938153303e-16</data>
+    </edge>
+    <edge source="armA" target="sul2">
+      <data key="d5">0.0652</data>
+      <data key="d6">384</data>
+      <data key="d7">0.004945111099651265</data>
+    </edge>
+    <edge source="armA" target="ftsI_T526S">
+      <data key="d5">0.0637</data>
+      <data key="d6">25</data>
+      <data key="d7">0.011024867777421204</data>
+    </edge>
+    <edge source="arr-2" target="cmlA5">
+      <data key="d5">0.988</data>
+      <data key="d6">85</data>
+      <data key="d7">5.814277229082395e-153</data>
+    </edge>
+    <edge source="arr-2" target="blaPER-7">
+      <data key="d5">0.7803</data>
+      <data key="d6">61</data>
+      <data key="d7">3.874651090296978e-89</data>
+    </edge>
+    <edge source="arr-2" target="dfrA45">
+      <data key="d5">0.6362</data>
+      <data key="d6">36</data>
+      <data key="d7">1.3018071104268442e-54</data>
+    </edge>
+    <edge source="arr-2" target="blaOXA-104">
+      <data key="d5">0.3263</data>
+      <data key="d6">28</data>
+      <data key="d7">4.81804731467541e-22</data>
+    </edge>
+    <edge source="arr-2" target="blaNDM-1">
+      <data key="d5">0.287</data>
+      <data key="d6">43</data>
+      <data key="d7">8.320118312718989e-24</data>
+    </edge>
+    <edge source="arr-2" target="blaADC-26">
+      <data key="d5">0.2792</data>
+      <data key="d6">35</data>
+      <data key="d7">1.0526245704667983e-20</data>
+    </edge>
+    <edge source="arr-2" target="ble">
+      <data key="d5">0.2753</data>
+      <data key="d6">42</data>
+      <data key="d7">2.3370498440831557e-22</data>
+    </edge>
+    <edge source="arr-2" target="sul1">
+      <data key="d5">0.2504</data>
+      <data key="d6">87</data>
+      <data key="d7">2.0075052270784573e-37</data>
+    </edge>
+    <edge source="arr-2" target="blaADC-76">
+      <data key="d5">0.2281</data>
+      <data key="d6">18</data>
+      <data key="d7">4.63071955765017e-12</data>
+    </edge>
+    <edge source="arr-2" target="sul2">
+      <data key="d5">0.2203</data>
+      <data key="d6">84</data>
+      <data key="d7">1.327146500171758e-28</data>
+    </edge>
+    <edge source="arr-2" target="mph(E)">
+      <data key="d5">0.2036</data>
+      <data key="d6">80</data>
+      <data key="d7">2.159003684093981e-23</data>
+    </edge>
+    <edge source="arr-2" target="msr(E)">
+      <data key="d5">0.2024</data>
+      <data key="d6">80</data>
+      <data key="d7">3.4629718785174287e-23</data>
+    </edge>
+    <edge source="arr-2" target="blaOXA-68">
+      <data key="d5">0.1935</data>
+      <data key="d6">15</data>
+      <data key="d7">2.7295298787868346e-09</data>
+    </edge>
+    <edge source="arr-2" target="dfrA1">
+      <data key="d5">0.19</data>
+      <data key="d6">14</data>
+      <data key="d7">7.543810570461106e-09</data>
+    </edge>
+    <edge source="arr-2" target="sat2">
+      <data key="d5">0.1807</data>
+      <data key="d6">12</data>
+      <data key="d7">7.290626354473879e-08</data>
+    </edge>
+    <edge source="arr-2" target="blaOXA-23">
+      <data key="d5">0.1448</data>
+      <data key="d6">77</data>
+      <data key="d7">7.745536606321165e-13</data>
+    </edge>
+    <edge source="arr-2" target="gyrA_S81L">
+      <data key="d5">0.1029</data>
+      <data key="d6">85</data>
+      <data key="d7">2.504084689310512e-08</data>
+    </edge>
+    <edge source="arr-2" target="parC_S84L">
+      <data key="d5">0.0737</data>
+      <data key="d6">73</data>
+      <data key="d7">0.0007655714200802253</data>
+    </edge>
+    <edge source="arr-2" target="blaOXA-69">
+      <data key="d5">0.0683</data>
+      <data key="d6">12</data>
+      <data key="d7">0.016475557211696936</data>
+    </edge>
+    <edge source="arr-2" target="blaOXA-64">
+      <data key="d5">0.0598</data>
+      <data key="d6">11</data>
+      <data key="d7">0.04064427030993368</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-239">
+      <data key="d5">0.2716</data>
+      <data key="d6">32</data>
+      <data key="d7">7.66095695079299e-26</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-65">
+      <data key="d5">0.2454</data>
+      <data key="d6">62</data>
+      <data key="d7">1.2655463219339154e-22</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-51">
+      <data key="d5">0.1525</data>
+      <data key="d6">30</data>
+      <data key="d7">2.517640855533783e-09</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-235">
+      <data key="d5">0.0629</data>
+      <data key="d6">12</data>
+      <data key="d7">0.024996393675639196</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-91">
+      <data key="d5">0.0607</data>
+      <data key="d6">16</data>
+      <data key="d7">0.026506298022184384</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-58">
+      <data key="d5">0.0569</data>
+      <data key="d6">23</data>
+      <data key="d7">0.03361104363130141</data>
+    </edge>
+    <edge source="blaADC" target="blaOXA-104">
+      <data key="d5">0.0564</data>
+      <data key="d6">20</data>
+      <data key="d7">0.03770621300644426</data>
+    </edge>
+    <edge source="blaADC-11" target="blaOXA-69">
+      <data key="d5">0.5658</data>
+      <data key="d6">48</data>
+      <data key="d7">9.214938749549211e-59</data>
+    </edge>
+    <edge source="blaADC-11" target="tet(A)">
+      <data key="d5">0.4795</data>
+      <data key="d6">24</data>
+      <data key="d7">3.289158136113673e-29</data>
+    </edge>
+    <edge source="blaADC-11" target="catA1">
+      <data key="d5">0.3465</data>
+      <data key="d6">22</data>
+      <data key="d7">1.4018240812957245e-20</data>
+    </edge>
+    <edge source="blaADC-11" target="blaADC-176">
+      <data key="d5">0.2907</data>
+      <data key="d6">13</data>
+      <data key="d7">6.883803141770959e-13</data>
+    </edge>
+    <edge source="blaADC-11" target="sul1">
+      <data key="d5">0.1183</data>
+      <data key="d6">39</data>
+      <data key="d7">1.1556878906464779e-07</data>
+    </edge>
+    <edge source="blaADC-152" target="blaCARB-16">
+      <data key="d5">0.3511</data>
+      <data key="d6">14</data>
+      <data key="d7">6.529290728263678e-16</data>
+    </edge>
+    <edge source="blaADC-152" target="blaOXA">
+      <data key="d5">0.3091</data>
+      <data key="d6">21</data>
+      <data key="d7">3.469883935930873e-19</data>
+    </edge>
+    <edge source="blaADC-152" target="floR">
+      <data key="d5">0.164</data>
+      <data key="d6">10</data>
+      <data key="d7">1.2621035677145395e-06</data>
+    </edge>
+    <edge source="blaADC-152" target="blaOXA-72">
+      <data key="d5">0.1203</data>
+      <data key="d6">7</data>
+      <data key="d7">0.0003915545064609946</data>
+    </edge>
+    <edge source="blaADC-152" target="parC_S84L">
+      <data key="d5">0.0811</data>
+      <data key="d6">30</data>
+      <data key="d7">2.4634899114333453e-05</data>
+    </edge>
+    <edge source="blaADC-152" target="sul2">
+      <data key="d5">0.0744</data>
+      <data key="d6">22</data>
+      <data key="d7">0.0018538556870792606</data>
+    </edge>
+    <edge source="blaADC-152" target="gyrA_S81L">
+      <data key="d5">0.0657</data>
+      <data key="d6">30</data>
+      <data key="d7">0.0009391509708759231</data>
+    </edge>
+    <edge source="blaADC-154" target="tet(39)">
+      <data key="d5">0.2145</data>
+      <data key="d6">11</data>
+      <data key="d7">4.054351010310956e-09</data>
+    </edge>
+    <edge source="blaADC-158" target="blaOXA-98">
+      <data key="d5">0.7481</data>
+      <data key="d6">24</data>
+      <data key="d7">1.0783352486246517e-42</data>
+    </edge>
+    <edge source="blaADC-158" target="sul2">
+      <data key="d5">0.0821</data>
+      <data key="d6">23</data>
+      <data key="d7">0.00044702300660339844</data>
+    </edge>
+    <edge source="blaADC-169" target="blaOXA-402">
+      <data key="d5">0.8519</data>
+      <data key="d6">34</data>
+      <data key="d7">2.706762645246325e-63</data>
+    </edge>
+    <edge source="blaADC-169" target="tet(39)">
+      <data key="d5">0.4255</data>
+      <data key="d6">28</data>
+      <data key="d7">1.6318895377634762e-29</data>
+    </edge>
+    <edge source="blaADC-169" target="floR">
+      <data key="d5">0.4066</data>
+      <data key="d6">28</data>
+      <data key="d7">2.313412252758653e-28</data>
+    </edge>
+    <edge source="blaADC-169" target="blaOXA-120">
+      <data key="d5">0.0923</data>
+      <data key="d6">4</data>
+      <data key="d7">0.013584665034371255</data>
+    </edge>
+    <edge source="blaADC-169" target="parC_E88K">
+      <data key="d5">0.0918</data>
+      <data key="d6">6</data>
+      <data key="d7">0.005825230389451571</data>
+    </edge>
+    <edge source="blaADC-169" target="sul2">
+      <data key="d5">0.0887</data>
+      <data key="d6">32</data>
+      <data key="d7">0.00011276207630768377</data>
+    </edge>
+    <edge source="blaADC-169" target="mph(E)">
+      <data key="d5">0.0643</data>
+      <data key="d6">28</data>
+      <data key="d7">0.008798581186241267</data>
+    </edge>
+    <edge source="blaADC-169" target="msr(E)">
+      <data key="d5">0.0635</data>
+      <data key="d6">28</data>
+      <data key="d7">0.009809231124547235</data>
+    </edge>
+    <edge source="blaADC-176" target="tet(A)">
+      <data key="d5">0.304</data>
+      <data key="d6">13</data>
+      <data key="d7">2.1657034639614414e-13</data>
+    </edge>
+    <edge source="blaADC-176" target="catA1">
+      <data key="d5">0.2394</data>
+      <data key="d6">13</data>
+      <data key="d7">7.612654531623118e-11</data>
+    </edge>
+    <edge source="blaADC-176" target="blaOXA-69">
+      <data key="d5">0.2226</data>
+      <data key="d6">17</data>
+      <data key="d7">8.503949232782544e-12</data>
+    </edge>
+    <edge source="blaADC-176" target="blaNDM-1">
+      <data key="d5">0.0861</data>
+      <data key="d6">10</data>
+      <data key="d7">0.0031184059083164905</data>
+    </edge>
+    <edge source="blaADC-176" target="parC_S84L">
+      <data key="d5">0.0744</data>
+      <data key="d6">34</data>
+      <data key="d7">0.00035125678261587064</data>
+    </edge>
+    <edge source="blaADC-176" target="ble">
+      <data key="d5">0.0601</data>
+      <data key="d6">8</data>
+      <data key="d7">0.04919643876451937</data>
+    </edge>
+    <edge source="blaADC-176" target="gyrA_S81L">
+      <data key="d5">0.0562</data>
+      <data key="d6">34</data>
+      <data key="d7">0.012364378237746105</data>
+    </edge>
+    <edge source="blaADC-199" target="blaADC-52">
+      <data key="d5">0.8001</data>
+      <data key="d6">27</data>
+      <data key="d7">3.3641290835092086e-50</data>
+    </edge>
+    <edge source="blaADC-199" target="blaOXA-91">
+      <data key="d5">0.7359</data>
+      <data key="d6">29</data>
+      <data key="d7">2.511859987603779e-51</data>
+    </edge>
+    <edge source="blaADC-199" target="blaCARB-16">
+      <data key="d5">0.7048</data>
+      <data key="d6">27</data>
+      <data key="d7">8.602661650644698e-46</data>
+    </edge>
+    <edge source="blaADC-199" target="blaNDM-1">
+      <data key="d5">0.3106</data>
+      <data key="d6">25</data>
+      <data key="d7">9.618187641384862e-23</data>
+    </edge>
+    <edge source="blaADC-199" target="ble">
+      <data key="d5">0.3071</data>
+      <data key="d6">25</data>
+      <data key="d7">1.5899296823060506e-22</data>
+    </edge>
+    <edge source="blaADC-199" target="blaOXA-23">
+      <data key="d5">0.0928</data>
+      <data key="d6">27</data>
+      <data key="d7">1.015966366170727e-05</data>
+    </edge>
+    <edge source="blaADC-199" target="parC_S84L">
+      <data key="d5">0.0798</data>
+      <data key="d6">29</data>
+      <data key="d7">3.7241915832562346e-05</data>
+    </edge>
+    <edge source="blaADC-199" target="gyrA_S81L">
+      <data key="d5">0.0646</data>
+      <data key="d6">29</data>
+      <data key="d7">0.0012483536496174176</data>
+    </edge>
+    <edge source="blaADC-222" target="blaOXA-95">
+      <data key="d5">0.9071</data>
+      <data key="d6">50</data>
+      <data key="d7">3.2622113557233317e-90</data>
+    </edge>
+    <edge source="blaADC-222" target="parC_E88K">
+      <data key="d5">0.4072</data>
+      <data key="d6">25</data>
+      <data key="d7">7.621014129988442e-26</data>
+    </edge>
+    <edge source="blaADC-222" target="blaCARB-2">
+      <data key="d5">0.2145</data>
+      <data key="d6">9</data>
+      <data key="d7">4.723283691869042e-08</data>
+    </edge>
+    <edge source="blaADC-222" target="gyrA_S81L">
+      <data key="d5">0.0886</data>
+      <data key="d6">54</data>
+      <data key="d7">9.401844566355416e-07</data>
+    </edge>
+    <edge source="blaADC-222" target="blaOXA-23">
+      <data key="d5">0.0749</data>
+      <data key="d6">41</data>
+      <data key="d7">0.0009971967372358933</data>
+    </edge>
+    <edge source="blaADC-25" target="blaPER-1">
+      <data key="d5">0.4226</data>
+      <data key="d6">23</data>
+      <data key="d7">4.4937549760704567e-26</data>
+    </edge>
+    <edge source="blaADC-25" target="blaOXA-66">
+      <data key="d5">0.1404</data>
+      <data key="d6">64</data>
+      <data key="d7">4.8900175184150565e-11</data>
+    </edge>
+    <edge source="blaADC-25" target="blaTEM-1">
+      <data key="d5">0.1301</data>
+      <data key="d6">47</data>
+      <data key="d7">2.3046643243533864e-08</data>
+    </edge>
+    <edge source="blaADC-25" target="tet(B)">
+      <data key="d5">0.1276</data>
+      <data key="d6">62</data>
+      <data key="d7">3.09208854473485e-09</data>
+    </edge>
+    <edge source="blaADC-25" target="gyrA_S81L">
+      <data key="d5">0.087</data>
+      <data key="d6">76</data>
+      <data key="d7">1.0032205237262967e-05</data>
+    </edge>
+    <edge source="blaADC-26" target="blaOXA-259">
+      <data key="d5">0.5222</data>
+      <data key="d6">46</data>
+      <data key="d7">2.1740698184827284e-52</data>
+    </edge>
+    <edge source="blaADC-26" target="blaOXA-64">
+      <data key="d5">0.3909</data>
+      <data key="d6">59</data>
+      <data key="d7">1.1320001492867623e-39</data>
+    </edge>
+    <edge source="blaADC-26" target="blaPER-7">
+      <data key="d5">0.3027</data>
+      <data key="d6">33</data>
+      <data key="d7">2.184335951953532e-22</data>
+    </edge>
+    <edge source="blaADC-26" target="cmlA5">
+      <data key="d5">0.2835</data>
+      <data key="d6">35</data>
+      <data key="d7">4.142694915645433e-21</data>
+    </edge>
+    <edge source="blaADC-26" target="blaOXA-104">
+      <data key="d5">0.2794</data>
+      <data key="d6">32</data>
+      <data key="d7">5.221156876206515e-20</data>
+    </edge>
+    <edge source="blaADC-26" target="dfrA45">
+      <data key="d5">0.2284</data>
+      <data key="d6">18</data>
+      <data key="d7">1.5680827411675624e-12</data>
+    </edge>
+    <edge source="blaADC-26" target="sul2">
+      <data key="d5">0.1793</data>
+      <data key="d6">109</data>
+      <data key="d7">3.387245074017507e-17</data>
+    </edge>
+    <edge source="blaADC-26" target="blaNDM-1">
+      <data key="d5">0.17</data>
+      <data key="d6">39</data>
+      <data key="d7">5.190252839501775e-11</data>
+    </edge>
+    <edge source="blaADC-26" target="ble">
+      <data key="d5">0.1607</data>
+      <data key="d6">38</data>
+      <data key="d7">4.413621242077147e-10</data>
+    </edge>
+    <edge source="blaADC-26" target="fos">
+      <data key="d5">0.0862</data>
+      <data key="d6">14</data>
+      <data key="d7">0.0019917078832173054</data>
+    </edge>
+    <edge source="blaADC-277" target="blaOXA-64">
+      <data key="d5">0.4145</data>
+      <data key="d6">26</data>
+      <data key="d7">1.4563080672370348e-30</data>
+    </edge>
+    <edge source="blaADC-30" target="catB8">
+      <data key="d5">0.6553</data>
+      <data key="d6">326</data>
+      <data key="d7">1.1595109864473748e-188</data>
+    </edge>
+    <edge source="blaADC-30" target="blaOXA-66">
+      <data key="d5">0.5536</data>
+      <data key="d6">502</data>
+      <data key="d7">2.2490107668144105e-174</data>
+    </edge>
+    <edge source="blaADC-30" target="sul1">
+      <data key="d5">0.4449</data>
+      <data key="d6">417</data>
+      <data key="d7">6.656781060015113e-102</data>
+    </edge>
+    <edge source="blaADC-30" target="tet(B)">
+      <data key="d5">0.3773</data>
+      <data key="d6">420</data>
+      <data key="d7">8.989820233871671e-76</data>
+    </edge>
+    <edge source="blaADC-30" target="parC_S84L">
+      <data key="d5">0.3346</data>
+      <data key="d6">512</data>
+      <data key="d7">4.7699640954920644e-73</data>
+    </edge>
+    <edge source="blaADC-30" target="gyrA_S81L">
+      <data key="d5">0.3116</data>
+      <data key="d6">536</data>
+      <data key="d7">1.7884520652854705e-75</data>
+    </edge>
+    <edge source="blaADC-30" target="blaTEM-1">
+      <data key="d5">0.2899</data>
+      <data key="d6">277</data>
+      <data key="d7">7.371944620044025e-41</data>
+    </edge>
+    <edge source="blaADC-30" target="blaOXA-23">
+      <data key="d5">0.2479</data>
+      <data key="d6">399</data>
+      <data key="d7">1.4693086001864716e-33</data>
+    </edge>
+    <edge source="blaADC-30" target="mph(E)">
+      <data key="d5">0.2371</data>
+      <data key="d6">334</data>
+      <data key="d7">2.4931905931341918e-29</data>
+    </edge>
+    <edge source="blaADC-30" target="msr(E)">
+      <data key="d5">0.23</data>
+      <data key="d6">332</data>
+      <data key="d7">1.1258813453419668e-27</data>
+    </edge>
+    <edge source="blaADC-30" target="ftsI_T526S">
+      <data key="d5">0.1229</data>
+      <data key="d6">26</data>
+      <data key="d7">6.016891193499338e-07</data>
+    </edge>
+    <edge source="blaADC-30" target="blaOXA-235">
+      <data key="d5">0.1094</data>
+      <data key="d6">21</data>
+      <data key="d7">1.2401038804599757e-05</data>
+    </edge>
+    <edge source="blaADC-30" target="tet(X5)">
+      <data key="d5">0.0824</data>
+      <data key="d6">14</data>
+      <data key="d7">0.0016873872980567113</data>
+    </edge>
+    <edge source="blaADC-33" target="blaOXA-82">
+      <data key="d5">0.9233</data>
+      <data key="d6">55</data>
+      <data key="d7">1.8216706909777649e-99</data>
+    </edge>
+    <edge source="blaADC-33" target="blaOXA">
+      <data key="d5">0.2305</data>
+      <data key="d6">23</data>
+      <data key="d7">8.116087627163478e-14</data>
+    </edge>
+    <edge source="blaADC-33" target="sul1">
+      <data key="d5">0.1616</data>
+      <data key="d6">50</data>
+      <data key="d7">3.96500611333968e-14</data>
+    </edge>
+    <edge source="blaADC-33" target="parC_S84L">
+      <data key="d5">0.1125</data>
+      <data key="d6">57</data>
+      <data key="d7">3.4307350268104396e-10</data>
+    </edge>
+    <edge source="blaADC-33" target="gyrA_S81L">
+      <data key="d5">0.0911</data>
+      <data key="d6">57</data>
+      <data key="d7">3.953324484474799e-07</data>
+    </edge>
+    <edge source="blaADC-52" target="blaOXA-91">
+      <data key="d5">0.7207</data>
+      <data key="d6">33</data>
+      <data key="d7">6.637949859412111e-53</data>
+    </edge>
+    <edge source="blaADC-52" target="blaCARB-16">
+      <data key="d5">0.558</data>
+      <data key="d6">25</data>
+      <data key="d7">2.2417180370256777e-34</data>
+    </edge>
+    <edge source="blaADC-52" target="blaNDM-1">
+      <data key="d5">0.2464</data>
+      <data key="d6">24</data>
+      <data key="d7">4.828041523479734e-16</data>
+    </edge>
+    <edge source="blaADC-52" target="ble">
+      <data key="d5">0.2434</data>
+      <data key="d6">24</data>
+      <data key="d7">7.675310063955565e-16</data>
+    </edge>
+    <edge source="blaADC-52" target="blaCARB-2">
+      <data key="d5">0.1063</data>
+      <data key="d6">4</data>
+      <data key="d7">0.006142222946576355</data>
+    </edge>
+    <edge source="blaADC-73" target="ftsI_A515V">
+      <data key="d5">0.9082</data>
+      <data key="d6">325</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="blaADC-73" target="blaOXA-66">
+      <data key="d5">0.4481</data>
+      <data key="d6">328</data>
+      <data key="d7">7.92737976866165e-120</data>
+    </edge>
+    <edge source="blaADC-73" target="tet(B)">
+      <data key="d5">0.4089</data>
+      <data key="d6">315</data>
+      <data key="d7">2.5815647644558904e-96</data>
+    </edge>
+    <edge source="blaADC-73" target="msr(E)">
+      <data key="d5">0.3979</data>
+      <data key="d6">300</data>
+      <data key="d7">2.04232783635452e-86</data>
+    </edge>
+    <edge source="blaADC-73" target="mph(E)">
+      <data key="d5">0.3955</data>
+      <data key="d6">298</data>
+      <data key="d7">6.444541207942604e-85</data>
+    </edge>
+    <edge source="blaADC-73" target="blaOXA-23">
+      <data key="d5">0.381</data>
+      <data key="d6">331</data>
+      <data key="d7">5.001484456923899e-95</data>
+    </edge>
+    <edge source="blaADC-73" target="blaTEM-1">
+      <data key="d5">0.348</data>
+      <data key="d6">222</data>
+      <data key="d7">3.5350197582319892e-56</data>
+    </edge>
+    <edge source="blaADC-73" target="parC_S84L">
+      <data key="d5">0.2917</data>
+      <data key="d6">337</data>
+      <data key="d7">4.099443889672551e-66</data>
+    </edge>
+    <edge source="blaADC-73" target="gyrA_S81L">
+      <data key="d5">0.2362</data>
+      <data key="d6">337</data>
+      <data key="d7">6.978839566425165e-46</data>
+    </edge>
+    <edge source="blaADC-76" target="blaOXA-68">
+      <data key="d5">0.7848</data>
+      <data key="d6">45</data>
+      <data key="d7">2.4801502390002967e-71</data>
+    </edge>
+    <edge source="blaADC-76" target="blaPER-7">
+      <data key="d5">0.2623</data>
+      <data key="d6">18</data>
+      <data key="d7">6.302608631485412e-14</data>
+    </edge>
+    <edge source="blaADC-76" target="dfrA45">
+      <data key="d5">0.2459</data>
+      <data key="d6">12</data>
+      <data key="d7">1.2934660910607175e-10</data>
+    </edge>
+    <edge source="blaADC-76" target="cmlA5">
+      <data key="d5">0.2023</data>
+      <data key="d6">16</data>
+      <data key="d7">5.055267740954116e-10</data>
+    </edge>
+    <edge source="blaADC-76" target="sul2">
+      <data key="d5">0.109</data>
+      <data key="d6">44</data>
+      <data key="d7">9.227751792864608e-07</data>
+    </edge>
+    <edge source="blaADC-76" target="blaOXA-58">
+      <data key="d5">0.0833</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0067687315310328705</data>
+    </edge>
+    <edge source="blaADC-76" target="blaCARB-2">
+      <data key="d5">0.0808</data>
+      <data key="d6">4</data>
+      <data key="d7">0.026520782828970697</data>
+    </edge>
+    <edge source="blaADC-76" target="tet(B)">
+      <data key="d5">0.067</data>
+      <data key="d6">38</data>
+      <data key="d7">0.005070408037483469</data>
+    </edge>
+    <edge source="blaADC-76" target="blaOXA-23">
+      <data key="d5">0.0524</data>
+      <data key="d6">40</data>
+      <data key="d7">0.03670084714463394</data>
+    </edge>
+    <edge source="blaADC-79" target="blaOXA-100">
+      <data key="d5">0.8435</data>
+      <data key="d6">24</data>
+      <data key="d7">1.2946856195820326e-47</data>
+    </edge>
+    <edge source="blaADC-79" target="tet(A)">
+      <data key="d5">0.1435</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0001450768284402155</data>
+    </edge>
+    <edge source="blaADC-79" target="blaOXA-58">
+      <data key="d5">0.0953</data>
+      <data key="d6">6</data>
+      <data key="d7">0.004326310739241784</data>
+    </edge>
+    <edge source="blaCARB-16" target="blaOXA-91">
+      <data key="d5">0.514</data>
+      <data key="d6">27</data>
+      <data key="d7">1.388952988331964e-33</data>
+    </edge>
+    <edge source="blaCARB-16" target="blaNDM-1">
+      <data key="d5">0.2399</data>
+      <data key="d6">27</data>
+      <data key="d7">4.837743824074856e-16</data>
+    </edge>
+    <edge source="blaCARB-16" target="ble">
+      <data key="d5">0.2369</data>
+      <data key="d6">27</data>
+      <data key="d7">8.11021072725606e-16</data>
+    </edge>
+    <edge source="blaCARB-16" target="floR">
+      <data key="d5">0.1737</data>
+      <data key="d6">14</data>
+      <data key="d7">4.814790602091122e-08</data>
+    </edge>
+    <edge source="blaCARB-16" target="blaOXA">
+      <data key="d5">0.1009</data>
+      <data key="d6">11</data>
+      <data key="d7">0.0006030587348626088</data>
+    </edge>
+    <edge source="blaCARB-16" target="parC_S84L">
+      <data key="d5">0.0804</data>
+      <data key="d6">46</data>
+      <data key="d7">0.00010556230942179341</data>
+    </edge>
+    <edge source="blaCARB-16" target="gyrA_S81L">
+      <data key="d5">0.0582</data>
+      <data key="d6">46</data>
+      <data key="d7">0.00955684026123938</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaOXA-95">
+      <data key="d5">0.2101</data>
+      <data key="d6">9</data>
+      <data key="d7">6.572597640566504e-08</data>
+    </edge>
+    <edge source="blaCARB-2" target="sul1">
+      <data key="d5">0.1269</data>
+      <data key="d6">27</data>
+      <data key="d7">4.3262137401216665e-09</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaPER-1">
+      <data key="d5">0.1137</data>
+      <data key="d6">4</data>
+      <data key="d7">0.0041352531502295425</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaOXA-58">
+      <data key="d5">0.1</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0030262450300501983</data>
+    </edge>
+    <edge source="blaCARB-2" target="tet(39)">
+      <data key="d5">0.0969</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0038111935842541442</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaOXA-91">
+      <data key="d5">0.087</data>
+      <data key="d6">4</data>
+      <data key="d7">0.018369269383471335</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaNDM-1">
+      <data key="d5">0.0764</data>
+      <data key="d6">8</data>
+      <data key="d7">0.011230567231472777</data>
+    </edge>
+    <edge source="blaCARB-2" target="ble">
+      <data key="d5">0.0751</data>
+      <data key="d6">8</data>
+      <data key="d7">0.012685144364241473</data>
+    </edge>
+    <edge source="blaCARB-2" target="blaPER-7">
+      <data key="d5">0.0721</data>
+      <data key="d6">4</data>
+      <data key="d7">0.04526439866155609</data>
+    </edge>
+    <edge source="blaCARB-2" target="msr(E)">
+      <data key="d5">0.0713</data>
+      <data key="d6">21</data>
+      <data key="d7">0.0031750459007969596</data>
+    </edge>
+    <edge source="blaNDM-1" target="ble">
+      <data key="d5">0.9677</data>
+      <data key="d6">197</data>
+      <data key="d7">5.3218382085669715e-270</data>
+    </edge>
+    <edge source="blaNDM-1" target="cmlA5">
+      <data key="d5">0.2916</data>
+      <data key="d6">43</data>
+      <data key="d7">2.436723182482918e-24</data>
+    </edge>
+    <edge source="blaNDM-1" target="blaOXA-58">
+      <data key="d5">0.2607</data>
+      <data key="d6">40</data>
+      <data key="d7">2.2782838393528506e-20</data>
+    </edge>
+    <edge source="blaNDM-1" target="dfrA45">
+      <data key="d5">0.2595</data>
+      <data key="d6">24</data>
+      <data key="d7">3.115594039728946e-17</data>
+    </edge>
+    <edge source="blaNDM-1" target="blaOXA-91">
+      <data key="d5">0.2204</data>
+      <data key="d6">26</data>
+      <data key="d7">4.008663742314532e-14</data>
+    </edge>
+    <edge source="blaNDM-1" target="blaOXA-104">
+      <data key="d5">0.2067</data>
+      <data key="d6">30</data>
+      <data key="d7">1.6290666985062174e-13</data>
+    </edge>
+    <edge source="blaNDM-1" target="blaPER-7">
+      <data key="d5">0.1996</data>
+      <data key="d6">28</data>
+      <data key="d7">1.2475058201821465e-12</data>
+    </edge>
+    <edge source="blaNDM-1" target="sul2">
+      <data key="d5">0.1711</data>
+      <data key="d6">138</data>
+      <data key="d7">1.33508124829849e-15</data>
+    </edge>
+    <edge source="blaNDM-1" target="mph(E)">
+      <data key="d5">0.1672</data>
+      <data key="d6">136</data>
+      <data key="d7">6.667571190762008e-15</data>
+    </edge>
+    <edge source="blaNDM-1" target="msr(E)">
+      <data key="d5">0.1593</data>
+      <data key="d6">134</data>
+      <data key="d7">1.2960668105387042e-13</data>
+    </edge>
+    <edge source="blaNDM-1" target="sat2">
+      <data key="d5">0.1107</data>
+      <data key="d6">13</data>
+      <data key="d7">0.00010885328984284467</data>
+    </edge>
+    <edge source="blaNDM-1" target="dfrA1">
+      <data key="d5">0.103</data>
+      <data key="d6">14</data>
+      <data key="d7">0.000241790588934026</data>
+    </edge>
+    <edge source="blaNDM-1" target="sul1">
+      <data key="d5">0.0785</data>
+      <data key="d6">101</data>
+      <data key="d7">0.0006764442346679573</data>
+    </edge>
+    <edge source="blaNDM-1" target="floR">
+      <data key="d5">0.0644</data>
+      <data key="d6">17</data>
+      <data key="d7">0.018413875345811875</data>
+    </edge>
+    <edge source="blaOXA" target="blaOXA-82">
+      <data key="d5">0.1954</data>
+      <data key="d6">21</data>
+      <data key="d7">6.692249100539832e-11</data>
+    </edge>
+    <edge source="blaOXA" target="floR">
+      <data key="d5">0.0996</data>
+      <data key="d6">17</data>
+      <data key="d7">0.00027381104209349427</data>
+    </edge>
+    <edge source="blaOXA" target="tet(X5)">
+      <data key="d5">0.0798</data>
+      <data key="d6">6</data>
+      <data key="d7">0.013584665034371255</data>
+    </edge>
+    <edge source="blaOXA" target="parC_S84L">
+      <data key="d5">0.0766</data>
+      <data key="d6">112</data>
+      <data key="d7">0.00047047816962133486</data>
+    </edge>
+    <edge source="blaOXA-104" target="blaPER-7">
+      <data key="d5">0.3441</data>
+      <data key="d6">26</data>
+      <data key="d7">2.2355248669993525e-22</data>
+    </edge>
+    <edge source="blaOXA-104" target="dfrA45">
+      <data key="d5">0.3348</data>
+      <data key="d6">18</data>
+      <data key="d7">6.5749969834578094e-18</data>
+    </edge>
+    <edge source="blaOXA-104" target="cmlA5">
+      <data key="d5">0.3307</data>
+      <data key="d6">28</data>
+      <data key="d7">2.3242171956418526e-22</data>
+    </edge>
+    <edge source="blaOXA-104" target="ble">
+      <data key="d5">0.2038</data>
+      <data key="d6">30</data>
+      <data key="d7">2.804920757505181e-13</data>
+    </edge>
+    <edge source="blaOXA-104" target="fos">
+      <data key="d5">0.0715</data>
+      <data key="d6">8</data>
+      <data key="d7">0.019152729270085576</data>
+    </edge>
+    <edge source="blaOXA-120" target="ble">
+      <data key="d5">0.0811</data>
+      <data key="d6">9</data>
+      <data key="d7">0.0060186862489821835</data>
+    </edge>
+    <edge source="blaOXA-23" target="gyrA_S81L">
+      <data key="d5">0.5836</data>
+      <data key="d6">1214</data>
+      <data key="d7">9.170484061476157e-216</data>
+    </edge>
+    <edge source="blaOXA-23" target="parC_S84L">
+      <data key="d5">0.5261</data>
+      <data key="d6">1102</data>
+      <data key="d7">1.6128969093504256e-153</data>
+    </edge>
+    <edge source="blaOXA-23" target="tet(B)">
+      <data key="d5">0.4665</data>
+      <data key="d6">807</data>
+      <data key="d7">9.899834566899228e-118</data>
+    </edge>
+    <edge source="blaOXA-23" target="msr(E)">
+      <data key="d5">0.4635</data>
+      <data key="d6">770</data>
+      <data key="d7">1.0931884731225595e-116</data>
+    </edge>
+    <edge source="blaOXA-23" target="mph(E)">
+      <data key="d5">0.4555</data>
+      <data key="d6">762</data>
+      <data key="d7">1.3940891463755084e-112</data>
+    </edge>
+    <edge source="blaOXA-23" target="blaOXA-66">
+      <data key="d5">0.4552</data>
+      <data key="d6">790</data>
+      <data key="d7">4.763976934726036e-112</data>
+    </edge>
+    <edge source="blaOXA-23" target="ftsI_A515V">
+      <data key="d5">0.3939</data>
+      <data key="d6">359</data>
+      <data key="d7">2.134259341774113e-99</data>
+    </edge>
+    <edge source="blaOXA-23" target="catB8">
+      <data key="d5">0.2502</data>
+      <data key="d6">306</data>
+      <data key="d7">6.006901151608824e-35</data>
+    </edge>
+    <edge source="blaOXA-23" target="blaTEM-1">
+      <data key="d5">0.2467</data>
+      <data key="d6">468</data>
+      <data key="d7">6.027785173335954e-33</data>
+    </edge>
+    <edge source="blaOXA-23" target="sul1">
+      <data key="d5">0.1984</data>
+      <data key="d6">575</data>
+      <data key="d7">2.643895139915884e-21</data>
+    </edge>
+    <edge source="blaOXA-23" target="sul2">
+      <data key="d5">0.1501</data>
+      <data key="d6">588</data>
+      <data key="d7">1.56559801194613e-12</data>
+    </edge>
+    <edge source="blaOXA-23" target="blaPER-7">
+      <data key="d5">0.1432</data>
+      <data key="d6">64</data>
+      <data key="d7">5.379234552161469e-13</data>
+    </edge>
+    <edge source="blaOXA-23" target="cmlA5">
+      <data key="d5">0.1421</data>
+      <data key="d6">75</data>
+      <data key="d7">2.3607595845325302e-12</data>
+    </edge>
+    <edge source="blaOXA-23" target="dfrA45">
+      <data key="d5">0.1069</data>
+      <data key="d6">34</data>
+      <data key="d7">1.5097589021493264e-07</data>
+    </edge>
+    <edge source="blaOXA-23" target="blaOXA-95">
+      <data key="d5">0.1012</data>
+      <data key="d6">47</data>
+      <data key="d7">2.0453779012986576e-06</data>
+    </edge>
+    <edge source="blaOXA-23" target="blaOXA-402">
+      <data key="d5">0.0793</data>
+      <data key="d6">30</data>
+      <data key="d7">0.0003863125926703077</data>
+    </edge>
+    <edge source="blaOXA-23" target="ftsI_T526S">
+      <data key="d5">0.0752</data>
+      <data key="d6">34</data>
+      <data key="d7">0.0009263158566452683</data>
+    </edge>
+    <edge source="blaOXA-23" target="sat2">
+      <data key="d5">0.0707</data>
+      <data key="d6">32</data>
+      <data key="d7">0.0021722140817620962</data>
+    </edge>
+    <edge source="blaOXA-23" target="dfrA1">
+      <data key="d5">0.0605</data>
+      <data key="d6">36</data>
+      <data key="d7">0.011943722800413573</data>
+    </edge>
+    <edge source="blaOXA-235" target="catB8">
+      <data key="d5">0.1459</data>
+      <data key="d6">21</data>
+      <data key="d7">2.9665896225149744e-08</data>
+    </edge>
+    <edge source="blaOXA-235" target="parC_E88K">
+      <data key="d5">0.108</data>
+      <data key="d6">6</data>
+      <data key="d7">0.0017321581263203803</data>
+    </edge>
+    <edge source="blaOXA-235" target="sul2">
+      <data key="d5">0.0828</data>
+      <data key="d6">26</data>
+      <data key="d7">0.00038194925630737135</data>
+    </edge>
+    <edge source="blaOXA-235" target="blaOXA-68">
+      <data key="d5">0.0741</data>
+      <data key="d6">4</data>
+      <data key="d7">0.04012876610115078</data>
+    </edge>
+    <edge source="blaOXA-235" target="gyrA_S81L">
+      <data key="d5">0.071</data>
+      <data key="d6">35</data>
+      <data key="d7">0.0002276596568012013</data>
+    </edge>
+    <edge source="blaOXA-235" target="blaOXA-66">
+      <data key="d5">0.0708</data>
+      <data key="d6">25</data>
+      <data key="d7">0.0030755446769276263</data>
+    </edge>
+    <edge source="blaOXA-235" target="tet(B)">
+      <data key="d5">0.0686</data>
+      <data key="d6">25</data>
+      <data key="d7">0.0042495882198363005</data>
+    </edge>
+    <edge source="blaOXA-239" target="blaOXA-65">
+      <data key="d5">0.4586</data>
+      <data key="d6">28</data>
+      <data key="d7">9.289153007809292e-34</data>
+    </edge>
+    <edge source="blaOXA-239" target="sul2">
+      <data key="d5">0.1402</data>
+      <data key="d6">32</data>
+      <data key="d7">3.010153591660551e-12</data>
+    </edge>
+    <edge source="blaOXA-239" target="parC_S84L">
+      <data key="d5">0.0838</data>
+      <data key="d6">32</data>
+      <data key="d7">1.0811996342448644e-05</data>
+    </edge>
+    <edge source="blaOXA-239" target="gyrA_S81L">
+      <data key="d5">0.0679</data>
+      <data key="d6">32</data>
+      <data key="d7">0.0005322980085114472</data>
+    </edge>
+    <edge source="blaOXA-259" target="sul2">
+      <data key="d5">0.0655</data>
+      <data key="d6">32</data>
+      <data key="d7">0.006988285806224255</data>
+    </edge>
+    <edge source="blaOXA-402" target="tet(39)">
+      <data key="d5">0.4751</data>
+      <data key="d6">28</data>
+      <data key="d7">1.5695852413966268e-33</data>
+    </edge>
+    <edge source="blaOXA-402" target="floR">
+      <data key="d5">0.4545</data>
+      <data key="d6">28</data>
+      <data key="d7">2.353382809173928e-32</data>
+    </edge>
+    <edge source="blaOXA-402" target="sul2">
+      <data key="d5">0.1208</data>
+      <data key="d6">32</data>
+      <data key="d7">2.045163013693107e-08</data>
+    </edge>
+    <edge source="blaOXA-402" target="parC_E88K">
+      <data key="d5">0.1059</data>
+      <data key="d6">6</data>
+      <data key="d7">0.002013743754921319</data>
+    </edge>
+    <edge source="blaOXA-402" target="mph(E)">
+      <data key="d5">0.0938</data>
+      <data key="d6">28</data>
+      <data key="d7">3.80300123483983e-05</data>
+    </edge>
+    <edge source="blaOXA-402" target="msr(E)">
+      <data key="d5">0.093</data>
+      <data key="d6">28</data>
+      <data key="d7">4.384194861363403e-05</data>
+    </edge>
+    <edge source="blaOXA-402" target="gyrA_S81L">
+      <data key="d5">0.0562</data>
+      <data key="d6">34</data>
+      <data key="d7">0.012364378237746105</data>
+    </edge>
+    <edge source="blaOXA-58" target="ble">
+      <data key="d5">0.2572</data>
+      <data key="d6">40</data>
+      <data key="d7">4.980315617839399e-20</data>
+    </edge>
+    <edge source="blaOXA-58" target="floR">
+      <data key="d5">0.1809</data>
+      <data key="d6">20</data>
+      <data key="d7">1.247495509315941e-09</data>
+    </edge>
+    <edge source="blaOXA-58" target="blaOXA-65">
+      <data key="d5">0.1678</data>
+      <data key="d6">20</data>
+      <data key="d7">8.619744600039751e-09</data>
+    </edge>
+    <edge source="blaOXA-58" target="tet(39)">
+      <data key="d5">0.1455</data>
+      <data key="d6">16</data>
+      <data key="d7">7.989424539753338e-07</data>
+    </edge>
+    <edge source="blaOXA-58" target="sul2">
+      <data key="d5">0.1266</data>
+      <data key="d6">64</data>
+      <data key="d7">6.930569814892821e-09</data>
+    </edge>
+    <edge source="blaOXA-58" target="tet(A)">
+      <data key="d5">0.1002</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0014968271249582393</data>
+    </edge>
+    <edge source="blaOXA-58" target="sul1">
+      <data key="d5">0.091</data>
+      <data key="d6">53</data>
+      <data key="d7">7.472792390815777e-05</data>
+    </edge>
+    <edge source="blaOXA-58" target="tet(X5)">
+      <data key="d5">0.089</data>
+      <data key="d6">5</data>
+      <data key="d7">0.01006996505444273</data>
+    </edge>
+    <edge source="blaOXA-58" target="blaOXA-68">
+      <data key="d5">0.0884</data>
+      <data key="d6">8</data>
+      <data key="d7">0.004284489649568721</data>
+    </edge>
+    <edge source="blaOXA-58" target="mph(E)">
+      <data key="d5">0.0737</data>
+      <data key="d6">52</data>
+      <data key="d7">0.0017229538690085354</data>
+    </edge>
+    <edge source="blaOXA-58" target="msr(E)">
+      <data key="d5">0.0726</data>
+      <data key="d6">52</data>
+      <data key="d7">0.0020399222826599805</data>
+    </edge>
+    <edge source="blaOXA-58" target="catA1">
+      <data key="d5">0.0694</data>
+      <data key="d6">8</data>
+      <data key="d7">0.02296724259895239</data>
+    </edge>
+    <edge source="blaOXA-64" target="sul2">
+      <data key="d5">0.0986</data>
+      <data key="d6">81</data>
+      <data key="d7">1.0652233588785139e-05</data>
+    </edge>
+    <edge source="blaOXA-64" target="blaPER-7">
+      <data key="d5">0.0778</data>
+      <data key="d6">11</data>
+      <data key="d7">0.006938234303077444</data>
+    </edge>
+    <edge source="blaOXA-64" target="cmlA5">
+      <data key="d5">0.0616</data>
+      <data key="d6">11</data>
+      <data key="d7">0.034260524651243664</data>
+    </edge>
+    <edge source="blaOXA-65" target="sul2">
+      <data key="d5">0.1197</data>
+      <data key="d6">75</data>
+      <data key="d7">5.198636361074743e-08</data>
+    </edge>
+    <edge source="blaOXA-66" target="tet(B)">
+      <data key="d5">0.6546</data>
+      <data key="d6">825</data>
+      <data key="d7">1.1202065373586446e-237</data>
+    </edge>
+    <edge source="blaOXA-66" target="blaTEM-1">
+      <data key="d5">0.5485</data>
+      <data key="d6">569</data>
+      <data key="d7">1.8258217657433226e-164</data>
+    </edge>
+    <edge source="blaOXA-66" target="parC_S84L">
+      <data key="d5">0.5039</data>
+      <data key="d6">952</data>
+      <data key="d7">9.11274165910847e-150</data>
+    </edge>
+    <edge source="blaOXA-66" target="mph(E)">
+      <data key="d5">0.4929</data>
+      <data key="d6">698</data>
+      <data key="d7">1.2560269661055122e-129</data>
+    </edge>
+    <edge source="blaOXA-66" target="gyrA_S81L">
+      <data key="d5">0.4907</data>
+      <data key="d6">1011</data>
+      <data key="d7">6.259160010912796e-162</data>
+    </edge>
+    <edge source="blaOXA-66" target="msr(E)">
+      <data key="d5">0.488</data>
+      <data key="d6">698</data>
+      <data key="d7">5.492827425361724e-127</data>
+    </edge>
+    <edge source="blaOXA-66" target="ftsI_A515V">
+      <data key="d5">0.4582</data>
+      <data key="d6">353</data>
+      <data key="d7">1.765980438570926e-122</data>
+    </edge>
+    <edge source="blaOXA-66" target="catB8">
+      <data key="d5">0.4421</data>
+      <data key="d6">355</data>
+      <data key="d7">7.788744089947607e-111</data>
+    </edge>
+    <edge source="blaOXA-66" target="sul1">
+      <data key="d5">0.2547</data>
+      <data key="d6">529</data>
+      <data key="d7">2.981919198590302e-34</data>
+    </edge>
+    <edge source="blaOXA-66" target="blaOXA-72">
+      <data key="d5">0.1174</data>
+      <data key="d6">62</data>
+      <data key="d7">7.831449742224208e-08</data>
+    </edge>
+    <edge source="blaOXA-66" target="ftsI_T526S">
+      <data key="d5">0.0613</data>
+      <data key="d6">28</data>
+      <data key="d7">0.013104106050036967</data>
+    </edge>
+    <edge source="blaOXA-66" target="blaPER-1">
+      <data key="d5">0.0567</data>
+      <data key="d6">23</data>
+      <data key="d7">0.02581795993217211</data>
+    </edge>
+    <edge source="blaOXA-66" target="sul2">
+      <data key="d5">0.0558</data>
+      <data key="d6">449</data>
+      <data key="d7">0.019583873050548668</data>
+    </edge>
+    <edge source="blaOXA-68" target="dfrA45">
+      <data key="d5">0.2559</data>
+      <data key="d6">12</data>
+      <data key="d7">5.3537519374429656e-11</data>
+    </edge>
+    <edge source="blaOXA-68" target="cmlA5">
+      <data key="d5">0.1964</data>
+      <data key="d6">15</data>
+      <data key="d7">1.93976216169896e-09</data>
+    </edge>
+    <edge source="blaOXA-68" target="blaPER-7">
+      <data key="d5">0.1567</data>
+      <data key="d6">11</data>
+      <data key="d7">1.8050035846652543e-06</data>
+    </edge>
+    <edge source="blaOXA-68" target="sul2">
+      <data key="d5">0.1164</data>
+      <data key="d6">43</data>
+      <data key="d7">1.1662378896255222e-07</data>
+    </edge>
+    <edge source="blaOXA-68" target="parC_E88K">
+      <data key="d5">0.0771</data>
+      <data key="d6">6</data>
+      <data key="d7">0.01784412259957784</data>
+    </edge>
+    <edge source="blaOXA-68" target="tet(B)">
+      <data key="d5">0.0509</data>
+      <data key="d6">33</data>
+      <data key="d7">0.04919643876451937</data>
+    </edge>
+    <edge source="blaOXA-69" target="tet(A)">
+      <data key="d5">0.4221</data>
+      <data key="d6">35</data>
+      <data key="d7">1.580867556042073e-34</data>
+    </edge>
+    <edge source="blaOXA-69" target="catA1">
+      <data key="d5">0.296</data>
+      <data key="d6">32</data>
+      <data key="d7">2.1723464670626955e-21</data>
+    </edge>
+    <edge source="blaOXA-69" target="sat2">
+      <data key="d5">0.2607</data>
+      <data key="d6">21</data>
+      <data key="d7">1.819517728422602e-15</data>
+    </edge>
+    <edge source="blaOXA-69" target="dfrA1">
+      <data key="d5">0.2554</data>
+      <data key="d6">23</data>
+      <data key="d7">1.249862835682947e-15</data>
+    </edge>
+    <edge source="blaOXA-69" target="fos">
+      <data key="d5">0.1415</data>
+      <data key="d6">19</data>
+      <data key="d7">5.58707906573877e-07</data>
+    </edge>
+    <edge source="blaOXA-69" target="sul1">
+      <data key="d5">0.1052</data>
+      <data key="d6">79</data>
+      <data key="d7">2.8024954707551766e-06</data>
+    </edge>
+    <edge source="blaOXA-69" target="cmlA5">
+      <data key="d5">0.0702</data>
+      <data key="d6">12</data>
+      <data key="d7">0.013607629418909745</data>
+    </edge>
+    <edge source="blaOXA-72" target="tet(X5)">
+      <data key="d5">0.2022</data>
+      <data key="d6">10</data>
+      <data key="d7">3.532664746024999e-08</data>
+    </edge>
+    <edge source="blaOXA-72" target="sul1">
+      <data key="d5">0.1071</data>
+      <data key="d6">55</data>
+      <data key="d7">2.013497026544832e-06</data>
+    </edge>
+    <edge source="blaOXA-72" target="floR">
+      <data key="d5">0.1064</data>
+      <data key="d6">13</data>
+      <data key="d7">0.00022992459560373764</data>
+    </edge>
+    <edge source="blaOXA-72" target="gyrA_S81L">
+      <data key="d5">0.0806</data>
+      <data key="d6">79</data>
+      <data key="d7">7.730078112575086e-05</data>
+    </edge>
+    <edge source="blaOXA-72" target="parC_E88K">
+      <data key="d5">0.0788</data>
+      <data key="d6">8</data>
+      <data key="d7">0.010069314022012724</data>
+    </edge>
+    <edge source="blaOXA-72" target="catA1">
+      <data key="d5">0.0717</data>
+      <data key="d6">8</data>
+      <data key="d7">0.01873541758229569</data>
+    </edge>
+    <edge source="blaOXA-82" target="sul1">
+      <data key="d5">0.183</data>
+      <data key="d6">57</data>
+      <data key="d7">2.242175635693655e-18</data>
+    </edge>
+    <edge source="blaOXA-82" target="parC_S84L">
+      <data key="d5">0.1174</data>
+      <data key="d6">62</data>
+      <data key="d7">4.21744656385416e-11</data>
+    </edge>
+    <edge source="blaOXA-82" target="gyrA_S81L">
+      <data key="d5">0.0951</data>
+      <data key="d6">62</data>
+      <data key="d7">9.033390743122764e-08</data>
+    </edge>
+    <edge source="blaOXA-91" target="ble">
+      <data key="d5">0.2175</data>
+      <data key="d6">26</data>
+      <data key="d7">6.547619099565702e-14</data>
+    </edge>
+    <edge source="blaOXA-95" target="parC_E88K">
+      <data key="d5">0.4332</data>
+      <data key="d6">27</data>
+      <data key="d7">1.0336844514672455e-28</data>
+    </edge>
+    <edge source="blaOXA-95" target="gyrA_S81L">
+      <data key="d5">0.0903</data>
+      <data key="d6">56</data>
+      <data key="d7">5.300830675833512e-07</data>
+    </edge>
+    <edge source="blaOXA-95" target="sul1">
+      <data key="d5">0.0565</data>
+      <data key="d6">31</data>
+      <data key="d7">0.026164584779765993</data>
+    </edge>
+    <edge source="blaOXA-98" target="sul2">
+      <data key="d5">0.0941</data>
+      <data key="d6">27</data>
+      <data key="d7">3.347293580688045e-05</data>
+    </edge>
+    <edge source="blaOXA-98" target="floR">
+      <data key="d5">0.0806</data>
+      <data key="d6">6</data>
+      <data key="d7">0.013306239537291825</data>
+    </edge>
+    <edge source="blaPER-1" target="sul2">
+      <data key="d5">0.097</data>
+      <data key="d6">28</data>
+      <data key="d7">1.7059841174518526e-05</data>
+    </edge>
+    <edge source="blaPER-1" target="gyrA_S81L">
+      <data key="d5">0.071</data>
+      <data key="d6">35</data>
+      <data key="d7">0.0002276596568012013</data>
+    </edge>
+    <edge source="blaPER-1" target="sul1">
+      <data key="d5">0.0561</data>
+      <data key="d6">21</data>
+      <data key="d7">0.030262773254710038</data>
+    </edge>
+    <edge source="blaPER-7" target="cmlA5">
+      <data key="d5">0.7629</data>
+      <data key="d6">59</data>
+      <data key="d7">1.0286806480840414e-84</data>
+    </edge>
+    <edge source="blaPER-7" target="dfrA45">
+      <data key="d5">0.5531</data>
+      <data key="d6">28</data>
+      <data key="d7">9.506851983638962e-38</data>
+    </edge>
+    <edge source="blaPER-7" target="sul1">
+      <data key="d5">0.2118</data>
+      <data key="d6">67</data>
+      <data key="d7">1.399486974857738e-25</data>
+    </edge>
+    <edge source="blaPER-7" target="ble">
+      <data key="d5">0.1968</data>
+      <data key="d6">28</data>
+      <data key="d7">2.0649248944440864e-12</data>
+    </edge>
+    <edge source="blaPER-7" target="mph(E)">
+      <data key="d5">0.1835</data>
+      <data key="d6">64</data>
+      <data key="d7">3.4603740258423917e-19</data>
+    </edge>
+    <edge source="blaPER-7" target="msr(E)">
+      <data key="d5">0.1773</data>
+      <data key="d6">63</data>
+      <data key="d7">8.217946134749356e-18</data>
+    </edge>
+    <edge source="blaPER-7" target="sul2">
+      <data key="d5">0.1719</data>
+      <data key="d6">62</data>
+      <data key="d7">1.2642210370034425e-16</data>
+    </edge>
+    <edge source="blaPER-7" target="gyrA_S81L">
+      <data key="d5">0.1005</data>
+      <data key="d6">69</data>
+      <data key="d7">1.1673040534443884e-08</data>
+    </edge>
+    <edge source="blaPER-7" target="parC_S84L">
+      <data key="d5">0.0923</data>
+      <data key="d6">63</data>
+      <data key="d7">5.266169612298292e-06</data>
+    </edge>
+    <edge source="blaTEM-1" target="tet(B)">
+      <data key="d5">0.4538</data>
+      <data key="d6">525</data>
+      <data key="d7">3.316169499937008e-110</data>
+    </edge>
+    <edge source="blaTEM-1" target="msr(E)">
+      <data key="d5">0.3518</data>
+      <data key="d6">452</data>
+      <data key="d7">2.4359646515852958e-64</data>
+    </edge>
+    <edge source="blaTEM-1" target="parC_S84L">
+      <data key="d5">0.3497</data>
+      <data key="d6">609</data>
+      <data key="d7">1.694041947855089e-75</data>
+    </edge>
+    <edge source="blaTEM-1" target="ftsI_A515V">
+      <data key="d5">0.3487</data>
+      <data key="d6">236</data>
+      <data key="d7">1.0861841412471014e-56</data>
+    </edge>
+    <edge source="blaTEM-1" target="mph(E)">
+      <data key="d5">0.3476</data>
+      <data key="d6">448</data>
+      <data key="d7">9.469184379048987e-63</data>
+    </edge>
+    <edge source="blaTEM-1" target="gyrA_S81L">
+      <data key="d5">0.3306</data>
+      <data key="d6">643</data>
+      <data key="d7">5.93433497692189e-76</data>
+    </edge>
+    <edge source="blaTEM-1" target="catB8">
+      <data key="d5">0.2875</data>
+      <data key="d6">218</data>
+      <data key="d7">3.669974912110809e-39</data>
+    </edge>
+    <edge source="blaTEM-1" target="sul1">
+      <data key="d5">0.1678</data>
+      <data key="d6">334</data>
+      <data key="d7">4.334547993927546e-15</data>
+    </edge>
+    <edge source="blaTEM-1" target="tet(A)">
+      <data key="d5">0.0813</data>
+      <data key="d6">25</data>
+      <data key="d7">0.0009832586669864174</data>
+    </edge>
+    <edge source="blaTEM-1" target="tet(X5)">
+      <data key="d5">0.0655</data>
+      <data key="d6">14</data>
+      <data key="d7">0.013306239537291825</data>
+    </edge>
+    <edge source="ble" target="cmlA5">
+      <data key="d5">0.2798</data>
+      <data key="d6">42</data>
+      <data key="d7">7.404611270813872e-23</data>
+    </edge>
+    <edge source="ble" target="dfrA45">
+      <data key="d5">0.2564</data>
+      <data key="d6">24</data>
+      <data key="d7">4.99258225482597e-17</data>
+    </edge>
+    <edge source="ble" target="sul2">
+      <data key="d5">0.1676</data>
+      <data key="d6">139</data>
+      <data key="d7">5.347218752952484e-15</data>
+    </edge>
+    <edge source="ble" target="mph(E)">
+      <data key="d5">0.1516</data>
+      <data key="d6">133</data>
+      <data key="d7">2.1755969895051137e-12</data>
+    </edge>
+    <edge source="ble" target="msr(E)">
+      <data key="d5">0.1438</data>
+      <data key="d6">131</data>
+      <data key="d7">3.120241023933626e-11</data>
+    </edge>
+    <edge source="ble" target="sat2">
+      <data key="d5">0.1089</data>
+      <data key="d6">13</data>
+      <data key="d7">0.00013433924000124037</data>
+    </edge>
+    <edge source="ble" target="dfrA1">
+      <data key="d5">0.0907</data>
+      <data key="d6">13</data>
+      <data key="d7">0.001227183757280335</data>
+    </edge>
+    <edge source="ble" target="sul1">
+      <data key="d5">0.0669</data>
+      <data key="d6">99</data>
+      <data key="d7">0.004634256366225447</data>
+    </edge>
+    <edge source="ble" target="floR">
+      <data key="d5">0.0625</data>
+      <data key="d6">17</data>
+      <data key="d7">0.022373547324074754</data>
+    </edge>
+    <edge source="catA1" target="tet(A)">
+      <data key="d5">0.6978</data>
+      <data key="d6">41</data>
+      <data key="d7">1.1074945034885497e-60</data>
+    </edge>
+    <edge source="catA1" target="sul1">
+      <data key="d5">0.2169</data>
+      <data key="d6">70</data>
+      <data key="d7">7.296728623592028e-27</data>
+    </edge>
+    <edge source="catA1" target="parC_S84L">
+      <data key="d5">0.0543</data>
+      <data key="d6">58</data>
+      <data key="d7">0.023330616352617167</data>
+    </edge>
+    <edge source="catB8" target="sul1">
+      <data key="d5">0.537</data>
+      <data key="d6">372</data>
+      <data key="d7">1.010815460871759e-162</data>
+    </edge>
+    <edge source="catB8" target="mph(E)">
+      <data key="d5">0.4388</data>
+      <data key="d6">344</data>
+      <data key="d7">2.981145888246137e-105</data>
+    </edge>
+    <edge source="catB8" target="msr(E)">
+      <data key="d5">0.4385</data>
+      <data key="d6">345</data>
+      <data key="d7">1.835029768105165e-105</data>
+    </edge>
+    <edge source="catB8" target="tet(B)">
+      <data key="d5">0.284</data>
+      <data key="d6">290</data>
+      <data key="d7">6.916934651450989e-43</data>
+    </edge>
+    <edge source="catB8" target="parC_S84L">
+      <data key="d5">0.2614</data>
+      <data key="d6">361</data>
+      <data key="d7">8.650002612501498e-45</data>
+    </edge>
+    <edge source="catB8" target="gyrA_S81L">
+      <data key="d5">0.2494</data>
+      <data key="d6">381</data>
+      <data key="d7">8.805548921166239e-49</data>
+    </edge>
+    <edge source="catB8" target="ftsI_T526S">
+      <data key="d5">0.0607</data>
+      <data key="d6">14</data>
+      <data key="d7">0.028308630564348312</data>
+    </edge>
+    <edge source="cmlA5" target="dfrA45">
+      <data key="d5">0.6439</data>
+      <data key="d6">36</data>
+      <data key="d7">4.4922523833644846e-55</data>
+    </edge>
+    <edge source="cmlA5" target="sul1">
+      <data key="d5">0.2474</data>
+      <data key="d6">85</data>
+      <data key="d7">1.59288849055309e-36</data>
+    </edge>
+    <edge source="cmlA5" target="sul2">
+      <data key="d5">0.2173</data>
+      <data key="d6">82</data>
+      <data key="d7">8.107936868375038e-28</data>
+    </edge>
+    <edge source="cmlA5" target="mph(E)">
+      <data key="d5">0.2005</data>
+      <data key="d6">78</data>
+      <data key="d7">1.1863471922164097e-22</data>
+    </edge>
+    <edge source="cmlA5" target="msr(E)">
+      <data key="d5">0.1993</data>
+      <data key="d6">78</data>
+      <data key="d7">1.87814298071493e-22</data>
+    </edge>
+    <edge source="cmlA5" target="dfrA1">
+      <data key="d5">0.1612</data>
+      <data key="d6">12</data>
+      <data key="d7">6.272540801527675e-07</data>
+    </edge>
+    <edge source="cmlA5" target="sat2">
+      <data key="d5">0.1485</data>
+      <data key="d6">10</data>
+      <data key="d7">6.575887802823646e-06</data>
+    </edge>
+    <edge source="cmlA5" target="gyrA_S81L">
+      <data key="d5">0.1015</data>
+      <data key="d6">83</data>
+      <data key="d7">4.2936708524482016e-08</data>
+    </edge>
+    <edge source="cmlA5" target="parC_S84L">
+      <data key="d5">0.0712</data>
+      <data key="d6">71</data>
+      <data key="d7">0.0012483536496174176</data>
+    </edge>
+    <edge source="dfrA1" target="sat2">
+      <data key="d5">0.9038</data>
+      <data key="d6">41</data>
+      <data key="d7">1.5483387468887337e-78</data>
+    </edge>
+    <edge source="dfrA1" target="sul2">
+      <data key="d5">0.1342</data>
+      <data key="d6">43</data>
+      <data key="d7">3.657961424826701e-10</data>
+    </edge>
+    <edge source="dfrA1" target="tet(X5)">
+      <data key="d5">0.1286</data>
+      <data key="d6">5</data>
+      <data key="d7">0.0008104106798912352</data>
+    </edge>
+    <edge source="dfrA1" target="tet(39)">
+      <data key="d5">0.0922</data>
+      <data key="d6">8</data>
+      <data key="d7">0.0030415662407252114</data>
+    </edge>
+    <edge source="dfrA1" target="sul1">
+      <data key="d5">0.0734</data>
+      <data key="d6">31</data>
+      <data key="d7">0.0022467252837245614</data>
+    </edge>
+    <edge source="dfrA1" target="floR">
+      <data key="d5">0.0715</data>
+      <data key="d6">7</data>
+      <data key="d7">0.0222855926487641</data>
+    </edge>
+    <edge source="dfrA1" target="gyrA_S81L">
+      <data key="d5">0.0649</data>
+      <data key="d6">47</data>
+      <data key="d7">0.0023362831306266403</data>
+    </edge>
+    <edge source="dfrA45" target="sul1">
+      <data key="d5">0.1593</data>
+      <data key="d6">36</data>
+      <data key="d7">4.372264995854148e-15</data>
+    </edge>
+    <edge source="dfrA45" target="mph(E)">
+      <data key="d5">0.1499</data>
+      <data key="d6">36</data>
+      <data key="d7">6.411945942130774e-14</data>
+    </edge>
+    <edge source="dfrA45" target="msr(E)">
+      <data key="d5">0.1491</data>
+      <data key="d6">36</data>
+      <data key="d7">8.001751263547441e-14</data>
+    </edge>
+    <edge source="dfrA45" target="sul2">
+      <data key="d5">0.1488</data>
+      <data key="d6">36</data>
+      <data key="d7">8.580677940642675e-14</data>
+    </edge>
+    <edge source="dfrA45" target="gyrA_S81L">
+      <data key="d5">0.0721</data>
+      <data key="d6">36</data>
+      <data key="d7">0.00017097661122682662</data>
+    </edge>
+    <edge source="dfrA45" target="parC_S84L">
+      <data key="d5">0.0599</data>
+      <data key="d6">32</data>
+      <data key="d7">0.008818189480247705</data>
+    </edge>
+    <edge source="floR" target="tet(X5)">
+      <data key="d5">0.4509</data>
+      <data key="d6">23</data>
+      <data key="d7">8.084603515759544e-30</data>
+    </edge>
+    <edge source="floR" target="tet(39)">
+      <data key="d5">0.3708</data>
+      <data key="d6">38</data>
+      <data key="d7">9.020961206616611e-30</data>
+    </edge>
+    <edge source="floR" target="sul2">
+      <data key="d5">0.2345</data>
+      <data key="d6">96</data>
+      <data key="d7">3.747955880344419e-32</data>
+    </edge>
+    <edge source="floR" target="mph(E)">
+      <data key="d5">0.0869</data>
+      <data key="d6">61</data>
+      <data key="d7">0.0001450768284402155</data>
+    </edge>
+    <edge source="floR" target="msr(E)">
+      <data key="d5">0.0857</data>
+      <data key="d6">61</data>
+      <data key="d7">0.00018051524213200508</data>
+    </edge>
+    <edge source="floR" target="parC_S84L">
+      <data key="d5">0.0575</data>
+      <data key="d6">79</data>
+      <data key="d7">0.01441576162023327</data>
+    </edge>
+    <edge source="floR" target="gyrA_S81L">
+      <data key="d5">0.0542</data>
+      <data key="d6">86</data>
+      <data key="d7">0.020980381757861575</data>
+    </edge>
+    <edge source="ftsI_A515V" target="msr(E)">
+      <data key="d5">0.4114</data>
+      <data key="d6">325</data>
+      <data key="d7">7.133172599501673e-92</data>
+    </edge>
+    <edge source="ftsI_A515V" target="mph(E)">
+      <data key="d5">0.4093</data>
+      <data key="d6">323</data>
+      <data key="d7">1.6850696698151028e-90</data>
+    </edge>
+    <edge source="ftsI_A515V" target="tet(B)">
+      <data key="d5">0.4034</data>
+      <data key="d6">333</data>
+      <data key="d7">2.5397563317994704e-91</data>
+    </edge>
+    <edge source="ftsI_A515V" target="parC_S84L">
+      <data key="d5">0.3027</data>
+      <data key="d6">367</data>
+      <data key="d7">1.080340802936408e-68</data>
+    </edge>
+    <edge source="ftsI_A515V" target="gyrA_S81L">
+      <data key="d5">0.2491</data>
+      <data key="d6">369</data>
+      <data key="d7">9.795680770736079e-51</data>
+    </edge>
+    <edge source="ftsI_A515V" target="sul2">
+      <data key="d5">0.0633</data>
+      <data key="d6">178</data>
+      <data key="d7">0.007202081278254317</data>
+    </edge>
+    <edge source="ftsI_T526S" target="sat2">
+      <data key="d5">0.079</data>
+      <data key="d6">4</data>
+      <data key="d7">0.02979434976363312</data>
+    </edge>
+    <edge source="ftsI_T526S" target="gyrA_S81L">
+      <data key="d5">0.0789</data>
+      <data key="d6">43</data>
+      <data key="d7">2.2771663407091457e-05</data>
+    </edge>
+    <edge source="ftsI_T526S" target="mph(E)">
+      <data key="d5">0.0612</data>
+      <data key="d6">27</data>
+      <data key="d7">0.013751152708437695</data>
+    </edge>
+    <edge source="ftsI_T526S" target="msr(E)">
+      <data key="d5">0.0605</data>
+      <data key="d6">27</data>
+      <data key="d7">0.01519946123287282</data>
+    </edge>
+    <edge source="ftsI_T526S" target="parC_S84L">
+      <data key="d5">0.0574</data>
+      <data key="d6">37</data>
+      <data key="d7">0.013914307780110113</data>
+    </edge>
+    <edge source="gyrA_S81L" target="parC_S84L">
+      <data key="d5">0.8056</data>
+      <data key="d6">1567</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="gyrA_S81L" target="tet(B)">
+      <data key="d5">0.4893</data>
+      <data key="d6">1025</data>
+      <data key="d7">6.966603198583446e-157</data>
+    </edge>
+    <edge source="gyrA_S81L" target="mph(E)">
+      <data key="d5">0.4295</data>
+      <data key="d6">940</data>
+      <data key="d7">3.6625945288230355e-117</data>
+    </edge>
+    <edge source="gyrA_S81L" target="msr(E)">
+      <data key="d5">0.4262</data>
+      <data key="d6">943</data>
+      <data key="d7">2.239178898713526e-114</data>
+    </edge>
+    <edge source="gyrA_S81L" target="sul1">
+      <data key="d5">0.3964</data>
+      <data key="d6">869</data>
+      <data key="d7">2.1961400618824018e-100</data>
+    </edge>
+    <edge source="gyrA_S81L" target="sul2">
+      <data key="d5">0.2754</data>
+      <data key="d6">868</data>
+      <data key="d7">5.284425773738981e-43</data>
+    </edge>
+    <edge source="gyrA_S81L" target="parC_E88K">
+      <data key="d5">0.0974</data>
+      <data key="d6">65</data>
+      <data key="d7">3.775535277058362e-08</data>
+    </edge>
+    <edge source="gyrA_S81L" target="sat2">
+      <data key="d5">0.0621</data>
+      <data key="d6">39</data>
+      <data key="d7">0.0038190881003505915</data>
+    </edge>
+    <edge source="gyrA_S81L" target="tet(X5)">
+      <data key="d5">0.0599</data>
+      <data key="d6">25</data>
+      <data key="d7">0.0038298633116878303</data>
+    </edge>
+    <edge source="mph(E)" target="msr(E)">
+      <data key="d5">0.9756</data>
+      <data key="d6">955</data>
+      <data key="d7">0.0</data>
+    </edge>
+    <edge source="mph(E)" target="tet(B)">
+      <data key="d5">0.437</data>
+      <data key="d6">674</data>
+      <data key="d7">2.2737375973040624e-101</data>
+    </edge>
+    <edge source="mph(E)" target="parC_S84L">
+      <data key="d5">0.4039</data>
+      <data key="d6">861</data>
+      <data key="d7">4.581703541017368e-93</data>
+    </edge>
+    <edge source="mph(E)" target="sul1">
+      <data key="d5">0.3083</data>
+      <data key="d6">539</data>
+      <data key="d7">8.90241253960214e-50</data>
+    </edge>
+    <edge source="mph(E)" target="sul2">
+      <data key="d5">0.1814</data>
+      <data key="d6">500</data>
+      <data key="d7">9.07577835449056e-18</data>
+    </edge>
+    <edge source="mph(E)" target="tet(39)">
+      <data key="d5">0.1048</data>
+      <data key="d6">61</data>
+      <data key="d7">2.6957404374523316e-06</data>
+    </edge>
+    <edge source="msr(E)" target="tet(B)">
+      <data key="d5">0.432</data>
+      <data key="d6">674</data>
+      <data key="d7">4.577754360593536e-99</data>
+    </edge>
+    <edge source="msr(E)" target="parC_S84L">
+      <data key="d5">0.4072</data>
+      <data key="d6">867</data>
+      <data key="d7">1.4821071513901424e-94</data>
+    </edge>
+    <edge source="msr(E)" target="sul1">
+      <data key="d5">0.3111</data>
+      <data key="d6">543</data>
+      <data key="d7">1.0873886964780262e-50</data>
+    </edge>
+    <edge source="msr(E)" target="sul2">
+      <data key="d5">0.1735</data>
+      <data key="d6">498</data>
+      <data key="d7">2.5484352216925377e-16</data>
+    </edge>
+    <edge source="msr(E)" target="tet(39)">
+      <data key="d5">0.1037</data>
+      <data key="d6">61</data>
+      <data key="d7">3.4569557520806758e-06</data>
+    </edge>
+    <edge source="parC_E88K" target="sul1">
+      <data key="d5">0.0717</data>
+      <data key="d6">38</data>
+      <data key="d7">0.0027699435606546845</data>
+    </edge>
+    <edge source="parC_S84L" target="tet(B)">
+      <data key="d5">0.4534</data>
+      <data key="d6">937</data>
+      <data key="d7">2.7580439348346124e-117</data>
+    </edge>
+    <edge source="parC_S84L" target="sul1">
+      <data key="d5">0.2728</data>
+      <data key="d6">741</data>
+      <data key="d7">2.2226446012425753e-41</data>
+    </edge>
+    <edge source="parC_S84L" target="sul2">
+      <data key="d5">0.188</data>
+      <data key="d6">747</data>
+      <data key="d7">1.6796750313066725e-19</data>
+    </edge>
+    <edge source="parC_S84L" target="tet(X5)">
+      <data key="d5">0.0566</data>
+      <data key="d6">23</data>
+      <data key="d7">0.014843557069199084</data>
+    </edge>
+    <edge source="sat2" target="sul2">
+      <data key="d5">0.159</data>
+      <data key="d6">41</data>
+      <data key="d7">9.454734552855514e-16</data>
+    </edge>
+    <edge source="sat2" target="tet(X5)">
+      <data key="d5">0.0814</data>
+      <data key="d6">3</data>
+      <data key="d7">0.04272545521504183</data>
+    </edge>
+    <edge source="sat2" target="sul1">
+      <data key="d5">0.0568</data>
+      <data key="d6">24</data>
+      <data key="d7">0.02660845722778123</data>
+    </edge>
+    <edge source="sul1" target="tet(A)">
+      <data key="d5">0.1824</data>
+      <data key="d6">47</data>
+      <data key="d7">8.005603987983806e-20</data>
+    </edge>
+    <edge source="sul1" target="tet(B)">
+      <data key="d5">0.1751</data>
+      <data key="d6">491</data>
+      <data key="d7">1.2833628775802524e-16</data>
+    </edge>
+    <edge source="sul2" target="tet(B)">
+      <data key="d5">0.2268</data>
+      <data key="d6">556</data>
+      <data key="d7">2.1960096373157585e-27</data>
+    </edge>
+    <edge source="sul2" target="tet(X5)">
+      <data key="d5">0.1237</data>
+      <data key="d6">25</data>
+      <data key="d7">1.5504546474784888e-09</data>
+    </edge>
+    <edge source="sul2" target="tet(39)">
+      <data key="d5">0.0945</data>
+      <data key="d6">59</data>
+      <data key="d7">2.9198552896425645e-05</data>
+    </edge>
+    <edge source="tet(39)" target="tet(X5)">
+      <data key="d5">0.1504</data>
+      <data key="d6">8</data>
+      <data key="d7">1.6540026315313248e-05</data>
+    </edge>
+  </graph>
+</graphml>
