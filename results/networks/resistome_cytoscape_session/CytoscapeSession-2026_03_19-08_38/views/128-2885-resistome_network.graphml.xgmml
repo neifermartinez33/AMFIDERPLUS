@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph id="2885" label="2885" cy:view="1" cy:networkId="128" cy:visualStyle="default" cy:rendererId="org.cytoscape.ding" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+  <graphics>
+    <att name="NETWORK_SCALE_FACTOR" value="0.5653995061606338" type="string" cy:type="String"/>
+    <att name="NETWORK_TITLE" value="" type="string" cy:type="String"/>
+    <att name="NETWORK_NODE_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Y_LOCATION" value="-12.120957282920875" type="string" cy:type="String"/>
+    <att name="NETWORK_WIDTH" value="1370.0" type="string" cy:type="String"/>
+    <att name="NETWORK_FORCE_HIGH_DETAIL" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_HEIGHT" value="605.0" type="string" cy:type="String"/>
+    <att name="NETWORK_EDGE_SELECTION" value="true" type="string" cy:type="String"/>
+    <att name="NETWORK_NODE_LABEL_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_ANNOTATION_SELECTION" value="false" type="string" cy:type="String"/>
+    <att name="NETWORK_DEPTH" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_Z_LOCATION" value="0.0" type="string" cy:type="String"/>
+    <att name="NETWORK_CENTER_X_LOCATION" value="31.001545392098876" type="string" cy:type="String"/>
+  </graphics>
+  <node id="2969" label="aacA16" cy:nodeId="192">
+    <graphics z="0.0" y="63.30227932825193" x="113.896330676236"/>
+  </node>
+  <node id="2937" label="blaADC-73" cy:nodeId="288">
+    <graphics z="0.0" y="140.98075375452146" x="-337.094636120639"/>
+  </node>
+  <node id="2905" label="catB8" cy:nodeId="384">
+    <graphics z="0.0" y="242.65629086389646" x="-104.22625462039485"/>
+  </node>
+  <node id="2958" label="aph(3&amp;apos;)-Ia" cy:nodeId="225">
+    <graphics z="0.0" y="150.95048031702146" x="-80.94048801883235"/>
+  </node>
+  <node id="2926" label="blaOXA-235" cy:nodeId="321">
+    <graphics z="0.0" y="132.55462155237302" x="191.54125865475163"/>
+  </node>
+  <node id="2894" label="parC_E88K" cy:nodeId="417">
+    <graphics z="0.0" y="-162.9575168143262" x="-156.1729709289886"/>
+  </node>
+  <node id="2947" label="blaADC-169" cy:nodeId="258">
+    <graphics z="0.0" y="-228.49394717321292" x="208.94531138912663"/>
+  </node>
+  <node id="2915" label="blaOXA-72" cy:nodeId="354">
+    <graphics z="0.0" y="117.87151608362302" x="239.2929371215485"/>
+  </node>
+  <node id="2968" label="aadA1" cy:nodeId="195">
+    <graphics z="0.0" y="67.40159115686521" x="-42.15693012698665"/>
+  </node>
+  <node id="2936" label="blaADC-76" cy:nodeId="291">
+    <graphics z="0.0" y="-277.18636050329104" x="101.97773631588444"/>
+  </node>
+  <node id="2904" label="cmlA5" cy:nodeId="387">
+    <graphics z="0.0" y="-51.46114363775149" x="61.189787707486005"/>
+  </node>
+  <node id="2957" label="aph(3&amp;apos;)-VI" cy:nodeId="228">
+    <graphics z="0.0" y="152.31019101038083" x="306.7930286742829"/>
+  </node>
+  <node id="2925" label="blaOXA-239" cy:nodeId="324">
+    <graphics z="0.0" y="-67.87343325719729" x="165.2946461059235"/>
+  </node>
+  <node id="2893" label="parC_S84L" cy:nodeId="420">
+    <graphics z="0.0" y="170.32938656702146" x="-222.29470173343196"/>
+  </node>
+  <node id="2946" label="blaADC-176" cy:nodeId="261">
+    <graphics z="0.0" y="-268.9521686087598" x="13.496496997036786"/>
+  </node>
+  <node id="2914" label="blaOXA-82" cy:nodeId="357">
+    <graphics z="0.0" y="-152.92347445592776" x="-264.63078419192806"/>
+  </node>
+  <node id="2967" label="aadA2" cy:nodeId="198">
+    <graphics z="0.0" y="-178.60406985387698" x="-24.71930805667415"/>
+  </node>
+  <node id="2935" label="blaADC-79" cy:nodeId="294">
+    <graphics z="0.0" y="2.079474305058568" x="-254.26237598880306"/>
+  </node>
+  <node id="2903" label="dfrA1" cy:nodeId="390">
+    <graphics z="0.0" y="-256.48563113317385" x="-97.91466156466976"/>
+  </node>
+  <node id="2956" label="aph(3&amp;apos;)-VIa" cy:nodeId="231">
+    <graphics z="0.0" y="124.35172543420896" x="-21.136071362338214"/>
+  </node>
+  <node id="2924" label="blaOXA-259" cy:nodeId="327">
+    <graphics z="0.0" y="332.57276425256833" x="-83.94882885440364"/>
+  </node>
+  <node id="2892" label="sat2" cy:nodeId="423">
+    <graphics z="0.0" y="-259.7452899466504" x="-39.248620190463214"/>
+  </node>
+  <node id="2945" label="blaADC-199" cy:nodeId="264">
+    <graphics z="0.0" y="201.2168987740527" x="213.39819224850163"/>
+  </node>
+  <node id="2913" label="blaOXA-91" cy:nodeId="360">
+    <graphics z="0.0" y="226.3198040474902" x="269.5026539184235"/>
+  </node>
+  <node id="2966" label="aadA5" cy:nodeId="201">
+    <graphics z="0.0" y="-123.24468722448245" x="130.4807270385407"/>
+  </node>
+  <node id="2934" label="blaCARB-16" cy:nodeId="297">
+    <graphics z="0.0" y="95.93599972620115" x="271.346281848111"/>
+  </node>
+  <node id="2902" label="dfrA45" cy:nodeId="393">
+    <graphics z="0.0" y="-48.908251906489284" x="118.37698253170475"/>
+  </node>
+  <node id="2955" label="aph(6)-Id" cy:nodeId="234">
+    <graphics z="0.0" y="51.322283600712865" x="-215.9522563598968"/>
+  </node>
+  <node id="2923" label="blaOXA-402" cy:nodeId="330">
+    <graphics z="0.0" y="-177.45930972204104" x="152.625578723111"/>
+  </node>
+  <node id="2891" label="sul1" cy:nodeId="426">
+    <graphics z="0.0" y="75.3122585762988" x="-83.53313938601985"/>
+  </node>
+  <node id="2944" label="blaADC-222" cy:nodeId="267">
+    <graphics z="0.0" y="-291.38814272985354" x="-195.0988856933929"/>
+  </node>
+  <node id="2912" label="blaOXA-95" cy:nodeId="363">
+    <graphics z="0.0" y="-300.39119448766604" x="-147.92290226443782"/>
+  </node>
+  <node id="2965" label="aadT" cy:nodeId="204">
+    <graphics z="0.0" y="46.133494233037084" x="153.20367320553288"/>
+  </node>
+  <node id="2933" label="blaCARB-2" cy:nodeId="300">
+    <graphics z="0.0" y="-92.62172045812503" x="-169.25566593631282"/>
+  </node>
+  <node id="2901" label="floR" cy:nodeId="396">
+    <graphics z="0.0" y="-183.13760867223635" x="264.0805042602204"/>
+  </node>
+  <node id="2954" label="armA" cy:nodeId="237">
+    <graphics z="0.0" y="149.56475338831052" x="-143.36387363894954"/>
+  </node>
+  <node id="2922" label="blaOXA-51" cy:nodeId="333">
+    <graphics z="0.0" y="-177.2906695853223" x="617.3856190063141"/>
+  </node>
+  <node id="2890" label="sul2" cy:nodeId="429">
+    <graphics z="0.0" y="-75.28302493200198" x="-110.07387558444515"/>
+  </node>
+  <node id="2975" label="aac(3)-IIe" cy:nodeId="174">
+    <graphics z="0.0" y="159.88123593225583" x="85.5429371215485"/>
+  </node>
+  <node id="2943" label="blaADC-25" cy:nodeId="270">
+    <graphics z="0.0" y="-43.10469832525149" x="-457.09509388431087"/>
+  </node>
+  <node id="2911" label="blaOXA-98" cy:nodeId="366">
+    <graphics z="0.0" y="255.78299984827146" x="136.032561144986"/>
+  </node>
+  <node id="2964" label="adeC" cy:nodeId="207">
+    <graphics z="0.0" y="116.41678891077146" x="-163.69603458865657"/>
+  </node>
+  <node id="2932" label="blaNDM-1" cy:nodeId="303">
+    <graphics z="0.0" y="127.62131771936521" x="112.08257945553288"/>
+  </node>
+  <node id="2900" label="fos" cy:nodeId="399">
+    <graphics z="0.0" y="44.489771698857396" x="-458.4868785522796"/>
+  </node>
+  <node id="2953" label="arr-2" cy:nodeId="240">
+    <graphics z="0.0" y="-76.31976428136721" x="42.62522777096257"/>
+  </node>
+  <node id="2921" label="blaOXA-58" cy:nodeId="336">
+    <graphics z="0.0" y="69.78103909387693" x="197.9147632934235"/>
+  </node>
+  <node id="2889" label="tet(39)" cy:nodeId="432">
+    <graphics z="0.0" y="-276.44832339391604" x="142.635588488736"/>
+  </node>
+  <node id="2974" label="aac(3)-Ia" cy:nodeId="177">
+    <graphics z="0.0" y="-40.172575856303126" x="-4.800164379916339"/>
+  </node>
+  <node id="2942" label="blaADC-26" cy:nodeId="273">
+    <graphics z="0.0" y="122.38823971643552" x="-52.7756435058929"/>
+  </node>
+  <node id="2910" label="blaPER-1" cy:nodeId="369">
+    <graphics z="0.0" y="-206.83025088415042" x="-436.7133189819671"/>
+  </node>
+  <node id="2963" label="adeS_G336S" cy:nodeId="210">
+    <graphics z="0.0" y="-48.02671446905032" x="286.52416881100163"/>
+  </node>
+  <node id="2931" label="blaOXA" cy:nodeId="306">
+    <graphics z="0.0" y="-44.84514060125247" x="-79.65689960940853"/>
+  </node>
+  <node id="2899" label="ftsI_A515V" cy:nodeId="402">
+    <graphics z="0.0" y="202.72967038049802" x="-318.46476856692806"/>
+  </node>
+  <node id="2952" label="blaADC" cy:nodeId="243">
+    <graphics z="0.0" y="-258.8519946585645" x="362.78930552975163"/>
+  </node>
+  <node id="2920" label="blaOXA-64" cy:nodeId="339">
+    <graphics z="0.0" y="316.87162289514646" x="13.301771960415692"/>
+  </node>
+  <node id="2888" label="tet(A)" cy:nodeId="435">
+    <graphics z="0.0" y="-211.56624331579104" x="-132.0561725281097"/>
+  </node>
+  <node id="2973" label="aac(6&amp;apos;)-Ian" cy:nodeId="180">
+    <graphics z="0.0" y="205.7459972847949" x="121.69877513424382"/>
+  </node>
+  <node id="2941" label="blaADC-277" cy:nodeId="276">
+    <graphics z="0.0" y="477.70695004358396" x="15.522353015103192"/>
+  </node>
+  <node id="2909" label="blaPER-7" cy:nodeId="372">
+    <graphics z="0.0" y="-115.78426852331057" x="41.434721789517255"/>
+  </node>
+  <node id="2962" label="adeS_H189Y" cy:nodeId="213">
+    <graphics z="0.0" y="244.58317074670896" x="47.99394114986882"/>
+  </node>
+  <node id="2930" label="blaOXA-100" cy:nodeId="309">
+    <graphics z="0.0" y="-64.94263758764163" x="-267.9450084350921"/>
+  </node>
+  <node id="2898" label="ftsI_T526S" cy:nodeId="405">
+    <graphics z="0.0" y="42.29001126184568" x="262.21658214107975"/>
+  </node>
+  <node id="2951" label="blaADC-11" cy:nodeId="246">
+    <graphics z="0.0" y="-233.4025622855176" x="-232.56913868411556"/>
+  </node>
+  <node id="2919" label="blaOXA-65" cy:nodeId="342">
+    <graphics z="0.0" y="-116.69022860631839" x="257.7827747680329"/>
+  </node>
+  <node id="2887" label="tet(B)" cy:nodeId="438">
+    <graphics z="0.0" y="106.15330014124021" x="-230.98860279544368"/>
+  </node>
+  <node id="2972" label="aac(6&amp;apos;)-Ib&amp;apos;" cy:nodeId="183">
+    <graphics z="0.0" y="172.98884091272458" x="-40.50679127200618"/>
+  </node>
+  <node id="2940" label="blaADC-30" cy:nodeId="279">
+    <graphics z="0.0" y="202.5447796334277" x="-73.72292820437923"/>
+  </node>
+  <node id="2908" label="blaTEM-1" cy:nodeId="375">
+    <graphics z="0.0" y="222.0494183053027" x="-210.12894550784603"/>
+  </node>
+  <node id="2961" label="adeS_N125K" cy:nodeId="216">
+    <graphics z="0.0" y="-12.62127604589358" x="216.47622569576725"/>
+  </node>
+  <node id="2929" label="blaOXA-104" cy:nodeId="312">
+    <graphics z="0.0" y="-84.70391192541018" x="-58.4648524902679"/>
+  </node>
+  <node id="2897" label="gyrA_S81L" cy:nodeId="408">
+    <graphics z="0.0" y="136.53844723596677" x="-203.64003864749446"/>
+  </node>
+  <node id="2950" label="blaADC-152" cy:nodeId="249">
+    <graphics z="0.0" y="-11.721575881098659" x="159.58013804928288"/>
+  </node>
+  <node id="2918" label="blaOXA-66" cy:nodeId="345">
+    <graphics z="0.0" y="192.95221981897458" x="-180.94896809085384"/>
+  </node>
+  <node id="2886" label="tet(X5)" cy:nodeId="441">
+    <graphics z="0.0" y="-121.81416812047854" x="210.02099498287663"/>
+  </node>
+  <node id="2971" label="aac(6&amp;apos;)-Ib3" cy:nodeId="186">
+    <graphics z="0.0" y="-3.6491099844922132" x="-176.9641658447601"/>
+  </node>
+  <node id="2939" label="blaADC-33" cy:nodeId="282">
+    <graphics z="0.0" y="-132.7715045462598" x="-313.83607593997493"/>
+  </node>
+  <node id="2907" label="ble" cy:nodeId="378">
+    <graphics z="0.0" y="135.51957211389646" x="139.33665355221257"/>
+  </node>
+  <node id="2960" label="ant(2&amp;apos;&amp;apos;)-Ia" cy:nodeId="219">
+    <graphics z="0.0" y="-223.10736575231448" x="8.247954211392255"/>
+  </node>
+  <node id="2928" label="blaOXA-120" cy:nodeId="315">
+    <graphics z="0.0" y="-43.031853343104274" x="514.2872303344391"/>
+  </node>
+  <node id="2896" label="mph(E)" cy:nodeId="411">
+    <graphics z="0.0" y="48.29681668176755" x="-152.87850681766048"/>
+  </node>
+  <node id="2976" label="aac(3)-IId" cy:nodeId="156">
+    <graphics z="0.0" y="-91.64491763219729" x="94.06786998287663"/>
+  </node>
+  <node id="2949" label="blaADC-154" cy:nodeId="252">
+    <graphics z="0.0" y="-484.04173770055667" x="257.2568958617829"/>
+  </node>
+  <node id="2917" label="blaOXA-68" cy:nodeId="348">
+    <graphics z="0.0" y="-269.55750002965823" x="191.40728648678288"/>
+  </node>
+  <node id="2970" label="aac(6&amp;apos;)-Ib4" cy:nodeId="189">
+    <graphics z="0.0" y="17.89400372400388" x="226.69402965084538"/>
+  </node>
+  <node id="2938" label="blaADC-52" cy:nodeId="285">
+    <graphics z="0.0" y="252.04654965295896" x="200.90869029537663"/>
+  </node>
+  <node id="2906" label="catA1" cy:nodeId="381">
+    <graphics z="0.0" y="-213.70232119665042" x="-83.67428890689388"/>
+  </node>
+  <node id="2959" label="aph(3&amp;apos;&amp;apos;)-Ib" cy:nodeId="222">
+    <graphics z="0.0" y="75.17584500208005" x="-221.7279140137054"/>
+  </node>
+  <node id="2927" label="blaOXA-23" cy:nodeId="318">
+    <graphics z="0.0" y="87.27977261438474" x="-267.55249134524837"/>
+  </node>
+  <node id="2895" label="msr(E)" cy:nodeId="414">
+    <graphics z="0.0" y="90.58895382776365" x="-136.26466480716243"/>
+  </node>
+  <node id="2948" label="blaADC-158" cy:nodeId="255">
+    <graphics z="0.0" y="339.1414288033496" x="94.20750316158757"/>
+  </node>
+  <node id="2916" label="blaOXA-69" cy:nodeId="351">
+    <graphics z="0.0" y="-204.86504092321292" x="-281.9116832397796"/>
+  </node>
+</graph>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cyTables>
+    <virtualColumns>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-87+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-87+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="weight" sourceColumn="weight" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-87+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="n11" sourceColumn="n11" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-87+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="p_adj" sourceColumn="p_adj" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-87+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNetwork-87+shared+network.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-resistome_network.graphml+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared interaction" sourceColumn="shared interaction" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="weight" sourceColumn="weight" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="n11" sourceColumn="n11" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="p_adj" sourceColumn="p_adj" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyEdge-87+shared+edge.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Class" sourceColumn="Class" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Subclass" sourceColumn="Subclass" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Scope" sourceColumn="Scope" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="prevalence" sourceColumn="prevalence" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="n_genomes" sourceColumn="n_genomes" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-87+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNetwork-87+shared+network.cytable" sourceJoinKey="SUID" targetTable="87-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-87+default+network.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="shared name" sourceColumn="shared name" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Class" sourceColumn="Class" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Subclass" sourceColumn="Subclass" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="Scope" sourceColumn="Scope" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="prevalence" sourceColumn="prevalence" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+        <virtualColumn name="n_genomes" sourceColumn="n_genomes" sourceTable="87-resistome_network.graphml/SHARED_ATTRS-org.cytoscape.model.CyNode-87+shared+node.cytable" sourceJoinKey="SUID" targetTable="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" targetJoinKey="SUID" immutable="false"/>
+    </virtualColumns>
+    <tableViews>
+        <tableView table="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNode-resistome_network.graphml+default+node.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name" styleTitle="44ea32e1-a517-460a-9bbe-7ab2a6a8ba59">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="Class">
+                <bypassValue name="COLUMN_WIDTH" value="95"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="Subclass">
+                <bypassValue name="COLUMN_WIDTH" value="114"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="Scope">
+                <bypassValue name="COLUMN_WIDTH" value="99"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="prevalence">
+                <bypassValue name="COLUMN_WIDTH" value="127"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="n_genomes">
+                <bypassValue name="COLUMN_WIDTH" value="129"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyNetwork-resistome_network.graphml+default+network.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="__Annotations">
+                <bypassValue name="COLUMN_WIDTH" value="124"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+        </tableView>
+        <tableView table="128-resistome_network.graphml/LOCAL_ATTRS-org.cytoscape.model.CyEdge-resistome_network.graphml+default+edge.cytable" rendererId="org.cytoscape.view.table.renderer" tableNamespace="USER">
+            <columnView columnName="SUID">
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="shared name">
+                <bypassValue name="COLUMN_WIDTH" value="154"/>
+                <bypassValue name="COLUMN_GRAVITY" value="1.0"/>
+            </columnView>
+            <columnView columnName="shared interaction">
+                <bypassValue name="COLUMN_WIDTH" value="182"/>
+                <bypassValue name="COLUMN_GRAVITY" value="2.0"/>
+            </columnView>
+            <columnView columnName="name">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="3.0"/>
+            </columnView>
+            <columnView columnName="selected">
+                <bypassValue name="COLUMN_EDITABLE" value="false"/>
+                <bypassValue name="COLUMN_VISIBLE" value="false"/>
+            </columnView>
+            <columnView columnName="interaction">
+                <bypassValue name="COLUMN_WIDTH" value="122"/>
+                <bypassValue name="COLUMN_GRAVITY" value="4.0"/>
+            </columnView>
+            <columnView columnName="weight">
+                <bypassValue name="COLUMN_WIDTH" value="102"/>
+                <bypassValue name="COLUMN_GRAVITY" value="5.0"/>
+            </columnView>
+            <columnView columnName="n11">
+                <bypassValue name="COLUMN_WIDTH" value="86"/>
+                <bypassValue name="COLUMN_GRAVITY" value="6.0"/>
+            </columnView>
+            <columnView columnName="p_adj">
+                <bypassValue name="COLUMN_WIDTH" value="94"/>
+                <bypassValue name="COLUMN_GRAVITY" value="7.0"/>
+            </columnView>
+        </tableView>
+    </tableViews>
+</cyTables>

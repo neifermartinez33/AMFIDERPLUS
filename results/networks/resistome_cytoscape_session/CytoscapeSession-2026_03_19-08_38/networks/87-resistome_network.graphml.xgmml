@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph id="87" label="resistome_network.graphml" cy:view="0" cy:registered="0" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+  <att>
+    <graph id="128" label="resistome_network.graphml" cy:registered="1">
+      <node id="441" label="tet(X5)"/>
+      <node id="438" label="tet(B)"/>
+      <node id="435" label="tet(A)"/>
+      <node id="432" label="tet(39)"/>
+      <node id="429" label="sul2"/>
+      <node id="426" label="sul1"/>
+      <node id="423" label="sat2"/>
+      <node id="420" label="parC_S84L"/>
+      <node id="417" label="parC_E88K"/>
+      <node id="414" label="msr(E)"/>
+      <node id="411" label="mph(E)"/>
+      <node id="408" label="gyrA_S81L"/>
+      <node id="405" label="ftsI_T526S"/>
+      <node id="402" label="ftsI_A515V"/>
+      <node id="399" label="fos"/>
+      <node id="396" label="floR"/>
+      <node id="393" label="dfrA45"/>
+      <node id="390" label="dfrA1"/>
+      <node id="387" label="cmlA5"/>
+      <node id="384" label="catB8"/>
+      <node id="381" label="catA1"/>
+      <node id="378" label="ble"/>
+      <node id="375" label="blaTEM-1"/>
+      <node id="372" label="blaPER-7"/>
+      <node id="369" label="blaPER-1"/>
+      <node id="366" label="blaOXA-98"/>
+      <node id="363" label="blaOXA-95"/>
+      <node id="360" label="blaOXA-91"/>
+      <node id="357" label="blaOXA-82"/>
+      <node id="354" label="blaOXA-72"/>
+      <node id="351" label="blaOXA-69"/>
+      <node id="348" label="blaOXA-68"/>
+      <node id="345" label="blaOXA-66"/>
+      <node id="342" label="blaOXA-65"/>
+      <node id="339" label="blaOXA-64"/>
+      <node id="336" label="blaOXA-58"/>
+      <node id="333" label="blaOXA-51"/>
+      <node id="330" label="blaOXA-402"/>
+      <node id="327" label="blaOXA-259"/>
+      <node id="324" label="blaOXA-239"/>
+      <node id="321" label="blaOXA-235"/>
+      <node id="318" label="blaOXA-23"/>
+      <node id="315" label="blaOXA-120"/>
+      <node id="312" label="blaOXA-104"/>
+      <node id="309" label="blaOXA-100"/>
+      <node id="306" label="blaOXA"/>
+      <node id="303" label="blaNDM-1"/>
+      <node id="300" label="blaCARB-2"/>
+      <node id="297" label="blaCARB-16"/>
+      <node id="294" label="blaADC-79"/>
+      <node id="291" label="blaADC-76"/>
+      <node id="288" label="blaADC-73"/>
+      <node id="285" label="blaADC-52"/>
+      <node id="282" label="blaADC-33"/>
+      <node id="279" label="blaADC-30"/>
+      <node id="276" label="blaADC-277"/>
+      <node id="273" label="blaADC-26"/>
+      <node id="270" label="blaADC-25"/>
+      <node id="267" label="blaADC-222"/>
+      <node id="264" label="blaADC-199"/>
+      <node id="261" label="blaADC-176"/>
+      <node id="258" label="blaADC-169"/>
+      <node id="255" label="blaADC-158"/>
+      <node id="252" label="blaADC-154"/>
+      <node id="249" label="blaADC-152"/>
+      <node id="246" label="blaADC-11"/>
+      <node id="243" label="blaADC"/>
+      <node id="240" label="arr-2"/>
+      <node id="237" label="armA"/>
+      <node id="234" label="aph(6)-Id"/>
+      <node id="231" label="aph(3&amp;apos;)-VIa"/>
+      <node id="228" label="aph(3&amp;apos;)-VI"/>
+      <node id="225" label="aph(3&amp;apos;)-Ia"/>
+      <node id="222" label="aph(3&amp;apos;&amp;apos;)-Ib"/>
+      <node id="219" label="ant(2&amp;apos;&amp;apos;)-Ia"/>
+      <node id="216" label="adeS_N125K"/>
+      <node id="213" label="adeS_H189Y"/>
+      <node id="210" label="adeS_G336S"/>
+      <node id="207" label="adeC"/>
+      <node id="204" label="aadT"/>
+      <node id="201" label="aadA5"/>
+      <node id="198" label="aadA2"/>
+      <node id="195" label="aadA1"/>
+      <node id="192" label="aacA16"/>
+      <node id="189" label="aac(6&amp;apos;)-Ib4"/>
+      <node id="186" label="aac(6&amp;apos;)-Ib3"/>
+      <node id="183" label="aac(6&amp;apos;)-Ib&amp;apos;"/>
+      <node id="180" label="aac(6&amp;apos;)-Ian"/>
+      <node id="177" label="aac(3)-Ia"/>
+      <node id="174" label="aac(3)-IIe"/>
+      <node id="156" label="aac(3)-IId"/>
+      <edge id="2880" label="tet(39) (-) tet(X5)" source="432" target="441" cy:directed="0"/>
+      <edge id="2877" label="sul2 (-) tet(39)" source="429" target="432" cy:directed="0"/>
+      <edge id="2874" label="sul2 (-) tet(X5)" source="429" target="441" cy:directed="0"/>
+      <edge id="2871" label="sul2 (-) tet(B)" source="429" target="438" cy:directed="0"/>
+      <edge id="2868" label="sul1 (-) tet(B)" source="426" target="438" cy:directed="0"/>
+      <edge id="2865" label="sul1 (-) tet(A)" source="426" target="435" cy:directed="0"/>
+      <edge id="2862" label="sat2 (-) sul1" source="423" target="426" cy:directed="0"/>
+      <edge id="2859" label="sat2 (-) tet(X5)" source="423" target="441" cy:directed="0"/>
+      <edge id="2856" label="sat2 (-) sul2" source="423" target="429" cy:directed="0"/>
+      <edge id="2853" label="parC_S84L (-) tet(X5)" source="420" target="441" cy:directed="0"/>
+      <edge id="2850" label="parC_S84L (-) sul2" source="420" target="429" cy:directed="0"/>
+      <edge id="2847" label="parC_S84L (-) sul1" source="420" target="426" cy:directed="0"/>
+      <edge id="2844" label="parC_S84L (-) tet(B)" source="420" target="438" cy:directed="0"/>
+      <edge id="2841" label="parC_E88K (-) sul1" source="417" target="426" cy:directed="0"/>
+      <edge id="2838" label="msr(E) (-) tet(39)" source="414" target="432" cy:directed="0"/>
+      <edge id="2835" label="msr(E) (-) sul2" source="414" target="429" cy:directed="0"/>
+      <edge id="2832" label="msr(E) (-) sul1" source="414" target="426" cy:directed="0"/>
+      <edge id="2829" label="msr(E) (-) parC_S84L" source="414" target="420" cy:directed="0"/>
+      <edge id="2826" label="msr(E) (-) tet(B)" source="414" target="438" cy:directed="0"/>
+      <edge id="2823" label="mph(E) (-) tet(39)" source="411" target="432" cy:directed="0"/>
+      <edge id="2820" label="mph(E) (-) sul2" source="411" target="429" cy:directed="0"/>
+      <edge id="2817" label="mph(E) (-) sul1" source="411" target="426" cy:directed="0"/>
+      <edge id="2814" label="mph(E) (-) parC_S84L" source="411" target="420" cy:directed="0"/>
+      <edge id="2811" label="mph(E) (-) tet(B)" source="411" target="438" cy:directed="0"/>
+      <edge id="2808" label="mph(E) (-) msr(E)" source="411" target="414" cy:directed="0"/>
+      <edge id="2805" label="gyrA_S81L (-) tet(X5)" source="408" target="441" cy:directed="0"/>
+      <edge id="2802" label="gyrA_S81L (-) sat2" source="408" target="423" cy:directed="0"/>
+      <edge id="2799" label="gyrA_S81L (-) parC_E88K" source="408" target="417" cy:directed="0"/>
+      <edge id="2796" label="gyrA_S81L (-) sul2" source="408" target="429" cy:directed="0"/>
+      <edge id="2793" label="gyrA_S81L (-) sul1" source="408" target="426" cy:directed="0"/>
+      <edge id="2790" label="gyrA_S81L (-) msr(E)" source="408" target="414" cy:directed="0"/>
+      <edge id="2787" label="gyrA_S81L (-) mph(E)" source="408" target="411" cy:directed="0"/>
+      <edge id="2784" label="gyrA_S81L (-) tet(B)" source="408" target="438" cy:directed="0"/>
+      <edge id="2781" label="gyrA_S81L (-) parC_S84L" source="408" target="420" cy:directed="0"/>
+      <edge id="2778" label="ftsI_T526S (-) parC_S84L" source="405" target="420" cy:directed="0"/>
+      <edge id="2775" label="ftsI_T526S (-) msr(E)" source="405" target="414" cy:directed="0"/>
+      <edge id="2772" label="ftsI_T526S (-) mph(E)" source="405" target="411" cy:directed="0"/>
+      <edge id="2769" label="ftsI_T526S (-) gyrA_S81L" source="405" target="408" cy:directed="0"/>
+      <edge id="2766" label="ftsI_T526S (-) sat2" source="405" target="423" cy:directed="0"/>
+      <edge id="2763" label="ftsI_A515V (-) sul2" source="402" target="429" cy:directed="0"/>
+      <edge id="2760" label="ftsI_A515V (-) gyrA_S81L" source="402" target="408" cy:directed="0"/>
+      <edge id="2757" label="ftsI_A515V (-) parC_S84L" source="402" target="420" cy:directed="0"/>
+      <edge id="2754" label="ftsI_A515V (-) tet(B)" source="402" target="438" cy:directed="0"/>
+      <edge id="2751" label="ftsI_A515V (-) mph(E)" source="402" target="411" cy:directed="0"/>
+      <edge id="2748" label="ftsI_A515V (-) msr(E)" source="402" target="414" cy:directed="0"/>
+      <edge id="2745" label="floR (-) gyrA_S81L" source="396" target="408" cy:directed="0"/>
+      <edge id="2742" label="floR (-) parC_S84L" source="396" target="420" cy:directed="0"/>
+      <edge id="2739" label="floR (-) msr(E)" source="396" target="414" cy:directed="0"/>
+      <edge id="2736" label="floR (-) mph(E)" source="396" target="411" cy:directed="0"/>
+      <edge id="2733" label="floR (-) sul2" source="396" target="429" cy:directed="0"/>
+      <edge id="2730" label="floR (-) tet(39)" source="396" target="432" cy:directed="0"/>
+      <edge id="2727" label="floR (-) tet(X5)" source="396" target="441" cy:directed="0"/>
+      <edge id="2724" label="dfrA45 (-) parC_S84L" source="393" target="420" cy:directed="0"/>
+      <edge id="2721" label="dfrA45 (-) gyrA_S81L" source="393" target="408" cy:directed="0"/>
+      <edge id="2718" label="dfrA45 (-) sul2" source="393" target="429" cy:directed="0"/>
+      <edge id="2715" label="dfrA45 (-) msr(E)" source="393" target="414" cy:directed="0"/>
+      <edge id="2712" label="dfrA45 (-) mph(E)" source="393" target="411" cy:directed="0"/>
+      <edge id="2709" label="dfrA45 (-) sul1" source="393" target="426" cy:directed="0"/>
+      <edge id="2706" label="dfrA1 (-) gyrA_S81L" source="390" target="408" cy:directed="0"/>
+      <edge id="2703" label="dfrA1 (-) floR" source="390" target="396" cy:directed="0"/>
+      <edge id="2700" label="dfrA1 (-) sul1" source="390" target="426" cy:directed="0"/>
+      <edge id="2697" label="dfrA1 (-) tet(39)" source="390" target="432" cy:directed="0"/>
+      <edge id="2694" label="dfrA1 (-) tet(X5)" source="390" target="441" cy:directed="0"/>
+      <edge id="2691" label="dfrA1 (-) sul2" source="390" target="429" cy:directed="0"/>
+      <edge id="2688" label="dfrA1 (-) sat2" source="390" target="423" cy:directed="0"/>
+      <edge id="2685" label="cmlA5 (-) parC_S84L" source="387" target="420" cy:directed="0"/>
+      <edge id="2682" label="cmlA5 (-) gyrA_S81L" source="387" target="408" cy:directed="0"/>
+      <edge id="2679" label="cmlA5 (-) sat2" source="387" target="423" cy:directed="0"/>
+      <edge id="2676" label="cmlA5 (-) dfrA1" source="387" target="390" cy:directed="0"/>
+      <edge id="2673" label="cmlA5 (-) msr(E)" source="387" target="414" cy:directed="0"/>
+      <edge id="2670" label="cmlA5 (-) mph(E)" source="387" target="411" cy:directed="0"/>
+      <edge id="2667" label="cmlA5 (-) sul2" source="387" target="429" cy:directed="0"/>
+      <edge id="2664" label="cmlA5 (-) sul1" source="387" target="426" cy:directed="0"/>
+      <edge id="2661" label="cmlA5 (-) dfrA45" source="387" target="393" cy:directed="0"/>
+      <edge id="2658" label="catB8 (-) ftsI_T526S" source="384" target="405" cy:directed="0"/>
+      <edge id="2655" label="catB8 (-) gyrA_S81L" source="384" target="408" cy:directed="0"/>
+      <edge id="2652" label="catB8 (-) parC_S84L" source="384" target="420" cy:directed="0"/>
+      <edge id="2649" label="catB8 (-) tet(B)" source="384" target="438" cy:directed="0"/>
+      <edge id="2646" label="catB8 (-) msr(E)" source="384" target="414" cy:directed="0"/>
+      <edge id="2643" label="catB8 (-) mph(E)" source="384" target="411" cy:directed="0"/>
+      <edge id="2640" label="catB8 (-) sul1" source="384" target="426" cy:directed="0"/>
+      <edge id="2637" label="catA1 (-) parC_S84L" source="381" target="420" cy:directed="0"/>
+      <edge id="2634" label="catA1 (-) sul1" source="381" target="426" cy:directed="0"/>
+      <edge id="2631" label="catA1 (-) tet(A)" source="381" target="435" cy:directed="0"/>
+      <edge id="2628" label="ble (-) floR" source="378" target="396" cy:directed="0"/>
+      <edge id="2625" label="ble (-) sul1" source="378" target="426" cy:directed="0"/>
+      <edge id="2622" label="ble (-) dfrA1" source="378" target="390" cy:directed="0"/>
+      <edge id="2619" label="ble (-) sat2" source="378" target="423" cy:directed="0"/>
+      <edge id="2616" label="ble (-) msr(E)" source="378" target="414" cy:directed="0"/>
+      <edge id="2613" label="ble (-) mph(E)" source="378" target="411" cy:directed="0"/>
+      <edge id="2610" label="ble (-) sul2" source="378" target="429" cy:directed="0"/>
+      <edge id="2607" label="ble (-) dfrA45" source="378" target="393" cy:directed="0"/>
+      <edge id="2604" label="ble (-) cmlA5" source="378" target="387" cy:directed="0"/>
+      <edge id="2601" label="blaTEM-1 (-) tet(X5)" source="375" target="441" cy:directed="0"/>
+      <edge id="2598" label="blaTEM-1 (-) tet(A)" source="375" target="435" cy:directed="0"/>
+      <edge id="2595" label="blaTEM-1 (-) sul1" source="375" target="426" cy:directed="0"/>
+      <edge id="2592" label="blaTEM-1 (-) catB8" source="375" target="384" cy:directed="0"/>
+      <edge id="2589" label="blaTEM-1 (-) gyrA_S81L" source="375" target="408" cy:directed="0"/>
+      <edge id="2586" label="blaTEM-1 (-) mph(E)" source="375" target="411" cy:directed="0"/>
+      <edge id="2583" label="blaTEM-1 (-) ftsI_A515V" source="375" target="402" cy:directed="0"/>
+      <edge id="2580" label="blaTEM-1 (-) parC_S84L" source="375" target="420" cy:directed="0"/>
+      <edge id="2577" label="blaTEM-1 (-) msr(E)" source="375" target="414" cy:directed="0"/>
+      <edge id="2574" label="blaTEM-1 (-) tet(B)" source="375" target="438" cy:directed="0"/>
+      <edge id="2571" label="blaPER-7 (-) parC_S84L" source="372" target="420" cy:directed="0"/>
+      <edge id="2568" label="blaPER-7 (-) gyrA_S81L" source="372" target="408" cy:directed="0"/>
+      <edge id="2565" label="blaPER-7 (-) sul2" source="372" target="429" cy:directed="0"/>
+      <edge id="2562" label="blaPER-7 (-) msr(E)" source="372" target="414" cy:directed="0"/>
+      <edge id="2559" label="blaPER-7 (-) mph(E)" source="372" target="411" cy:directed="0"/>
+      <edge id="2556" label="blaPER-7 (-) ble" source="372" target="378" cy:directed="0"/>
+      <edge id="2553" label="blaPER-7 (-) sul1" source="372" target="426" cy:directed="0"/>
+      <edge id="2550" label="blaPER-7 (-) dfrA45" source="372" target="393" cy:directed="0"/>
+      <edge id="2547" label="blaPER-7 (-) cmlA5" source="372" target="387" cy:directed="0"/>
+      <edge id="2544" label="blaPER-1 (-) sul1" source="369" target="426" cy:directed="0"/>
+      <edge id="2541" label="blaPER-1 (-) gyrA_S81L" source="369" target="408" cy:directed="0"/>
+      <edge id="2538" label="blaPER-1 (-) sul2" source="369" target="429" cy:directed="0"/>
+      <edge id="2535" label="blaOXA-98 (-) floR" source="366" target="396" cy:directed="0"/>
+      <edge id="2532" label="blaOXA-98 (-) sul2" source="366" target="429" cy:directed="0"/>
+      <edge id="2529" label="blaOXA-95 (-) sul1" source="363" target="426" cy:directed="0"/>
+      <edge id="2526" label="blaOXA-95 (-) gyrA_S81L" source="363" target="408" cy:directed="0"/>
+      <edge id="2523" label="blaOXA-95 (-) parC_E88K" source="363" target="417" cy:directed="0"/>
+      <edge id="2520" label="blaOXA-91 (-) ble" source="360" target="378" cy:directed="0"/>
+      <edge id="2517" label="blaOXA-82 (-) gyrA_S81L" source="357" target="408" cy:directed="0"/>
+      <edge id="2514" label="blaOXA-82 (-) parC_S84L" source="357" target="420" cy:directed="0"/>
+      <edge id="2511" label="blaOXA-82 (-) sul1" source="357" target="426" cy:directed="0"/>
+      <edge id="2508" label="blaOXA-72 (-) catA1" source="354" target="381" cy:directed="0"/>
+      <edge id="2505" label="blaOXA-72 (-) parC_E88K" source="354" target="417" cy:directed="0"/>
+      <edge id="2502" label="blaOXA-72 (-) gyrA_S81L" source="354" target="408" cy:directed="0"/>
+      <edge id="2499" label="blaOXA-72 (-) floR" source="354" target="396" cy:directed="0"/>
+      <edge id="2496" label="blaOXA-72 (-) sul1" source="354" target="426" cy:directed="0"/>
+      <edge id="2493" label="blaOXA-72 (-) tet(X5)" source="354" target="441" cy:directed="0"/>
+      <edge id="2490" label="blaOXA-69 (-) cmlA5" source="351" target="387" cy:directed="0"/>
+      <edge id="2487" label="blaOXA-69 (-) sul1" source="351" target="426" cy:directed="0"/>
+      <edge id="2484" label="blaOXA-69 (-) fos" source="351" target="399" cy:directed="0"/>
+      <edge id="2481" label="blaOXA-69 (-) dfrA1" source="351" target="390" cy:directed="0"/>
+      <edge id="2478" label="blaOXA-69 (-) sat2" source="351" target="423" cy:directed="0"/>
+      <edge id="2475" label="blaOXA-69 (-) catA1" source="351" target="381" cy:directed="0"/>
+      <edge id="2472" label="blaOXA-69 (-) tet(A)" source="351" target="435" cy:directed="0"/>
+      <edge id="2469" label="blaOXA-68 (-) tet(B)" source="348" target="438" cy:directed="0"/>
+      <edge id="2466" label="blaOXA-68 (-) parC_E88K" source="348" target="417" cy:directed="0"/>
+      <edge id="2463" label="blaOXA-68 (-) sul2" source="348" target="429" cy:directed="0"/>
+      <edge id="2460" label="blaOXA-68 (-) blaPER-7" source="348" target="372" cy:directed="0"/>
+      <edge id="2457" label="blaOXA-68 (-) cmlA5" source="348" target="387" cy:directed="0"/>
+      <edge id="2454" label="blaOXA-68 (-) dfrA45" source="348" target="393" cy:directed="0"/>
+      <edge id="2451" label="blaOXA-66 (-) sul2" source="345" target="429" cy:directed="0"/>
+      <edge id="2448" label="blaOXA-66 (-) blaPER-1" source="345" target="369" cy:directed="0"/>
+      <edge id="2445" label="blaOXA-66 (-) ftsI_T526S" source="345" target="405" cy:directed="0"/>
+      <edge id="2442" label="blaOXA-66 (-) blaOXA-72" source="345" target="354" cy:directed="0"/>
+      <edge id="2439" label="blaOXA-66 (-) sul1" source="345" target="426" cy:directed="0"/>
+      <edge id="2436" label="blaOXA-66 (-) catB8" source="345" target="384" cy:directed="0"/>
+      <edge id="2433" label="blaOXA-66 (-) ftsI_A515V" source="345" target="402" cy:directed="0"/>
+      <edge id="2430" label="blaOXA-66 (-) msr(E)" source="345" target="414" cy:directed="0"/>
+      <edge id="2427" label="blaOXA-66 (-) gyrA_S81L" source="345" target="408" cy:directed="0"/>
+      <edge id="2424" label="blaOXA-66 (-) mph(E)" source="345" target="411" cy:directed="0"/>
+      <edge id="2421" label="blaOXA-66 (-) parC_S84L" source="345" target="420" cy:directed="0"/>
+      <edge id="2418" label="blaOXA-66 (-) blaTEM-1" source="345" target="375" cy:directed="0"/>
+      <edge id="2415" label="blaOXA-66 (-) tet(B)" source="345" target="438" cy:directed="0"/>
+      <edge id="2412" label="blaOXA-65 (-) sul2" source="342" target="429" cy:directed="0"/>
+      <edge id="2409" label="blaOXA-64 (-) cmlA5" source="339" target="387" cy:directed="0"/>
+      <edge id="2406" label="blaOXA-64 (-) blaPER-7" source="339" target="372" cy:directed="0"/>
+      <edge id="2403" label="blaOXA-64 (-) sul2" source="339" target="429" cy:directed="0"/>
+      <edge id="2400" label="blaOXA-58 (-) catA1" source="336" target="381" cy:directed="0"/>
+      <edge id="2397" label="blaOXA-58 (-) msr(E)" source="336" target="414" cy:directed="0"/>
+      <edge id="2394" label="blaOXA-58 (-) mph(E)" source="336" target="411" cy:directed="0"/>
+      <edge id="2391" label="blaOXA-58 (-) blaOXA-68" source="336" target="348" cy:directed="0"/>
+      <edge id="2388" label="blaOXA-58 (-) tet(X5)" source="336" target="441" cy:directed="0"/>
+      <edge id="2385" label="blaOXA-58 (-) sul1" source="336" target="426" cy:directed="0"/>
+      <edge id="2382" label="blaOXA-58 (-) tet(A)" source="336" target="435" cy:directed="0"/>
+      <edge id="2379" label="blaOXA-58 (-) sul2" source="336" target="429" cy:directed="0"/>
+      <edge id="2376" label="blaOXA-58 (-) tet(39)" source="336" target="432" cy:directed="0"/>
+      <edge id="2373" label="blaOXA-58 (-) blaOXA-65" source="336" target="342" cy:directed="0"/>
+      <edge id="2370" label="blaOXA-58 (-) floR" source="336" target="396" cy:directed="0"/>
+      <edge id="2367" label="blaOXA-58 (-) ble" source="336" target="378" cy:directed="0"/>
+      <edge id="2364" label="blaOXA-402 (-) gyrA_S81L" source="330" target="408" cy:directed="0"/>
+      <edge id="2361" label="blaOXA-402 (-) msr(E)" source="330" target="414" cy:directed="0"/>
+      <edge id="2358" label="blaOXA-402 (-) mph(E)" source="330" target="411" cy:directed="0"/>
+      <edge id="2355" label="blaOXA-402 (-) parC_E88K" source="330" target="417" cy:directed="0"/>
+      <edge id="2352" label="blaOXA-402 (-) sul2" source="330" target="429" cy:directed="0"/>
+      <edge id="2349" label="blaOXA-402 (-) floR" source="330" target="396" cy:directed="0"/>
+      <edge id="2346" label="blaOXA-402 (-) tet(39)" source="330" target="432" cy:directed="0"/>
+      <edge id="2343" label="blaOXA-259 (-) sul2" source="327" target="429" cy:directed="0"/>
+      <edge id="2340" label="blaOXA-239 (-) gyrA_S81L" source="324" target="408" cy:directed="0"/>
+      <edge id="2337" label="blaOXA-239 (-) parC_S84L" source="324" target="420" cy:directed="0"/>
+      <edge id="2334" label="blaOXA-239 (-) sul2" source="324" target="429" cy:directed="0"/>
+      <edge id="2331" label="blaOXA-239 (-) blaOXA-65" source="324" target="342" cy:directed="0"/>
+      <edge id="2328" label="blaOXA-235 (-) tet(B)" source="321" target="438" cy:directed="0"/>
+      <edge id="2325" label="blaOXA-235 (-) blaOXA-66" source="321" target="345" cy:directed="0"/>
+      <edge id="2322" label="blaOXA-235 (-) gyrA_S81L" source="321" target="408" cy:directed="0"/>
+      <edge id="2319" label="blaOXA-235 (-) blaOXA-68" source="321" target="348" cy:directed="0"/>
+      <edge id="2316" label="blaOXA-235 (-) sul2" source="321" target="429" cy:directed="0"/>
+      <edge id="2313" label="blaOXA-235 (-) parC_E88K" source="321" target="417" cy:directed="0"/>
+      <edge id="2310" label="blaOXA-235 (-) catB8" source="321" target="384" cy:directed="0"/>
+      <edge id="2307" label="blaOXA-23 (-) dfrA1" source="318" target="390" cy:directed="0"/>
+      <edge id="2304" label="blaOXA-23 (-) sat2" source="318" target="423" cy:directed="0"/>
+      <edge id="2301" label="blaOXA-23 (-) ftsI_T526S" source="318" target="405" cy:directed="0"/>
+      <edge id="2298" label="blaOXA-23 (-) blaOXA-402" source="318" target="330" cy:directed="0"/>
+      <edge id="2295" label="blaOXA-23 (-) blaOXA-95" source="318" target="363" cy:directed="0"/>
+      <edge id="2292" label="blaOXA-23 (-) dfrA45" source="318" target="393" cy:directed="0"/>
+      <edge id="2289" label="blaOXA-23 (-) cmlA5" source="318" target="387" cy:directed="0"/>
+      <edge id="2286" label="blaOXA-23 (-) blaPER-7" source="318" target="372" cy:directed="0"/>
+      <edge id="2283" label="blaOXA-23 (-) sul2" source="318" target="429" cy:directed="0"/>
+      <edge id="2280" label="blaOXA-23 (-) sul1" source="318" target="426" cy:directed="0"/>
+      <edge id="2277" label="blaOXA-23 (-) blaTEM-1" source="318" target="375" cy:directed="0"/>
+      <edge id="2274" label="blaOXA-23 (-) catB8" source="318" target="384" cy:directed="0"/>
+      <edge id="2271" label="blaOXA-23 (-) ftsI_A515V" source="318" target="402" cy:directed="0"/>
+      <edge id="2268" label="blaOXA-23 (-) blaOXA-66" source="318" target="345" cy:directed="0"/>
+      <edge id="2265" label="blaOXA-23 (-) mph(E)" source="318" target="411" cy:directed="0"/>
+      <edge id="2262" label="blaOXA-23 (-) msr(E)" source="318" target="414" cy:directed="0"/>
+      <edge id="2259" label="blaOXA-23 (-) tet(B)" source="318" target="438" cy:directed="0"/>
+      <edge id="2256" label="blaOXA-23 (-) parC_S84L" source="318" target="420" cy:directed="0"/>
+      <edge id="2253" label="blaOXA-23 (-) gyrA_S81L" source="318" target="408" cy:directed="0"/>
+      <edge id="2250" label="blaOXA-120 (-) ble" source="315" target="378" cy:directed="0"/>
+      <edge id="2247" label="blaOXA-104 (-) fos" source="312" target="399" cy:directed="0"/>
+      <edge id="2244" label="blaOXA-104 (-) ble" source="312" target="378" cy:directed="0"/>
+      <edge id="2241" label="blaOXA-104 (-) cmlA5" source="312" target="387" cy:directed="0"/>
+      <edge id="2238" label="blaOXA-104 (-) dfrA45" source="312" target="393" cy:directed="0"/>
+      <edge id="2235" label="blaOXA-104 (-) blaPER-7" source="312" target="372" cy:directed="0"/>
+      <edge id="2232" label="blaOXA (-) parC_S84L" source="306" target="420" cy:directed="0"/>
+      <edge id="2229" label="blaOXA (-) tet(X5)" source="306" target="441" cy:directed="0"/>
+      <edge id="2226" label="blaOXA (-) floR" source="306" target="396" cy:directed="0"/>
+      <edge id="2223" label="blaOXA (-) blaOXA-82" source="306" target="357" cy:directed="0"/>
+      <edge id="2220" label="blaNDM-1 (-) floR" source="303" target="396" cy:directed="0"/>
+      <edge id="2217" label="blaNDM-1 (-) sul1" source="303" target="426" cy:directed="0"/>
+      <edge id="2214" label="blaNDM-1 (-) dfrA1" source="303" target="390" cy:directed="0"/>
+      <edge id="2211" label="blaNDM-1 (-) sat2" source="303" target="423" cy:directed="0"/>
+      <edge id="2208" label="blaNDM-1 (-) msr(E)" source="303" target="414" cy:directed="0"/>
+      <edge id="2205" label="blaNDM-1 (-) mph(E)" source="303" target="411" cy:directed="0"/>
+      <edge id="2202" label="blaNDM-1 (-) sul2" source="303" target="429" cy:directed="0"/>
+      <edge id="2199" label="blaNDM-1 (-) blaPER-7" source="303" target="372" cy:directed="0"/>
+      <edge id="2196" label="blaNDM-1 (-) blaOXA-104" source="303" target="312" cy:directed="0"/>
+      <edge id="2193" label="blaNDM-1 (-) blaOXA-91" source="303" target="360" cy:directed="0"/>
+      <edge id="2190" label="blaNDM-1 (-) dfrA45" source="303" target="393" cy:directed="0"/>
+      <edge id="2187" label="blaNDM-1 (-) blaOXA-58" source="303" target="336" cy:directed="0"/>
+      <edge id="2184" label="blaNDM-1 (-) cmlA5" source="303" target="387" cy:directed="0"/>
+      <edge id="2181" label="blaNDM-1 (-) ble" source="303" target="378" cy:directed="0"/>
+      <edge id="2178" label="blaCARB-2 (-) msr(E)" source="300" target="414" cy:directed="0"/>
+      <edge id="2175" label="blaCARB-2 (-) blaPER-7" source="300" target="372" cy:directed="0"/>
+      <edge id="2172" label="blaCARB-2 (-) ble" source="300" target="378" cy:directed="0"/>
+      <edge id="2169" label="blaCARB-2 (-) blaNDM-1" source="300" target="303" cy:directed="0"/>
+      <edge id="2166" label="blaCARB-2 (-) blaOXA-91" source="300" target="360" cy:directed="0"/>
+      <edge id="2163" label="blaCARB-2 (-) tet(39)" source="300" target="432" cy:directed="0"/>
+      <edge id="2160" label="blaCARB-2 (-) blaOXA-58" source="300" target="336" cy:directed="0"/>
+      <edge id="2157" label="blaCARB-2 (-) blaPER-1" source="300" target="369" cy:directed="0"/>
+      <edge id="2154" label="blaCARB-2 (-) sul1" source="300" target="426" cy:directed="0"/>
+      <edge id="2151" label="blaCARB-2 (-) blaOXA-95" source="300" target="363" cy:directed="0"/>
+      <edge id="2148" label="blaCARB-16 (-) gyrA_S81L" source="297" target="408" cy:directed="0"/>
+      <edge id="2145" label="blaCARB-16 (-) parC_S84L" source="297" target="420" cy:directed="0"/>
+      <edge id="2142" label="blaCARB-16 (-) blaOXA" source="297" target="306" cy:directed="0"/>
+      <edge id="2139" label="blaCARB-16 (-) floR" source="297" target="396" cy:directed="0"/>
+      <edge id="2136" label="blaCARB-16 (-) ble" source="297" target="378" cy:directed="0"/>
+      <edge id="2133" label="blaCARB-16 (-) blaNDM-1" source="297" target="303" cy:directed="0"/>
+      <edge id="2130" label="blaCARB-16 (-) blaOXA-91" source="297" target="360" cy:directed="0"/>
+      <edge id="2127" label="blaADC-79 (-) blaOXA-58" source="294" target="336" cy:directed="0"/>
+      <edge id="2124" label="blaADC-79 (-) tet(A)" source="294" target="435" cy:directed="0"/>
+      <edge id="2121" label="blaADC-79 (-) blaOXA-100" source="294" target="309" cy:directed="0"/>
+      <edge id="2118" label="blaADC-76 (-) blaOXA-23" source="291" target="318" cy:directed="0"/>
+      <edge id="2115" label="blaADC-76 (-) tet(B)" source="291" target="438" cy:directed="0"/>
+      <edge id="2112" label="blaADC-76 (-) blaCARB-2" source="291" target="300" cy:directed="0"/>
+      <edge id="2109" label="blaADC-76 (-) blaOXA-58" source="291" target="336" cy:directed="0"/>
+      <edge id="2106" label="blaADC-76 (-) sul2" source="291" target="429" cy:directed="0"/>
+      <edge id="2103" label="blaADC-76 (-) cmlA5" source="291" target="387" cy:directed="0"/>
+      <edge id="2100" label="blaADC-76 (-) dfrA45" source="291" target="393" cy:directed="0"/>
+      <edge id="2097" label="blaADC-76 (-) blaPER-7" source="291" target="372" cy:directed="0"/>
+      <edge id="2094" label="blaADC-76 (-) blaOXA-68" source="291" target="348" cy:directed="0"/>
+      <edge id="2091" label="blaADC-73 (-) gyrA_S81L" source="288" target="408" cy:directed="0"/>
+      <edge id="2088" label="blaADC-73 (-) parC_S84L" source="288" target="420" cy:directed="0"/>
+      <edge id="2085" label="blaADC-73 (-) blaTEM-1" source="288" target="375" cy:directed="0"/>
+      <edge id="2082" label="blaADC-73 (-) blaOXA-23" source="288" target="318" cy:directed="0"/>
+      <edge id="2079" label="blaADC-73 (-) mph(E)" source="288" target="411" cy:directed="0"/>
+      <edge id="2076" label="blaADC-73 (-) msr(E)" source="288" target="414" cy:directed="0"/>
+      <edge id="2073" label="blaADC-73 (-) tet(B)" source="288" target="438" cy:directed="0"/>
+      <edge id="2070" label="blaADC-73 (-) blaOXA-66" source="288" target="345" cy:directed="0"/>
+      <edge id="2067" label="blaADC-73 (-) ftsI_A515V" source="288" target="402" cy:directed="0"/>
+      <edge id="2064" label="blaADC-52 (-) blaCARB-2" source="285" target="300" cy:directed="0"/>
+      <edge id="2061" label="blaADC-52 (-) ble" source="285" target="378" cy:directed="0"/>
+      <edge id="2058" label="blaADC-52 (-) blaNDM-1" source="285" target="303" cy:directed="0"/>
+      <edge id="2055" label="blaADC-52 (-) blaCARB-16" source="285" target="297" cy:directed="0"/>
+      <edge id="2052" label="blaADC-52 (-) blaOXA-91" source="285" target="360" cy:directed="0"/>
+      <edge id="2049" label="blaADC-33 (-) gyrA_S81L" source="282" target="408" cy:directed="0"/>
+      <edge id="2046" label="blaADC-33 (-) parC_S84L" source="282" target="420" cy:directed="0"/>
+      <edge id="2043" label="blaADC-33 (-) sul1" source="282" target="426" cy:directed="0"/>
+      <edge id="2040" label="blaADC-33 (-) blaOXA" source="282" target="306" cy:directed="0"/>
+      <edge id="2037" label="blaADC-33 (-) blaOXA-82" source="282" target="357" cy:directed="0"/>
+      <edge id="2034" label="blaADC-30 (-) tet(X5)" source="279" target="441" cy:directed="0"/>
+      <edge id="2031" label="blaADC-30 (-) blaOXA-235" source="279" target="321" cy:directed="0"/>
+      <edge id="2028" label="blaADC-30 (-) ftsI_T526S" source="279" target="405" cy:directed="0"/>
+      <edge id="2025" label="blaADC-30 (-) msr(E)" source="279" target="414" cy:directed="0"/>
+      <edge id="2022" label="blaADC-30 (-) mph(E)" source="279" target="411" cy:directed="0"/>
+      <edge id="2019" label="blaADC-30 (-) blaOXA-23" source="279" target="318" cy:directed="0"/>
+      <edge id="2016" label="blaADC-30 (-) blaTEM-1" source="279" target="375" cy:directed="0"/>
+      <edge id="2013" label="blaADC-30 (-) gyrA_S81L" source="279" target="408" cy:directed="0"/>
+      <edge id="2010" label="blaADC-30 (-) parC_S84L" source="279" target="420" cy:directed="0"/>
+      <edge id="2007" label="blaADC-30 (-) tet(B)" source="279" target="438" cy:directed="0"/>
+      <edge id="2004" label="blaADC-30 (-) sul1" source="279" target="426" cy:directed="0"/>
+      <edge id="2001" label="blaADC-30 (-) blaOXA-66" source="279" target="345" cy:directed="0"/>
+      <edge id="1998" label="blaADC-30 (-) catB8" source="279" target="384" cy:directed="0"/>
+      <edge id="1995" label="blaADC-277 (-) blaOXA-64" source="276" target="339" cy:directed="0"/>
+      <edge id="1992" label="blaADC-26 (-) fos" source="273" target="399" cy:directed="0"/>
+      <edge id="1989" label="blaADC-26 (-) ble" source="273" target="378" cy:directed="0"/>
+      <edge id="1986" label="blaADC-26 (-) blaNDM-1" source="273" target="303" cy:directed="0"/>
+      <edge id="1983" label="blaADC-26 (-) sul2" source="273" target="429" cy:directed="0"/>
+      <edge id="1980" label="blaADC-26 (-) dfrA45" source="273" target="393" cy:directed="0"/>
+      <edge id="1977" label="blaADC-26 (-) blaOXA-104" source="273" target="312" cy:directed="0"/>
+      <edge id="1974" label="blaADC-26 (-) cmlA5" source="273" target="387" cy:directed="0"/>
+      <edge id="1971" label="blaADC-26 (-) blaPER-7" source="273" target="372" cy:directed="0"/>
+      <edge id="1968" label="blaADC-26 (-) blaOXA-64" source="273" target="339" cy:directed="0"/>
+      <edge id="1965" label="blaADC-26 (-) blaOXA-259" source="273" target="327" cy:directed="0"/>
+      <edge id="1962" label="blaADC-25 (-) gyrA_S81L" source="270" target="408" cy:directed="0"/>
+      <edge id="1959" label="blaADC-25 (-) tet(B)" source="270" target="438" cy:directed="0"/>
+      <edge id="1956" label="blaADC-25 (-) blaTEM-1" source="270" target="375" cy:directed="0"/>
+      <edge id="1953" label="blaADC-25 (-) blaOXA-66" source="270" target="345" cy:directed="0"/>
+      <edge id="1950" label="blaADC-25 (-) blaPER-1" source="270" target="369" cy:directed="0"/>
+      <edge id="1947" label="blaADC-222 (-) blaOXA-23" source="267" target="318" cy:directed="0"/>
+      <edge id="1944" label="blaADC-222 (-) gyrA_S81L" source="267" target="408" cy:directed="0"/>
+      <edge id="1941" label="blaADC-222 (-) blaCARB-2" source="267" target="300" cy:directed="0"/>
+      <edge id="1938" label="blaADC-222 (-) parC_E88K" source="267" target="417" cy:directed="0"/>
+      <edge id="1935" label="blaADC-222 (-) blaOXA-95" source="267" target="363" cy:directed="0"/>
+      <edge id="1932" label="blaADC-199 (-) gyrA_S81L" source="264" target="408" cy:directed="0"/>
+      <edge id="1929" label="blaADC-199 (-) parC_S84L" source="264" target="420" cy:directed="0"/>
+      <edge id="1926" label="blaADC-199 (-) blaOXA-23" source="264" target="318" cy:directed="0"/>
+      <edge id="1923" label="blaADC-199 (-) ble" source="264" target="378" cy:directed="0"/>
+      <edge id="1920" label="blaADC-199 (-) blaNDM-1" source="264" target="303" cy:directed="0"/>
+      <edge id="1917" label="blaADC-199 (-) blaCARB-16" source="264" target="297" cy:directed="0"/>
+      <edge id="1914" label="blaADC-199 (-) blaOXA-91" source="264" target="360" cy:directed="0"/>
+      <edge id="1911" label="blaADC-199 (-) blaADC-52" source="264" target="285" cy:directed="0"/>
+      <edge id="1908" label="blaADC-176 (-) gyrA_S81L" source="261" target="408" cy:directed="0"/>
+      <edge id="1905" label="blaADC-176 (-) ble" source="261" target="378" cy:directed="0"/>
+      <edge id="1902" label="blaADC-176 (-) parC_S84L" source="261" target="420" cy:directed="0"/>
+      <edge id="1899" label="blaADC-176 (-) blaNDM-1" source="261" target="303" cy:directed="0"/>
+      <edge id="1896" label="blaADC-176 (-) blaOXA-69" source="261" target="351" cy:directed="0"/>
+      <edge id="1893" label="blaADC-176 (-) catA1" source="261" target="381" cy:directed="0"/>
+      <edge id="1890" label="blaADC-176 (-) tet(A)" source="261" target="435" cy:directed="0"/>
+      <edge id="1887" label="blaADC-169 (-) msr(E)" source="258" target="414" cy:directed="0"/>
+      <edge id="1884" label="blaADC-169 (-) mph(E)" source="258" target="411" cy:directed="0"/>
+      <edge id="1881" label="blaADC-169 (-) sul2" source="258" target="429" cy:directed="0"/>
+      <edge id="1878" label="blaADC-169 (-) parC_E88K" source="258" target="417" cy:directed="0"/>
+      <edge id="1875" label="blaADC-169 (-) blaOXA-120" source="258" target="315" cy:directed="0"/>
+      <edge id="1872" label="blaADC-169 (-) floR" source="258" target="396" cy:directed="0"/>
+      <edge id="1869" label="blaADC-169 (-) tet(39)" source="258" target="432" cy:directed="0"/>
+      <edge id="1866" label="blaADC-169 (-) blaOXA-402" source="258" target="330" cy:directed="0"/>
+      <edge id="1863" label="blaADC-158 (-) sul2" source="255" target="429" cy:directed="0"/>
+      <edge id="1860" label="blaADC-158 (-) blaOXA-98" source="255" target="366" cy:directed="0"/>
+      <edge id="1857" label="blaADC-154 (-) tet(39)" source="252" target="432" cy:directed="0"/>
+      <edge id="1854" label="blaADC-152 (-) gyrA_S81L" source="249" target="408" cy:directed="0"/>
+      <edge id="1851" label="blaADC-152 (-) sul2" source="249" target="429" cy:directed="0"/>
+      <edge id="1848" label="blaADC-152 (-) parC_S84L" source="249" target="420" cy:directed="0"/>
+      <edge id="1845" label="blaADC-152 (-) blaOXA-72" source="249" target="354" cy:directed="0"/>
+      <edge id="1842" label="blaADC-152 (-) floR" source="249" target="396" cy:directed="0"/>
+      <edge id="1839" label="blaADC-152 (-) blaOXA" source="249" target="306" cy:directed="0"/>
+      <edge id="1836" label="blaADC-152 (-) blaCARB-16" source="249" target="297" cy:directed="0"/>
+      <edge id="1833" label="blaADC-11 (-) sul1" source="246" target="426" cy:directed="0"/>
+      <edge id="1830" label="blaADC-11 (-) blaADC-176" source="246" target="261" cy:directed="0"/>
+      <edge id="1827" label="blaADC-11 (-) catA1" source="246" target="381" cy:directed="0"/>
+      <edge id="1824" label="blaADC-11 (-) tet(A)" source="246" target="435" cy:directed="0"/>
+      <edge id="1821" label="blaADC-11 (-) blaOXA-69" source="246" target="351" cy:directed="0"/>
+      <edge id="1818" label="blaADC (-) blaOXA-104" source="243" target="312" cy:directed="0"/>
+      <edge id="1815" label="blaADC (-) blaOXA-58" source="243" target="336" cy:directed="0"/>
+      <edge id="1812" label="blaADC (-) blaOXA-91" source="243" target="360" cy:directed="0"/>
+      <edge id="1809" label="blaADC (-) blaOXA-235" source="243" target="321" cy:directed="0"/>
+      <edge id="1806" label="blaADC (-) blaOXA-51" source="243" target="333" cy:directed="0"/>
+      <edge id="1803" label="blaADC (-) blaOXA-65" source="243" target="342" cy:directed="0"/>
+      <edge id="1800" label="blaADC (-) blaOXA-239" source="243" target="324" cy:directed="0"/>
+      <edge id="1797" label="arr-2 (-) blaOXA-64" source="240" target="339" cy:directed="0"/>
+      <edge id="1794" label="arr-2 (-) blaOXA-69" source="240" target="351" cy:directed="0"/>
+      <edge id="1791" label="arr-2 (-) parC_S84L" source="240" target="420" cy:directed="0"/>
+      <edge id="1788" label="arr-2 (-) gyrA_S81L" source="240" target="408" cy:directed="0"/>
+      <edge id="1785" label="arr-2 (-) blaOXA-23" source="240" target="318" cy:directed="0"/>
+      <edge id="1782" label="arr-2 (-) sat2" source="240" target="423" cy:directed="0"/>
+      <edge id="1779" label="arr-2 (-) dfrA1" source="240" target="390" cy:directed="0"/>
+      <edge id="1776" label="arr-2 (-) blaOXA-68" source="240" target="348" cy:directed="0"/>
+      <edge id="1773" label="arr-2 (-) msr(E)" source="240" target="414" cy:directed="0"/>
+      <edge id="1770" label="arr-2 (-) mph(E)" source="240" target="411" cy:directed="0"/>
+      <edge id="1767" label="arr-2 (-) sul2" source="240" target="429" cy:directed="0"/>
+      <edge id="1764" label="arr-2 (-) blaADC-76" source="240" target="291" cy:directed="0"/>
+      <edge id="1761" label="arr-2 (-) sul1" source="240" target="426" cy:directed="0"/>
+      <edge id="1758" label="arr-2 (-) ble" source="240" target="378" cy:directed="0"/>
+      <edge id="1755" label="arr-2 (-) blaADC-26" source="240" target="273" cy:directed="0"/>
+      <edge id="1752" label="arr-2 (-) blaNDM-1" source="240" target="303" cy:directed="0"/>
+      <edge id="1749" label="arr-2 (-) blaOXA-104" source="240" target="312" cy:directed="0"/>
+      <edge id="1746" label="arr-2 (-) dfrA45" source="240" target="393" cy:directed="0"/>
+      <edge id="1743" label="arr-2 (-) blaPER-7" source="240" target="372" cy:directed="0"/>
+      <edge id="1740" label="arr-2 (-) cmlA5" source="240" target="387" cy:directed="0"/>
+      <edge id="1737" label="armA (-) ftsI_T526S" source="237" target="405" cy:directed="0"/>
+      <edge id="1734" label="armA (-) sul2" source="237" target="429" cy:directed="0"/>
+      <edge id="1731" label="armA (-) dfrA45" source="237" target="393" cy:directed="0"/>
+      <edge id="1728" label="armA (-) blaPER-7" source="237" target="372" cy:directed="0"/>
+      <edge id="1725" label="armA (-) cmlA5" source="237" target="387" cy:directed="0"/>
+      <edge id="1722" label="armA (-) arr-2" source="237" target="240" cy:directed="0"/>
+      <edge id="1719" label="armA (-) blaADC-30" source="237" target="279" cy:directed="0"/>
+      <edge id="1716" label="armA (-) sul1" source="237" target="426" cy:directed="0"/>
+      <edge id="1713" label="armA (-) parC_S84L" source="237" target="420" cy:directed="0"/>
+      <edge id="1710" label="armA (-) blaTEM-1" source="237" target="375" cy:directed="0"/>
+      <edge id="1707" label="armA (-) gyrA_S81L" source="237" target="408" cy:directed="0"/>
+      <edge id="1704" label="armA (-) blaADC-73" source="237" target="288" cy:directed="0"/>
+      <edge id="1701" label="armA (-) ftsI_A515V" source="237" target="402" cy:directed="0"/>
+      <edge id="1698" label="armA (-) blaOXA-23" source="237" target="318" cy:directed="0"/>
+      <edge id="1695" label="armA (-) tet(B)" source="237" target="438" cy:directed="0"/>
+      <edge id="1692" label="armA (-) catB8" source="237" target="384" cy:directed="0"/>
+      <edge id="1689" label="armA (-) blaOXA-66" source="237" target="345" cy:directed="0"/>
+      <edge id="1686" label="armA (-) msr(E)" source="237" target="414" cy:directed="0"/>
+      <edge id="1683" label="armA (-) mph(E)" source="237" target="411" cy:directed="0"/>
+      <edge id="1680" label="aph(6)-Id (-) blaOXA-402" source="234" target="330" cy:directed="0"/>
+      <edge id="1677" label="aph(6)-Id (-) ftsI_T526S" source="234" target="405" cy:directed="0"/>
+      <edge id="1674" label="aph(6)-Id (-) tet(X5)" source="234" target="441" cy:directed="0"/>
+      <edge id="1671" label="aph(6)-Id (-) blaOXA-235" source="234" target="321" cy:directed="0"/>
+      <edge id="1668" label="aph(6)-Id (-) blaPER-7" source="234" target="372" cy:directed="0"/>
+      <edge id="1665" label="aph(6)-Id (-) dfrA45" source="234" target="393" cy:directed="0"/>
+      <edge id="1662" label="aph(6)-Id (-) blaOXA-239" source="234" target="324" cy:directed="0"/>
+      <edge id="1659" label="aph(6)-Id (-) blaADC-25" source="234" target="270" cy:directed="0"/>
+      <edge id="1656" label="aph(6)-Id (-) blaPER-1" source="234" target="369" cy:directed="0"/>
+      <edge id="1653" label="aph(6)-Id (-) arr-2" source="234" target="240" cy:directed="0"/>
+      <edge id="1650" label="aph(6)-Id (-) cmlA5" source="234" target="387" cy:directed="0"/>
+      <edge id="1647" label="aph(6)-Id (-) sul1" source="234" target="426" cy:directed="0"/>
+      <edge id="1644" label="aph(6)-Id (-) catB8" source="234" target="384" cy:directed="0"/>
+      <edge id="1641" label="aph(6)-Id (-) blaADC-73" source="234" target="288" cy:directed="0"/>
+      <edge id="1638" label="aph(6)-Id (-) blaADC-30" source="234" target="279" cy:directed="0"/>
+      <edge id="1635" label="aph(6)-Id (-) ftsI_A515V" source="234" target="402" cy:directed="0"/>
+      <edge id="1632" label="aph(6)-Id (-) sul2" source="234" target="429" cy:directed="0"/>
+      <edge id="1629" label="aph(6)-Id (-) blaOXA-23" source="234" target="318" cy:directed="0"/>
+      <edge id="1626" label="aph(6)-Id (-) blaTEM-1" source="234" target="375" cy:directed="0"/>
+      <edge id="1623" label="aph(6)-Id (-) armA" source="234" target="237" cy:directed="0"/>
+      <edge id="1620" label="aph(6)-Id (-) msr(E)" source="234" target="414" cy:directed="0"/>
+      <edge id="1617" label="aph(6)-Id (-) mph(E)" source="234" target="411" cy:directed="0"/>
+      <edge id="1614" label="aph(6)-Id (-) parC_S84L" source="234" target="420" cy:directed="0"/>
+      <edge id="1611" label="aph(6)-Id (-) gyrA_S81L" source="234" target="408" cy:directed="0"/>
+      <edge id="1608" label="aph(6)-Id (-) blaOXA-66" source="234" target="345" cy:directed="0"/>
+      <edge id="1605" label="aph(6)-Id (-) tet(B)" source="234" target="438" cy:directed="0"/>
+      <edge id="1602" label="aph(3&amp;apos;)-VIa (-) tet(A)" source="231" target="435" cy:directed="0"/>
+      <edge id="1599" label="aph(3&amp;apos;)-VIa (-) blaOXA-68" source="231" target="348" cy:directed="0"/>
+      <edge id="1596" label="aph(3&amp;apos;)-VIa (-) blaADC-76" source="231" target="291" cy:directed="0"/>
+      <edge id="1593" label="aph(3&amp;apos;)-VIa (-) blaADC-11" source="231" target="246" cy:directed="0"/>
+      <edge id="1590" label="aph(3&amp;apos;)-VIa (-) blaOXA-69" source="231" target="351" cy:directed="0"/>
+      <edge id="1587" label="aph(3&amp;apos;)-VIa (-) blaOXA-23" source="231" target="318" cy:directed="0"/>
+      <edge id="1584" label="aph(3&amp;apos;)-VIa (-) blaOXA-104" source="231" target="312" cy:directed="0"/>
+      <edge id="1581" label="aph(3&amp;apos;)-VIa (-) dfrA1" source="231" target="390" cy:directed="0"/>
+      <edge id="1578" label="aph(3&amp;apos;)-VIa (-) aph(6)-Id" source="231" target="234" cy:directed="0"/>
+      <edge id="1575" label="aph(3&amp;apos;)-VIa (-) parC_S84L" source="231" target="420" cy:directed="0"/>
+      <edge id="1572" label="aph(3&amp;apos;)-VIa (-) blaPER-7" source="231" target="372" cy:directed="0"/>
+      <edge id="1569" label="aph(3&amp;apos;)-VIa (-) sat2" source="231" target="423" cy:directed="0"/>
+      <edge id="1566" label="aph(3&amp;apos;)-VIa (-) blaOXA-239" source="231" target="324" cy:directed="0"/>
+      <edge id="1563" label="aph(3&amp;apos;)-VIa (-) blaOXA-82" source="231" target="357" cy:directed="0"/>
+      <edge id="1560" label="aph(3&amp;apos;)-VIa (-) blaOXA-58" source="231" target="336" cy:directed="0"/>
+      <edge id="1557" label="aph(3&amp;apos;)-VIa (-) sul2" source="231" target="429" cy:directed="0"/>
+      <edge id="1554" label="aph(3&amp;apos;)-VIa (-) blaADC-33" source="231" target="282" cy:directed="0"/>
+      <edge id="1551" label="aph(3&amp;apos;)-VIa (-) sul1" source="231" target="426" cy:directed="0"/>
+      <edge id="1548" label="aph(3&amp;apos;)-VIa (-) arr-2" source="231" target="240" cy:directed="0"/>
+      <edge id="1545" label="aph(3&amp;apos;)-VIa (-) cmlA5" source="231" target="387" cy:directed="0"/>
+      <edge id="1542" label="aph(3&amp;apos;)-VIa (-) blaOXA-65" source="231" target="342" cy:directed="0"/>
+      <edge id="1539" label="aph(3&amp;apos;)-VIa (-) blaNDM-1" source="231" target="303" cy:directed="0"/>
+      <edge id="1536" label="aph(3&amp;apos;)-VIa (-) ble" source="231" target="378" cy:directed="0"/>
+      <edge id="1533" label="aph(3&amp;apos;)-VIa (-) gyrA_S81L" source="231" target="408" cy:directed="0"/>
+      <edge id="1530" label="aph(3&amp;apos;)-VIa (-) dfrA45" source="231" target="393" cy:directed="0"/>
+      <edge id="1527" label="aph(3&amp;apos;)-VI (-) aph(3&amp;apos;)-VIa" source="228" target="231" cy:directed="0"/>
+      <edge id="1524" label="aph(3&amp;apos;)-VI (-) blaOXA-65" source="228" target="342" cy:directed="0"/>
+      <edge id="1521" label="aph(3&amp;apos;)-VI (-) floR" source="228" target="396" cy:directed="0"/>
+      <edge id="1518" label="aph(3&amp;apos;)-VI (-) blaADC-176" source="228" target="261" cy:directed="0"/>
+      <edge id="1515" label="aph(3&amp;apos;)-VI (-) blaOXA-120" source="228" target="315" cy:directed="0"/>
+      <edge id="1512" label="aph(3&amp;apos;)-VI (-) blaOXA-58" source="228" target="336" cy:directed="0"/>
+      <edge id="1509" label="aph(3&amp;apos;)-VI (-) blaOXA-91" source="228" target="360" cy:directed="0"/>
+      <edge id="1506" label="aph(3&amp;apos;)-VI (-) blaCARB-16" source="228" target="297" cy:directed="0"/>
+      <edge id="1503" label="aph(3&amp;apos;)-VI (-) blaADC-52" source="228" target="285" cy:directed="0"/>
+      <edge id="1500" label="aph(3&amp;apos;)-VI (-) blaADC-199" source="228" target="264" cy:directed="0"/>
+      <edge id="1497" label="aph(3&amp;apos;)-VI (-) blaNDM-1" source="228" target="303" cy:directed="0"/>
+      <edge id="1494" label="aph(3&amp;apos;)-VI (-) ble" source="228" target="378" cy:directed="0"/>
+      <edge id="1491" label="aph(3&amp;apos;)-Ia (-) blaOXA-72" source="225" target="354" cy:directed="0"/>
+      <edge id="1488" label="aph(3&amp;apos;)-Ia (-) dfrA1" source="225" target="390" cy:directed="0"/>
+      <edge id="1485" label="aph(3&amp;apos;)-Ia (-) blaADC-25" source="225" target="270" cy:directed="0"/>
+      <edge id="1482" label="aph(3&amp;apos;)-Ia (-) sat2" source="225" target="423" cy:directed="0"/>
+      <edge id="1479" label="aph(3&amp;apos;)-Ia (-) catA1" source="225" target="381" cy:directed="0"/>
+      <edge id="1476" label="aph(3&amp;apos;)-Ia (-) tet(A)" source="225" target="435" cy:directed="0"/>
+      <edge id="1473" label="aph(3&amp;apos;)-Ia (-) tet(X5)" source="225" target="441" cy:directed="0"/>
+      <edge id="1470" label="aph(3&amp;apos;)-Ia (-) blaADC-152" source="225" target="249" cy:directed="0"/>
+      <edge id="1467" label="aph(3&amp;apos;)-Ia (-) blaADC-73" source="225" target="288" cy:directed="0"/>
+      <edge id="1464" label="aph(3&amp;apos;)-Ia (-) ftsI_A515V" source="225" target="402" cy:directed="0"/>
+      <edge id="1461" label="aph(3&amp;apos;)-Ia (-) blaOXA-23" source="225" target="318" cy:directed="0"/>
+      <edge id="1458" label="aph(3&amp;apos;)-Ia (-) msr(E)" source="225" target="414" cy:directed="0"/>
+      <edge id="1455" label="aph(3&amp;apos;)-Ia (-) mph(E)" source="225" target="411" cy:directed="0"/>
+      <edge id="1452" label="aph(3&amp;apos;)-Ia (-) parC_S84L" source="225" target="420" cy:directed="0"/>
+      <edge id="1449" label="aph(3&amp;apos;)-Ia (-) aph(6)-Id" source="225" target="234" cy:directed="0"/>
+      <edge id="1446" label="aph(3&amp;apos;)-Ia (-) gyrA_S81L" source="225" target="408" cy:directed="0"/>
+      <edge id="1443" label="aph(3&amp;apos;)-Ia (-) sul1" source="225" target="426" cy:directed="0"/>
+      <edge id="1440" label="aph(3&amp;apos;)-Ia (-) blaADC-30" source="225" target="279" cy:directed="0"/>
+      <edge id="1437" label="aph(3&amp;apos;)-Ia (-) armA" source="225" target="237" cy:directed="0"/>
+      <edge id="1434" label="aph(3&amp;apos;)-Ia (-) tet(B)" source="225" target="438" cy:directed="0"/>
+      <edge id="1431" label="aph(3&amp;apos;)-Ia (-) catB8" source="225" target="384" cy:directed="0"/>
+      <edge id="1428" label="aph(3&amp;apos;)-Ia (-) blaOXA-66" source="225" target="345" cy:directed="0"/>
+      <edge id="1425" label="aph(3&amp;apos;)-Ia (-) blaTEM-1" source="225" target="375" cy:directed="0"/>
+      <edge id="1422" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaOXA-402" source="222" target="330" cy:directed="0"/>
+      <edge id="1419" label="aph(3&amp;apos;&amp;apos;)-Ib (-) ftsI_T526S" source="222" target="405" cy:directed="0"/>
+      <edge id="1416" label="aph(3&amp;apos;&amp;apos;)-Ib (-) tet(X5)" source="222" target="441" cy:directed="0"/>
+      <edge id="1413" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaOXA-235" source="222" target="321" cy:directed="0"/>
+      <edge id="1410" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaPER-7" source="222" target="372" cy:directed="0"/>
+      <edge id="1407" label="aph(3&amp;apos;&amp;apos;)-Ib (-) dfrA45" source="222" target="393" cy:directed="0"/>
+      <edge id="1404" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaOXA-239" source="222" target="324" cy:directed="0"/>
+      <edge id="1401" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaPER-1" source="222" target="369" cy:directed="0"/>
+      <edge id="1398" label="aph(3&amp;apos;&amp;apos;)-Ib (-) aph(3&amp;apos;)-VIa" source="222" target="231" cy:directed="0"/>
+      <edge id="1395" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaADC-25" source="222" target="270" cy:directed="0"/>
+      <edge id="1392" label="aph(3&amp;apos;&amp;apos;)-Ib (-) arr-2" source="222" target="240" cy:directed="0"/>
+      <edge id="1389" label="aph(3&amp;apos;&amp;apos;)-Ib (-) cmlA5" source="222" target="387" cy:directed="0"/>
+      <edge id="1386" label="aph(3&amp;apos;&amp;apos;)-Ib (-) sul1" source="222" target="426" cy:directed="0"/>
+      <edge id="1383" label="aph(3&amp;apos;&amp;apos;)-Ib (-) catB8" source="222" target="384" cy:directed="0"/>
+      <edge id="1380" label="aph(3&amp;apos;&amp;apos;)-Ib (-) aph(3&amp;apos;)-Ia" source="222" target="225" cy:directed="0"/>
+      <edge id="1377" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaADC-73" source="222" target="288" cy:directed="0"/>
+      <edge id="1374" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaADC-30" source="222" target="279" cy:directed="0"/>
+      <edge id="1371" label="aph(3&amp;apos;&amp;apos;)-Ib (-) ftsI_A515V" source="222" target="402" cy:directed="0"/>
+      <edge id="1368" label="aph(3&amp;apos;&amp;apos;)-Ib (-) sul2" source="222" target="429" cy:directed="0"/>
+      <edge id="1365" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaTEM-1" source="222" target="375" cy:directed="0"/>
+      <edge id="1362" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaOXA-23" source="222" target="318" cy:directed="0"/>
+      <edge id="1359" label="aph(3&amp;apos;&amp;apos;)-Ib (-) armA" source="222" target="237" cy:directed="0"/>
+      <edge id="1356" label="aph(3&amp;apos;&amp;apos;)-Ib (-) msr(E)" source="222" target="414" cy:directed="0"/>
+      <edge id="1353" label="aph(3&amp;apos;&amp;apos;)-Ib (-) mph(E)" source="222" target="411" cy:directed="0"/>
+      <edge id="1350" label="aph(3&amp;apos;&amp;apos;)-Ib (-) parC_S84L" source="222" target="420" cy:directed="0"/>
+      <edge id="1347" label="aph(3&amp;apos;&amp;apos;)-Ib (-) gyrA_S81L" source="222" target="408" cy:directed="0"/>
+      <edge id="1344" label="aph(3&amp;apos;&amp;apos;)-Ib (-) blaOXA-66" source="222" target="345" cy:directed="0"/>
+      <edge id="1341" label="aph(3&amp;apos;&amp;apos;)-Ib (-) tet(B)" source="222" target="438" cy:directed="0"/>
+      <edge id="1338" label="aph(3&amp;apos;&amp;apos;)-Ib (-) aph(6)-Id" source="222" target="234" cy:directed="0"/>
+      <edge id="1335" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaNDM-1" source="219" target="303" cy:directed="0"/>
+      <edge id="1332" label="ant(2&amp;apos;&amp;apos;)-Ia (-) floR" source="219" target="396" cy:directed="0"/>
+      <edge id="1329" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA-65" source="219" target="342" cy:directed="0"/>
+      <edge id="1326" label="ant(2&amp;apos;&amp;apos;)-Ia (-) aph(3&amp;apos;)-VI" source="219" target="228" cy:directed="0"/>
+      <edge id="1323" label="ant(2&amp;apos;&amp;apos;)-Ia (-) ble" source="219" target="378" cy:directed="0"/>
+      <edge id="1320" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC-33" source="219" target="282" cy:directed="0"/>
+      <edge id="1317" label="ant(2&amp;apos;&amp;apos;)-Ia (-) gyrA_S81L" source="219" target="408" cy:directed="0"/>
+      <edge id="1314" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC-79" source="219" target="294" cy:directed="0"/>
+      <edge id="1311" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC" source="219" target="243" cy:directed="0"/>
+      <edge id="1308" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA-58" source="219" target="336" cy:directed="0"/>
+      <edge id="1305" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA-82" source="219" target="357" cy:directed="0"/>
+      <edge id="1302" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA-100" source="219" target="309" cy:directed="0"/>
+      <edge id="1299" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaCARB-16" source="219" target="297" cy:directed="0"/>
+      <edge id="1296" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaCARB-2" source="219" target="300" cy:directed="0"/>
+      <edge id="1293" label="ant(2&amp;apos;&amp;apos;)-Ia (-) sul1" source="219" target="426" cy:directed="0"/>
+      <edge id="1290" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC-11" source="219" target="246" cy:directed="0"/>
+      <edge id="1287" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA" source="219" target="306" cy:directed="0"/>
+      <edge id="1284" label="ant(2&amp;apos;&amp;apos;)-Ia (-) aph(3&amp;apos;)-VIa" source="219" target="231" cy:directed="0"/>
+      <edge id="1281" label="ant(2&amp;apos;&amp;apos;)-Ia (-) parC_E88K" source="219" target="417" cy:directed="0"/>
+      <edge id="1278" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC-222" source="219" target="267" cy:directed="0"/>
+      <edge id="1275" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaADC-152" source="219" target="249" cy:directed="0"/>
+      <edge id="1272" label="ant(2&amp;apos;&amp;apos;)-Ia (-) blaOXA-95" source="219" target="363" cy:directed="0"/>
+      <edge id="1269" label="adeS_N125K (-) ant(2&amp;apos;&amp;apos;)-Ia" source="216" target="219" cy:directed="0"/>
+      <edge id="1266" label="adeS_N125K (-) aph(3&amp;apos;&amp;apos;)-Ib" source="216" target="222" cy:directed="0"/>
+      <edge id="1263" label="adeS_N125K (-) aph(6)-Id" source="216" target="234" cy:directed="0"/>
+      <edge id="1260" label="adeS_N125K (-) gyrA_S81L" source="216" target="408" cy:directed="0"/>
+      <edge id="1257" label="adeS_N125K (-) parC_S84L" source="216" target="420" cy:directed="0"/>
+      <edge id="1254" label="adeS_N125K (-) sul2" source="216" target="429" cy:directed="0"/>
+      <edge id="1251" label="adeS_N125K (-) aph(3&amp;apos;)-VIa" source="216" target="231" cy:directed="0"/>
+      <edge id="1248" label="adeS_N125K (-) blaADC" source="216" target="243" cy:directed="0"/>
+      <edge id="1245" label="adeS_N125K (-) blaOXA-65" source="216" target="342" cy:directed="0"/>
+      <edge id="1242" label="adeS_N125K (-) blaOXA-239" source="216" target="324" cy:directed="0"/>
+      <edge id="1239" label="adeS_H189Y (-) blaOXA-23" source="213" target="318" cy:directed="0"/>
+      <edge id="1236" label="adeS_H189Y (-) arr-2" source="213" target="240" cy:directed="0"/>
+      <edge id="1233" label="adeS_H189Y (-) cmlA5" source="213" target="387" cy:directed="0"/>
+      <edge id="1230" label="adeS_H189Y (-) gyrA_S81L" source="213" target="408" cy:directed="0"/>
+      <edge id="1227" label="adeS_H189Y (-) parC_S84L" source="213" target="420" cy:directed="0"/>
+      <edge id="1224" label="adeS_H189Y (-) blaPER-7" source="213" target="372" cy:directed="0"/>
+      <edge id="1221" label="adeS_H189Y (-) aph(3&amp;apos;&amp;apos;)-Ib" source="213" target="222" cy:directed="0"/>
+      <edge id="1218" label="adeS_H189Y (-) aph(6)-Id" source="213" target="234" cy:directed="0"/>
+      <edge id="1215" label="adeS_H189Y (-) tet(B)" source="213" target="438" cy:directed="0"/>
+      <edge id="1212" label="adeS_H189Y (-) sul2" source="213" target="429" cy:directed="0"/>
+      <edge id="1209" label="adeS_H189Y (-) blaADC-26" source="213" target="273" cy:directed="0"/>
+      <edge id="1206" label="adeS_H189Y (-) blaOXA-64" source="213" target="339" cy:directed="0"/>
+      <edge id="1203" label="adeS_G336S (-) dfrA1" source="210" target="390" cy:directed="0"/>
+      <edge id="1200" label="adeS_G336S (-) sul2" source="210" target="429" cy:directed="0"/>
+      <edge id="1197" label="adeS_G336S (-) sat2" source="210" target="423" cy:directed="0"/>
+      <edge id="1194" label="adeS_G336S (-) blaOXA-51" source="210" target="333" cy:directed="0"/>
+      <edge id="1191" label="adeS_G336S (-) aph(3&amp;apos;)-VIa" source="210" target="231" cy:directed="0"/>
+      <edge id="1188" label="adeS_G336S (-) blaADC" source="210" target="243" cy:directed="0"/>
+      <edge id="1185" label="adeS_G336S (-) blaOXA-65" source="210" target="342" cy:directed="0"/>
+      <edge id="1182" label="adeS_G336S (-) blaOXA-239" source="210" target="324" cy:directed="0"/>
+      <edge id="1179" label="adeS_G336S (-) adeS_N125K" source="210" target="216" cy:directed="0"/>
+      <edge id="1176" label="adeC (-) blaPER-1" source="207" target="369" cy:directed="0"/>
+      <edge id="1173" label="adeC (-) blaOXA-72" source="207" target="354" cy:directed="0"/>
+      <edge id="1170" label="adeC (-) blaOXA-235" source="207" target="321" cy:directed="0"/>
+      <edge id="1167" label="adeC (-) blaADC-33" source="207" target="282" cy:directed="0"/>
+      <edge id="1164" label="adeC (-) blaOXA-82" source="207" target="357" cy:directed="0"/>
+      <edge id="1161" label="adeC (-) tet(A)" source="207" target="435" cy:directed="0"/>
+      <edge id="1158" label="adeC (-) blaOXA-69" source="207" target="351" cy:directed="0"/>
+      <edge id="1155" label="adeC (-) blaADC-11" source="207" target="246" cy:directed="0"/>
+      <edge id="1152" label="adeC (-) catA1" source="207" target="381" cy:directed="0"/>
+      <edge id="1149" label="adeC (-) blaADC-25" source="207" target="270" cy:directed="0"/>
+      <edge id="1146" label="adeC (-) ftsI_A515V" source="207" target="402" cy:directed="0"/>
+      <edge id="1143" label="adeC (-) blaADC-73" source="207" target="288" cy:directed="0"/>
+      <edge id="1140" label="adeC (-) msr(E)" source="207" target="414" cy:directed="0"/>
+      <edge id="1137" label="adeC (-) mph(E)" source="207" target="411" cy:directed="0"/>
+      <edge id="1134" label="adeC (-) catB8" source="207" target="384" cy:directed="0"/>
+      <edge id="1131" label="adeC (-) blaOXA-23" source="207" target="318" cy:directed="0"/>
+      <edge id="1128" label="adeC (-) sul1" source="207" target="426" cy:directed="0"/>
+      <edge id="1125" label="adeC (-) blaTEM-1" source="207" target="375" cy:directed="0"/>
+      <edge id="1122" label="adeC (-) aph(3&amp;apos;)-Ia" source="207" target="225" cy:directed="0"/>
+      <edge id="1119" label="adeC (-) aph(6)-Id" source="207" target="234" cy:directed="0"/>
+      <edge id="1116" label="adeC (-) aph(3&amp;apos;&amp;apos;)-Ib" source="207" target="222" cy:directed="0"/>
+      <edge id="1113" label="adeC (-) parC_S84L" source="207" target="420" cy:directed="0"/>
+      <edge id="1110" label="adeC (-) blaADC-30" source="207" target="279" cy:directed="0"/>
+      <edge id="1107" label="adeC (-) gyrA_S81L" source="207" target="408" cy:directed="0"/>
+      <edge id="1104" label="adeC (-) armA" source="207" target="237" cy:directed="0"/>
+      <edge id="1101" label="adeC (-) tet(B)" source="207" target="438" cy:directed="0"/>
+      <edge id="1098" label="adeC (-) blaOXA-66" source="207" target="345" cy:directed="0"/>
+      <edge id="1095" label="aadT (-) blaADC" source="204" target="243" cy:directed="0"/>
+      <edge id="1092" label="aadT (-) blaPER-7" source="204" target="372" cy:directed="0"/>
+      <edge id="1089" label="aadT (-) blaADC-79" source="204" target="294" cy:directed="0"/>
+      <edge id="1086" label="aadT (-) blaOXA-100" source="204" target="309" cy:directed="0"/>
+      <edge id="1083" label="aadT (-) tet(39)" source="204" target="432" cy:directed="0"/>
+      <edge id="1080" label="aadT (-) blaOXA-120" source="204" target="315" cy:directed="0"/>
+      <edge id="1077" label="aadT (-) mph(E)" source="204" target="411" cy:directed="0"/>
+      <edge id="1074" label="aadT (-) floR" source="204" target="396" cy:directed="0"/>
+      <edge id="1071" label="aadT (-) msr(E)" source="204" target="414" cy:directed="0"/>
+      <edge id="1068" label="aadT (-) tet(X5)" source="204" target="441" cy:directed="0"/>
+      <edge id="1065" label="aadT (-) aph(3&amp;apos;)-VIa" source="204" target="231" cy:directed="0"/>
+      <edge id="1062" label="aadT (-) blaCARB-2" source="204" target="300" cy:directed="0"/>
+      <edge id="1059" label="aadT (-) ant(2&amp;apos;&amp;apos;)-Ia" source="204" target="219" cy:directed="0"/>
+      <edge id="1056" label="aadT (-) sul2" source="204" target="429" cy:directed="0"/>
+      <edge id="1053" label="aadT (-) aph(3&amp;apos;)-VI" source="204" target="228" cy:directed="0"/>
+      <edge id="1050" label="aadT (-) blaOXA-68" source="204" target="348" cy:directed="0"/>
+      <edge id="1047" label="aadT (-) blaOXA-65" source="204" target="342" cy:directed="0"/>
+      <edge id="1044" label="aadT (-) blaADC-76" source="204" target="291" cy:directed="0"/>
+      <edge id="1041" label="aadT (-) ble" source="204" target="378" cy:directed="0"/>
+      <edge id="1038" label="aadT (-) blaNDM-1" source="204" target="303" cy:directed="0"/>
+      <edge id="1035" label="aadT (-) blaOXA-58" source="204" target="336" cy:directed="0"/>
+      <edge id="1032" label="aadA5 (-) gyrA_S81L" source="201" target="408" cy:directed="0"/>
+      <edge id="1029" label="aadA5 (-) blaCARB-16" source="201" target="297" cy:directed="0"/>
+      <edge id="1026" label="aadA5 (-) aph(3&amp;apos;)-VIa" source="201" target="231" cy:directed="0"/>
+      <edge id="1023" label="aadA5 (-) sul2" source="201" target="429" cy:directed="0"/>
+      <edge id="1020" label="aadA5 (-) floR" source="201" target="396" cy:directed="0"/>
+      <edge id="1017" label="aadA5 (-) msr(E)" source="201" target="414" cy:directed="0"/>
+      <edge id="1014" label="aadA5 (-) mph(E)" source="201" target="411" cy:directed="0"/>
+      <edge id="1011" label="aadA5 (-) ble" source="201" target="378" cy:directed="0"/>
+      <edge id="1008" label="aadA5 (-) blaNDM-1" source="201" target="303" cy:directed="0"/>
+      <edge id="1005" label="aadA5 (-) parC_E88K" source="201" target="417" cy:directed="0"/>
+      <edge id="1002" label="aadA5 (-) sul1" source="201" target="426" cy:directed="0"/>
+      <edge id="999" label="aadA5 (-) blaADC" source="201" target="243" cy:directed="0"/>
+      <edge id="996" label="aadA5 (-) aph(3&amp;apos;)-VI" source="201" target="228" cy:directed="0"/>
+      <edge id="993" label="aadA5 (-) ant(2&amp;apos;&amp;apos;)-Ia" source="201" target="219" cy:directed="0"/>
+      <edge id="990" label="aadA5 (-) blaADC-152" source="201" target="249" cy:directed="0"/>
+      <edge id="987" label="aadA5 (-) blaOXA-58" source="201" target="336" cy:directed="0"/>
+      <edge id="984" label="aadA5 (-) blaOXA-65" source="201" target="342" cy:directed="0"/>
+      <edge id="981" label="aadA5 (-) aadT" source="201" target="204" cy:directed="0"/>
+      <edge id="978" label="aadA5 (-) blaOXA-72" source="201" target="354" cy:directed="0"/>
+      <edge id="975" label="aadA2 (-) blaOXA-23" source="198" target="318" cy:directed="0"/>
+      <edge id="972" label="aadA2 (-) blaOXA-69" source="198" target="351" cy:directed="0"/>
+      <edge id="969" label="aadA2 (-) blaPER-1" source="198" target="369" cy:directed="0"/>
+      <edge id="966" label="aadA2 (-) adeS_G336S" source="198" target="210" cy:directed="0"/>
+      <edge id="963" label="aadA2 (-) aph(3&amp;apos;)-VIa" source="198" target="231" cy:directed="0"/>
+      <edge id="960" label="aadA2 (-) gyrA_S81L" source="198" target="408" cy:directed="0"/>
+      <edge id="957" label="aadA2 (-) adeS_N125K" source="198" target="216" cy:directed="0"/>
+      <edge id="954" label="aadA2 (-) blaADC-11" source="198" target="246" cy:directed="0"/>
+      <edge id="951" label="aadA2 (-) blaADC-33" source="198" target="282" cy:directed="0"/>
+      <edge id="948" label="aadA2 (-) blaOXA-82" source="198" target="357" cy:directed="0"/>
+      <edge id="945" label="aadA2 (-) sul1" source="198" target="426" cy:directed="0"/>
+      <edge id="942" label="aadA2 (-) parC_E88K" source="198" target="417" cy:directed="0"/>
+      <edge id="939" label="aadA2 (-) blaCARB-2" source="198" target="300" cy:directed="0"/>
+      <edge id="936" label="aadA2 (-) blaADC-222" source="198" target="267" cy:directed="0"/>
+      <edge id="933" label="aadA2 (-) blaOXA-95" source="198" target="363" cy:directed="0"/>
+      <edge id="930" label="aadA2 (-) ant(2&amp;apos;&amp;apos;)-Ia" source="198" target="219" cy:directed="0"/>
+      <edge id="927" label="aadA1 (-) blaADC-11" source="195" target="246" cy:directed="0"/>
+      <edge id="924" label="aadA1 (-) ftsI_T526S" source="195" target="405" cy:directed="0"/>
+      <edge id="921" label="aadA1 (-) blaOXA-69" source="195" target="351" cy:directed="0"/>
+      <edge id="918" label="aadA1 (-) catA1" source="195" target="381" cy:directed="0"/>
+      <edge id="915" label="aadA1 (-) tet(A)" source="195" target="435" cy:directed="0"/>
+      <edge id="912" label="aadA1 (-) aph(3&amp;apos;&amp;apos;)-Ib" source="195" target="222" cy:directed="0"/>
+      <edge id="909" label="aadA1 (-) aph(6)-Id" source="195" target="234" cy:directed="0"/>
+      <edge id="906" label="aadA1 (-) dfrA1" source="195" target="390" cy:directed="0"/>
+      <edge id="903" label="aadA1 (-) sat2" source="195" target="423" cy:directed="0"/>
+      <edge id="900" label="aadA1 (-) blaOXA-23" source="195" target="318" cy:directed="0"/>
+      <edge id="897" label="aadA1 (-) msr(E)" source="195" target="414" cy:directed="0"/>
+      <edge id="894" label="aadA1 (-) mph(E)" source="195" target="411" cy:directed="0"/>
+      <edge id="891" label="aadA1 (-) parC_S84L" source="195" target="420" cy:directed="0"/>
+      <edge id="888" label="aadA1 (-) tet(B)" source="195" target="438" cy:directed="0"/>
+      <edge id="885" label="aadA1 (-) blaTEM-1" source="195" target="375" cy:directed="0"/>
+      <edge id="882" label="aadA1 (-) gyrA_S81L" source="195" target="408" cy:directed="0"/>
+      <edge id="879" label="aadA1 (-) armA" source="195" target="237" cy:directed="0"/>
+      <edge id="876" label="aadA1 (-) blaOXA-66" source="195" target="345" cy:directed="0"/>
+      <edge id="873" label="aadA1 (-) adeC" source="195" target="207" cy:directed="0"/>
+      <edge id="870" label="aadA1 (-) aph(3&amp;apos;)-Ia" source="195" target="225" cy:directed="0"/>
+      <edge id="867" label="aadA1 (-) blaADC-30" source="195" target="279" cy:directed="0"/>
+      <edge id="864" label="aadA1 (-) sul1" source="195" target="426" cy:directed="0"/>
+      <edge id="861" label="aadA1 (-) catB8" source="195" target="384" cy:directed="0"/>
+      <edge id="858" label="aacA16 (-) gyrA_S81L" source="192" target="408" cy:directed="0"/>
+      <edge id="855" label="aacA16 (-) sul2" source="192" target="429" cy:directed="0"/>
+      <edge id="852" label="aacA16 (-) sul1" source="192" target="426" cy:directed="0"/>
+      <edge id="849" label="aacA16 (-) adeC" source="192" target="207" cy:directed="0"/>
+      <edge id="846" label="aacA16 (-) aph(3&amp;apos;&amp;apos;)-Ib" source="192" target="222" cy:directed="0"/>
+      <edge id="843" label="aacA16 (-) aph(6)-Id" source="192" target="234" cy:directed="0"/>
+      <edge id="840" label="aacA16 (-) blaADC-30" source="192" target="279" cy:directed="0"/>
+      <edge id="837" label="aacA16 (-) tet(B)" source="192" target="438" cy:directed="0"/>
+      <edge id="834" label="aacA16 (-) blaOXA-66" source="192" target="345" cy:directed="0"/>
+      <edge id="831" label="aacA16 (-) aadA5" source="192" target="201" cy:directed="0"/>
+      <edge id="828" label="aacA16 (-) parC_E88K" source="192" target="417" cy:directed="0"/>
+      <edge id="825" label="aacA16 (-) blaOXA-72" source="192" target="354" cy:directed="0"/>
+      <edge id="822" label="aac(6&amp;apos;)-Ib4 (-) sul2" source="189" target="429" cy:directed="0"/>
+      <edge id="819" label="aac(6&amp;apos;)-Ib4 (-) tet(39)" source="189" target="432" cy:directed="0"/>
+      <edge id="816" label="aac(6&amp;apos;)-Ib4 (-) msr(E)" source="189" target="414" cy:directed="0"/>
+      <edge id="813" label="aac(6&amp;apos;)-Ib4 (-) mph(E)" source="189" target="411" cy:directed="0"/>
+      <edge id="810" label="aac(6&amp;apos;)-Ib4 (-) blaADC" source="189" target="243" cy:directed="0"/>
+      <edge id="807" label="aac(6&amp;apos;)-Ib4 (-) blaOXA-120" source="189" target="315" cy:directed="0"/>
+      <edge id="804" label="aac(6&amp;apos;)-Ib4 (-) blaCARB-2" source="189" target="300" cy:directed="0"/>
+      <edge id="801" label="aac(6&amp;apos;)-Ib4 (-) aph(3&amp;apos;)-VIa" source="189" target="231" cy:directed="0"/>
+      <edge id="798" label="aac(6&amp;apos;)-Ib4 (-) sul1" source="189" target="426" cy:directed="0"/>
+      <edge id="795" label="aac(6&amp;apos;)-Ib4 (-) floR" source="189" target="396" cy:directed="0"/>
+      <edge id="792" label="aac(6&amp;apos;)-Ib4 (-) ant(2&amp;apos;&amp;apos;)-Ia" source="189" target="219" cy:directed="0"/>
+      <edge id="789" label="aac(6&amp;apos;)-Ib4 (-) ble" source="189" target="378" cy:directed="0"/>
+      <edge id="786" label="aac(6&amp;apos;)-Ib4 (-) blaNDM-1" source="189" target="303" cy:directed="0"/>
+      <edge id="783" label="aac(6&amp;apos;)-Ib4 (-) blaOXA-65" source="189" target="342" cy:directed="0"/>
+      <edge id="780" label="aac(6&amp;apos;)-Ib4 (-) aph(3&amp;apos;)-VI" source="189" target="228" cy:directed="0"/>
+      <edge id="777" label="aac(6&amp;apos;)-Ib4 (-) blaOXA-58" source="189" target="336" cy:directed="0"/>
+      <edge id="774" label="aac(6&amp;apos;)-Ib4 (-) aadA5" source="189" target="201" cy:directed="0"/>
+      <edge id="771" label="aac(6&amp;apos;)-Ib4 (-) aadT" source="189" target="204" cy:directed="0"/>
+      <edge id="768" label="aac(6&amp;apos;)-Ib3 (-) catA1" source="186" target="381" cy:directed="0"/>
+      <edge id="765" label="aac(6&amp;apos;)-Ib3 (-) blaOXA-65" source="186" target="342" cy:directed="0"/>
+      <edge id="762" label="aac(6&amp;apos;)-Ib3 (-) blaOXA-58" source="186" target="336" cy:directed="0"/>
+      <edge id="759" label="aac(6&amp;apos;)-Ib3 (-) tet(A)" source="186" target="435" cy:directed="0"/>
+      <edge id="756" label="aac(6&amp;apos;)-Ib3 (-) blaOXA-69" source="186" target="351" cy:directed="0"/>
+      <edge id="753" label="aac(6&amp;apos;)-Ib3 (-) sul1" source="186" target="426" cy:directed="0"/>
+      <edge id="750" label="aac(6&amp;apos;)-Ib3 (-) ant(2&amp;apos;&amp;apos;)-Ia" source="186" target="219" cy:directed="0"/>
+      <edge id="747" label="aac(6&amp;apos;)-Ib3 (-) aph(3&amp;apos;)-VIa" source="186" target="231" cy:directed="0"/>
+      <edge id="744" label="aac(6&amp;apos;)-Ib3 (-) aadA2" source="186" target="198" cy:directed="0"/>
+      <edge id="741" label="aac(6&amp;apos;)-Ib3 (-) blaADC-11" source="186" target="246" cy:directed="0"/>
+      <edge id="738" label="aac(6&amp;apos;)-Ib&amp;apos; (-) blaOXA-235" source="183" target="321" cy:directed="0"/>
+      <edge id="735" label="aac(6&amp;apos;)-Ib&amp;apos; (-) aph(3&amp;apos;&amp;apos;)-Ib" source="183" target="222" cy:directed="0"/>
+      <edge id="732" label="aac(6&amp;apos;)-Ib&amp;apos; (-) aph(6)-Id" source="183" target="234" cy:directed="0"/>
+      <edge id="729" label="aac(6&amp;apos;)-Ib&amp;apos; (-) gyrA_S81L" source="183" target="408" cy:directed="0"/>
+      <edge id="726" label="aac(6&amp;apos;)-Ib&amp;apos; (-) blaOXA-23" source="183" target="318" cy:directed="0"/>
+      <edge id="723" label="aac(6&amp;apos;)-Ib&amp;apos; (-) parC_S84L" source="183" target="420" cy:directed="0"/>
+      <edge id="720" label="aac(6&amp;apos;)-Ib&amp;apos; (-) tet(B)" source="183" target="438" cy:directed="0"/>
+      <edge id="717" label="aac(6&amp;apos;)-Ib&amp;apos; (-) blaTEM-1" source="183" target="375" cy:directed="0"/>
+      <edge id="714" label="aac(6&amp;apos;)-Ib&amp;apos; (-) adeC" source="183" target="207" cy:directed="0"/>
+      <edge id="711" label="aac(6&amp;apos;)-Ib&amp;apos; (-) aph(3&amp;apos;)-Ia" source="183" target="225" cy:directed="0"/>
+      <edge id="708" label="aac(6&amp;apos;)-Ib&amp;apos; (-) blaOXA-66" source="183" target="345" cy:directed="0"/>
+      <edge id="705" label="aac(6&amp;apos;)-Ib&amp;apos; (-) msr(E)" source="183" target="414" cy:directed="0"/>
+      <edge id="702" label="aac(6&amp;apos;)-Ib&amp;apos; (-) mph(E)" source="183" target="411" cy:directed="0"/>
+      <edge id="699" label="aac(6&amp;apos;)-Ib&amp;apos; (-) sul1" source="183" target="426" cy:directed="0"/>
+      <edge id="696" label="aac(6&amp;apos;)-Ib&amp;apos; (-) armA" source="183" target="237" cy:directed="0"/>
+      <edge id="693" label="aac(6&amp;apos;)-Ib&amp;apos; (-) blaADC-30" source="183" target="279" cy:directed="0"/>
+      <edge id="690" label="aac(6&amp;apos;)-Ib&amp;apos; (-) aadA1" source="183" target="195" cy:directed="0"/>
+      <edge id="687" label="aac(6&amp;apos;)-Ib&amp;apos; (-) catB8" source="183" target="384" cy:directed="0"/>
+      <edge id="684" label="aac(6&amp;apos;)-Ian (-) tet(B)" source="180" target="438" cy:directed="0"/>
+      <edge id="681" label="aac(6&amp;apos;)-Ian (-) arr-2" source="180" target="240" cy:directed="0"/>
+      <edge id="678" label="aac(6&amp;apos;)-Ian (-) cmlA5" source="180" target="387" cy:directed="0"/>
+      <edge id="675" label="aac(6&amp;apos;)-Ian (-) ant(2&amp;apos;&amp;apos;)-Ia" source="180" target="219" cy:directed="0"/>
+      <edge id="672" label="aac(6&amp;apos;)-Ian (-) aph(6)-Id" source="180" target="234" cy:directed="0"/>
+      <edge id="669" label="aac(6&amp;apos;)-Ian (-) floR" source="180" target="396" cy:directed="0"/>
+      <edge id="666" label="aac(6&amp;apos;)-Ian (-) aph(3&amp;apos;&amp;apos;)-Ib" source="180" target="222" cy:directed="0"/>
+      <edge id="663" label="aac(6&amp;apos;)-Ian (-) blaPER-7" source="180" target="372" cy:directed="0"/>
+      <edge id="660" label="aac(6&amp;apos;)-Ian (-) blaOXA" source="180" target="306" cy:directed="0"/>
+      <edge id="657" label="aac(6&amp;apos;)-Ian (-) aadA5" source="180" target="201" cy:directed="0"/>
+      <edge id="654" label="aac(6&amp;apos;)-Ian (-) gyrA_S81L" source="180" target="408" cy:directed="0"/>
+      <edge id="651" label="aac(6&amp;apos;)-Ian (-) parC_S84L" source="180" target="420" cy:directed="0"/>
+      <edge id="648" label="aac(6&amp;apos;)-Ian (-) blaOXA-239" source="180" target="324" cy:directed="0"/>
+      <edge id="645" label="aac(6&amp;apos;)-Ian (-) blaOXA-65" source="180" target="342" cy:directed="0"/>
+      <edge id="642" label="aac(6&amp;apos;)-Ian (-) blaCARB-16" source="180" target="297" cy:directed="0"/>
+      <edge id="639" label="aac(6&amp;apos;)-Ian (-) adeS_G336S" source="180" target="210" cy:directed="0"/>
+      <edge id="636" label="aac(6&amp;apos;)-Ian (-) adeS_N125K" source="180" target="216" cy:directed="0"/>
+      <edge id="633" label="aac(6&amp;apos;)-Ian (-) sul2" source="180" target="429" cy:directed="0"/>
+      <edge id="630" label="aac(6&amp;apos;)-Ian (-) blaADC-26" source="180" target="273" cy:directed="0"/>
+      <edge id="627" label="aac(6&amp;apos;)-Ian (-) blaADC-152" source="180" target="249" cy:directed="0"/>
+      <edge id="624" label="aac(6&amp;apos;)-Ian (-) blaOXA-64" source="180" target="339" cy:directed="0"/>
+      <edge id="621" label="aac(6&amp;apos;)-Ian (-) adeS_H189Y" source="180" target="213" cy:directed="0"/>
+      <edge id="618" label="aac(3)-Ia (-) catB8" source="177" target="384" cy:directed="0"/>
+      <edge id="615" label="aac(3)-Ia (-) blaADC-25" source="177" target="270" cy:directed="0"/>
+      <edge id="612" label="aac(3)-Ia (-) blaOXA-23" source="177" target="318" cy:directed="0"/>
+      <edge id="609" label="aac(3)-Ia (-) blaADC-33" source="177" target="282" cy:directed="0"/>
+      <edge id="606" label="aac(3)-Ia (-) aph(3&amp;apos;&amp;apos;)-Ib" source="177" target="222" cy:directed="0"/>
+      <edge id="603" label="aac(3)-Ia (-) aph(6)-Id" source="177" target="234" cy:directed="0"/>
+      <edge id="600" label="aac(3)-Ia (-) aph(3&amp;apos;)-VIa" source="177" target="231" cy:directed="0"/>
+      <edge id="597" label="aac(3)-Ia (-) blaOXA-82" source="177" target="357" cy:directed="0"/>
+      <edge id="594" label="aac(3)-Ia (-) blaADC-176" source="177" target="261" cy:directed="0"/>
+      <edge id="591" label="aac(3)-Ia (-) blaPER-1" source="177" target="369" cy:directed="0"/>
+      <edge id="588" label="aac(3)-Ia (-) parC_S84L" source="177" target="420" cy:directed="0"/>
+      <edge id="585" label="aac(3)-Ia (-) blaADC-11" source="177" target="246" cy:directed="0"/>
+      <edge id="582" label="aac(3)-Ia (-) dfrA1" source="177" target="390" cy:directed="0"/>
+      <edge id="579" label="aac(3)-Ia (-) sat2" source="177" target="423" cy:directed="0"/>
+      <edge id="576" label="aac(3)-Ia (-) tet(B)" source="177" target="438" cy:directed="0"/>
+      <edge id="573" label="aac(3)-Ia (-) blaOXA-72" source="177" target="354" cy:directed="0"/>
+      <edge id="570" label="aac(3)-Ia (-) blaTEM-1" source="177" target="375" cy:directed="0"/>
+      <edge id="567" label="aac(3)-Ia (-) gyrA_S81L" source="177" target="408" cy:directed="0"/>
+      <edge id="564" label="aac(3)-Ia (-) blaOXA-66" source="177" target="345" cy:directed="0"/>
+      <edge id="561" label="aac(3)-Ia (-) blaOXA-69" source="177" target="351" cy:directed="0"/>
+      <edge id="558" label="aac(3)-Ia (-) catA1" source="177" target="381" cy:directed="0"/>
+      <edge id="555" label="aac(3)-Ia (-) aph(3&amp;apos;)-Ia" source="177" target="225" cy:directed="0"/>
+      <edge id="552" label="aac(3)-Ia (-) blaADC-30" source="177" target="279" cy:directed="0"/>
+      <edge id="549" label="aac(3)-Ia (-) tet(A)" source="177" target="435" cy:directed="0"/>
+      <edge id="546" label="aac(3)-Ia (-) aacA16" source="177" target="192" cy:directed="0"/>
+      <edge id="543" label="aac(3)-Ia (-) adeC" source="177" target="207" cy:directed="0"/>
+      <edge id="540" label="aac(3)-Ia (-) sul1" source="177" target="426" cy:directed="0"/>
+      <edge id="537" label="aac(3)-Ia (-) aadA1" source="177" target="195" cy:directed="0"/>
+      <edge id="534" label="aac(3)-IIe (-) blaOXA-23" source="174" target="318" cy:directed="0"/>
+      <edge id="531" label="aac(3)-IIe (-) parC_S84L" source="174" target="420" cy:directed="0"/>
+      <edge id="528" label="aac(3)-IIe (-) dfrA1" source="174" target="390" cy:directed="0"/>
+      <edge id="525" label="aac(3)-IIe (-) tet(B)" source="174" target="438" cy:directed="0"/>
+      <edge id="522" label="aac(3)-IIe (-) gyrA_S81L" source="174" target="408" cy:directed="0"/>
+      <edge id="519" label="aac(3)-IIe (-) aph(6)-Id" source="174" target="234" cy:directed="0"/>
+      <edge id="516" label="aac(3)-IIe (-) aph(3&amp;apos;&amp;apos;)-Ib" source="174" target="222" cy:directed="0"/>
+      <edge id="513" label="aac(3)-IIe (-) sul2" source="174" target="429" cy:directed="0"/>
+      <edge id="510" label="aac(3)-IIe (-) blaADC-26" source="174" target="273" cy:directed="0"/>
+      <edge id="507" label="aac(3)-IIe (-) blaOXA-64" source="174" target="339" cy:directed="0"/>
+      <edge id="504" label="aac(3)-IIe (-) adeS_H189Y" source="174" target="213" cy:directed="0"/>
+      <edge id="501" label="aac(3)-IIe (-) aac(6&amp;apos;)-Ian" source="174" target="180" cy:directed="0"/>
+      <edge id="498" label="aac(3)-IId (-) blaOXA-120" source="156" target="315" cy:directed="0"/>
+      <edge id="495" label="aac(3)-IId (-) blaADC-76" source="156" target="291" cy:directed="0"/>
+      <edge id="492" label="aac(3)-IId (-) blaOXA-68" source="156" target="348" cy:directed="0"/>
+      <edge id="489" label="aac(3)-IId (-) aac(6&amp;apos;)-Ib4" source="156" target="189" cy:directed="0"/>
+      <edge id="486" label="aac(3)-IId (-) sul2" source="156" target="429" cy:directed="0"/>
+      <edge id="483" label="aac(3)-IId (-) ble" source="156" target="378" cy:directed="0"/>
+      <edge id="480" label="aac(3)-IId (-) blaNDM-1" source="156" target="303" cy:directed="0"/>
+      <edge id="477" label="aac(3)-IId (-) blaCARB-2" source="156" target="300" cy:directed="0"/>
+      <edge id="474" label="aac(3)-IId (-) msr(E)" source="156" target="414" cy:directed="0"/>
+      <edge id="471" label="aac(3)-IId (-) mph(E)" source="156" target="411" cy:directed="0"/>
+      <edge id="468" label="aac(3)-IId (-) blaOXA-58" source="156" target="336" cy:directed="0"/>
+      <edge id="465" label="aac(3)-IId (-) aadT" source="156" target="204" cy:directed="0"/>
+      <edge id="462" label="aac(3)-IId (-) floR" source="156" target="396" cy:directed="0"/>
+      <edge id="459" label="aac(3)-IId (-) blaADC-169" source="156" target="258" cy:directed="0"/>
+      <edge id="456" label="aac(3)-IId (-) blaOXA-402" source="156" target="330" cy:directed="0"/>
+      <edge id="444" label="aac(3)-IId (-) tet(39)" source="156" target="432" cy:directed="0"/>
+    </graph>
+  </att>
+</graph>

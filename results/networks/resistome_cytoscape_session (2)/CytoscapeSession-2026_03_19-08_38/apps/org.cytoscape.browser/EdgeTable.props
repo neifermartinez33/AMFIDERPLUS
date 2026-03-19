@@ -1,0 +1,9 @@
+resistome_network.graphml default edge,0,SUID,false
+resistome_network.graphml default edge,1,selected,false
+resistome_network.graphml default edge,2,shared name,true
+resistome_network.graphml default edge,3,shared interaction,true
+resistome_network.graphml default edge,4,name,true
+resistome_network.graphml default edge,5,interaction,true
+resistome_network.graphml default edge,6,weight,true
+resistome_network.graphml default edge,7,n11,true
+resistome_network.graphml default edge,8,p_adj,true

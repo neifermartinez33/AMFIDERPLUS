@@ -1,0 +1,9 @@
+resistome_network.graphml default node,0,SUID,false
+resistome_network.graphml default node,1,selected,false
+resistome_network.graphml default node,2,shared name,true
+resistome_network.graphml default node,3,name,true
+resistome_network.graphml default node,4,Class,true
+resistome_network.graphml default node,5,Subclass,true
+resistome_network.graphml default node,6,Scope,true
+resistome_network.graphml default node,7,prevalence,true
+resistome_network.graphml default node,8,n_genomes,true
