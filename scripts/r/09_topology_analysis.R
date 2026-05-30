@@ -7,7 +7,7 @@ cat(format(Sys.time()), "\n\n")
 g <- readRDS("~/matrix_output_v2/network_consensus.rds")
 cat("Network loaded:", vcount(g), "nodes,", ecount(g), "edges\n\n")
 
-# ── 1. CENTRALITY MEASURES ───────────────────────────────────
+# 1. CENTRALITY MEASURES
 cat("=== 1. Centrality Measures ===\n")
 deg       <- degree(g)
 btw       <- betweenness(g, normalized = TRUE)
@@ -28,7 +28,7 @@ centrality <- centrality[order(-degree)]
 cat("\nTop 15 nodes by degree:\n")
 print(centrality[1:15])
 
-# ── 2. HUB IDENTIFICATION ────────────────────────────────────
+# 2. HUB IDENTIFICATION
 cat("\n=== 2. Hub Identification (top 20% degree OR top 20% betweenness) ===\n")
 deg_thresh <- quantile(deg[deg > 0], 0.80)
 btw_thresh <- quantile(btw[btw > 0], 0.80)
@@ -39,7 +39,7 @@ hubs <- hubs[order(-degree)]
 cat("Hubs identified:", nrow(hubs), "\n")
 print(hubs)
 
-# ── 3. GLOBAL NETWORK STATISTICS ────────────────────────────
+# 3. GLOBAL NETWORK STATISTICS
 cat("\n=== 3. Global Network Statistics ===\n")
 g_conn <- induced_subgraph(g, V(g)[deg > 0])
 cat("Global clustering (transitivity):", round(transitivity(g, type="global"), 4), "\n")
@@ -48,7 +48,7 @@ cat("Diameter (connected subgraph):", diameter(g_conn), "\n")
 cat("Mean path length:", round(mean_distance(g_conn), 4), "\n")
 cat("Degree assortativity:", round(assortativity_degree(g, directed=FALSE), 4), "\n")
 
-# ── 4. DEGREE DISTRIBUTION ──────────────────────────────────
+# 4. DEGREE DISTRIBUTION
 cat("\n=== 4. Degree Distribution / Power Law Fit ===\n")
 deg_nonzero <- deg[deg > 0]
 fit <- fit_power_law(deg_nonzero)
@@ -64,7 +64,7 @@ cat("xmin:", fit$xmin, "\n")
 cat("Interpretation: alpha =", round(fit$alpha, 2),
     ">> 3.0 indicates distribution is NOT classical scale-free\n")
 
-# ── 5. COMMUNITY DETECTION ──────────────────────────────────
+# 5. COMMUNITY DETECTION
 cat("\n=== 5. Community Detection ===\n")
 
 set.seed(42)
@@ -93,7 +93,7 @@ for (cid in big) {
               cid, length(members), paste(members, collapse=", ")))
 }
 
-# ── 6. SAVE OUTPUTS ─────────────────────────────────────────
+# 6. SAVE OUTPUTS
 V(g)$degree             <- deg
 V(g)$betweenness        <- btw
 V(g)$closeness          <- clo

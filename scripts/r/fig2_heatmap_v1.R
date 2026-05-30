@@ -3,9 +3,19 @@ suppressPackageStartupMessages({
   library(ggplot2)
   library(scales)
   library(patchwork)
+  library(showtext)
 })
 
-# ── PATHS ────────────────────────────────────────────────────
+font_add("TeX Gyre Pagella",
+         regular    = "/home/miguel/.fonts/texgyrepagella-regular.otf",
+         bold       = "/home/miguel/.fonts/texgyrepagella-bold.otf",
+         italic     = "/home/miguel/.fonts/texgyrepagella-italic.otf",
+         bolditalic = "/home/miguel/.fonts/texgyrepagella-bolditalic.otf")
+showtext_auto()
+showtext_opts(dpi = 300)
+FONT <- "TeX Gyre Pagella"
+
+# RUTAS
 base    <- "/home/miguel/Abaum_Resistome_Network"
 tables  <- file.path(base, "results/tables")
 out_dir <- file.path(base, "results/figures/main")
@@ -14,10 +24,10 @@ dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 trends  <- fread(file.path(tables, "temporal_trends.csv"))
 prev_yr <- fread(file.path(tables, "temporal_prevalence_by_year.csv"))
 
-# ── TEMPORAL FILTER ───────────────────────────────────────────
+# FILTRO TEMPORAL
 prev_yr <- prev_yr[year >= 2006 & year <= 2023]
 
-# ── SIGNIFICANT GENES p < 0.05 ────────────────────────────────
+# GENES SIGNIFICATIVOS p < 0.05
 sig     <- trends[pvalue < 0.05]
 sig_inc <- sig[trend == "increasing"][order(-slope), gene]
 sig_dec <- sig[trend == "decreasing"][order(slope),  gene]
@@ -30,7 +40,7 @@ n_inc <- length(gcols_inc)
 n_dec <- length(gcols_dec)
 n_tot <- length(gcols)
 
-# ── MEAN PREVALENCE BY GENE ───────────────────────────────────
+# PREVALENCIA MEDIA POR GEN
 prev_mean <- prev_yr[, lapply(.SD, mean, na.rm = TRUE),
                      .SDcols = gcols]
 prev_mean_long <- data.table(
@@ -38,13 +48,13 @@ prev_mean_long <- data.table(
   mean_prev = as.numeric(prev_mean[1, ])
 )
 
-# ── ROBUST GENES: R² >= 0.60 AND mean prevalence >= 10% ──────
+# GENES ROBUSTOS: R² ≥ 0.60 AND prevalencia media ≥ 10%
 robust_genes <- trends[pvalue < 0.05 & r2 >= 0.60, gene]
 robust_genes <- intersect(robust_genes, gcols)
 robust_in    <- prev_mean_long[gene %in% robust_genes &
                                  mean_prev >= 0.10, gene]
 
-# ── RESISTANCE CLASS ──────────────────────────────────────────
+# CLASE DE RESISTENCIA
 res_class <- c(
   "msr(e)"        = "Macrolide",
   "arma"          = "Aminoglycoside",
@@ -69,7 +79,7 @@ res_class <- c(
   "blaoxa_58like" = "Carbapenem"
 )
 
-# ── LONG FORMAT ───────────────────────────────────────────────
+# FORMATO LARGO
 prev_long <- melt(
   prev_yr[, c("year", gcols), with = FALSE],
   id.vars       = "year",
@@ -81,65 +91,65 @@ prev_long[, pct     := round(prev * 100, 0)]
 prev_long[, lab     := ifelse(prev > 0, paste0(pct, "%"), "")]
 prev_long[, txt_col := ifelse(prev >= 0.52, "white", "#1a1a1a")]
 
-# Y-axis labels: star only for genes with R² >= 0.60 and prevalence >= 10%
+# Etiquetas eje Y: ★ solo en genes con R² ≥ 0.60 y prevalencia ≥ 10%
 gene_labels <- setNames(
   ifelse(gene_order %in% robust_in,
-         paste0(gene_order, "  ★"),
+         paste0(gene_order, "  *"),
          gene_order),
   gene_order
 )
 
-# ── POSITIONS ─────────────────────────────────────────────────
+# POSICIONES
 y_dec_center <- n_dec / 2 + 0.5
 y_inc_center <- n_dec + n_inc / 2 + 0.5
 years_available <- sort(unique(prev_long$year))
 x_min <- min(years_available)
 x_max <- max(years_available)
 
-# ── PALETTE ───────────────────────────────────────────────────
+# PALETA
 pal_colors <- c(
   "#FFFEF5", "#FFF7BC", "#FEC44F",
   "#FE9929", "#EC7014", "#CC4C02", "#8C2D04"
 )
 pal_values <- rescale(c(0, 0.10, 0.30, 0.50, 0.65, 0.80, 1.0))
 
-# ── HEATMAP ──────────────────────────────────────────────────
+# HEATMAP
 p_heat <- ggplot(prev_long, aes(x = year, y = gene, fill = prev)) +
 
-  # Increasing band
+  # Franja Increasing
   annotate("rect",
            xmin = x_min - 1.62, xmax = x_min - 0.92,
            ymin = n_dec + 0.5, ymax = n_tot + 0.5,
            fill = "#CC4C02", color = NA, alpha = 0.90) +
   annotate("text",
            x = x_min - 1.27, y = y_inc_center,
-           label = "Increasing ↑",
-           angle = 90, hjust = 0.5, size = 3.1,
-           fontface = "bold", color = "white") +
+           label = "Increasing \u2191",
+           angle = 90, hjust = 0.5, size = 6.2,
+           fontface = "bold", family = FONT, color = "white") +
 
-  # Decreasing band
+  # Franja Decreasing
   annotate("rect",
            xmin = x_min - 1.62, xmax = x_min - 0.92,
            ymin = 0.5, ymax = n_dec + 0.5,
            fill = "#1B4F72", color = NA, alpha = 0.90) +
   annotate("text",
            x = x_min - 1.27, y = y_dec_center,
-           label = "Decreasing ↓",
-           angle = 90, hjust = 0.5, size = 3.1,
-           fontface = "bold", color = "white") +
+           label = "Decreasing \u2193",
+           angle = 90, hjust = 0.5, size = 6.2,
+           fontface = "bold", family = FONT, color = "white") +
 
-  # Horizontal separator
+  # Separador horizontal (solo en el área del heatmap, no sobre la barra lateral)
   annotate("rect",
-           xmin = x_min - 1.62, xmax = x_max + 0.52,
+           xmin = x_min - 0.5, xmax = x_max + 0.52,
            ymin = n_dec + 0.485, ymax = n_dec + 0.515,
            fill = "#222222", color = NA) +
 
-  # Cells
+  # Celdas
   geom_tile(color = "white", linewidth = 0.28) +
 
-  # Percentages
+  # Porcentajes
   geom_text(aes(label = lab, color = txt_col),
-            size = 2.85, show.legend = FALSE) +
+            size = 6.2, family = FONT, show.legend = FALSE) +
   scale_color_identity() +
 
   scale_fill_gradientn(
@@ -164,32 +174,30 @@ p_heat <- ggplot(prev_long, aes(x = year, y = gene, fill = prev)) +
   ) +
 
   coord_cartesian(clip = "off") +
-  theme_minimal(base_size = 11) +
+  theme_minimal(base_size = 22, base_family = FONT) +
   theme(
     axis.text.x      = element_text(angle = 45, hjust = 1,
-                                    size = 9.0, color = "#333333"),
-    axis.text.y      = element_text(size = 9.0, color = "#111111",
-                                    face = "italic"),
-    axis.title.x     = element_text(size = 10.5, margin = margin(t = 6)),
+                                    size = 18.0, color = "#333333", family = FONT),
+    axis.text.y      = element_text(size = 18.0, color = "#111111",
+                                    face = "italic", family = FONT),
+    axis.title.x     = element_text(size = 17.5, family = FONT, margin = margin(t = 6)),
     axis.title.y     = element_blank(),
     panel.grid       = element_blank(),
     legend.position  = "right",
-    legend.title     = element_text(size = 9.5, face = "bold"),
-    legend.text      = element_text(size = 8.5),
+    legend.title     = element_text(size = 19.0, face = "bold", family = FONT),
+    legend.text      = element_text(size = 17.5, family = FONT),
     plot.background  = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA),
-    plot.caption     = element_text(size = 8.0, color = "#555555",
-                                    hjust = 0, margin = margin(t = 8)),
     plot.margin      = margin(t = 10, r = 4, b = 10, l = 55)
   ) +
-  labs(x = "Collection year", y = NULL,
-       caption = "★ R² ≥ 0.60 and mean prevalence ≥ 10% (robust trend)")
+  labs(x = "Collection year", y = NULL)
 
-# ── EXPORT PNG + TIFF ─────────────────────────────────────────
+# EXPORTAR
+# EXPORTAR PNG + TIFF
 png_path  <- file.path(out_dir, "Fig2_temporal_trend_heatmap.png")
 tiff_path <- file.path(out_dir, "Fig2_temporal_trend_heatmap.tiff")
 ggsave(png_path,  p_heat, width = 14, height = 10, dpi = 300, bg = "white")
 ggsave(tiff_path, p_heat, width = 14, height = 10, dpi = 300, bg = "white",
        device = "tiff", compression = "lzw")
-cat("OK: PNG :", png_path,  "\n")
-cat("OK: TIFF:", tiff_path, "\n")
+cat("\u2713 PNG :", png_path,  "\n")
+cat("\u2713 TIFF:", tiff_path, "\n")

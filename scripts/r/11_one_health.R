@@ -5,7 +5,7 @@ library(vegan)
 cat("=== Phase 11: One Health Analysis ===\n")
 cat(format(Sys.time()), "\n\n")
 
-# ── LOAD DATA ────────────────────────────────────────────────
+# LOAD DATA
 meta <- fread("~/genomes_pass_qc_validated.csv")
 mat  <- fread("~/matrix_output_v2/matrix1_gene_families.csv")
 g_ref <- readRDS("~/matrix_output_v2/network_topology.rds")
@@ -15,7 +15,7 @@ setnames(mat,  colnames(mat)[1], "genome_id")
 
 gene_cols <- colnames(mat)[-1]
 
-# ── 1. DEFINE ONE HEALTH COMPARTMENTS ────────────────────────
+# 1. DEFINE ONE HEALTH COMPARTMENTS
 cat("=== 1. One Health Compartment Assignment ===\n")
 
 human_terms <- c("hospital", "sputum", "blood", "urine", "wound",
@@ -49,7 +49,7 @@ meta[, compartment := sapply(isolation_source, assign_compartment)]
 cat("Compartment distribution:\n")
 print(table(meta$compartment))
 
-# ── MERGE ────────────────────────────────────────────────────
+# MERGE
 merged <- merge(mat, meta[, .(genome_id, compartment, country, isolation_source)],
                 by = "genome_id")
 cat("\nGenomes after merge:", nrow(merged), "\n")
@@ -59,7 +59,7 @@ merged_known <- merged[compartment != "unknown"]
 cat("Genomes with known compartment:", nrow(merged_known), "\n")
 print(table(merged_known$compartment))
 
-# ── 2. ARG PREVALENCE BY COMPARTMENT ─────────────────────────
+# 2. ARG PREVALENCE BY COMPARTMENT
 cat("\n=== 2. ARG Prevalence by Compartment ===\n")
 
 prev_by_comp <- merged_known[, lapply(.SD, mean), 
@@ -88,7 +88,7 @@ if (nrow(human_prev) > 0 && nrow(env_prev) > 0) {
   print(sort(diff_he, decreasing=TRUE)[1:10])
 }
 
-# ── 3. STATISTICAL TESTS (Kruskal-Wallis per gene) ───────────
+# 3. STATISTICAL TESTS (Kruskal-Wallis per gene)
 cat("\n=== 3. Statistical Differences Across Compartments ===\n")
 
 kw_results <- list()
@@ -113,7 +113,7 @@ cat("Kruskal-Wallis results (top 20):\n")
 print(kw_dt[1:20])
 cat("\nSignificant (p<0.05):", sum(kw_dt$pvalue < 0.05), "/", nrow(kw_dt), "\n")
 
-# ── 4. COMPARTMENT-SPECIFIC SUBNETWORKS ──────────────────────
+# 4. COMPARTMENT-SPECIFIC SUBNETWORKS
 cat("\n=== 4. Compartment-Specific Subnetworks ===\n")
 
 ref_edges <- as_data_frame(g_ref, what = "edges")[, c("from", "to")]
@@ -164,7 +164,7 @@ comp_topo_dt <- rbindlist(comp_topology)
 cat("\nCompartment topology summary:\n")
 print(comp_topo_dt)
 
-# ── 5. BETA DIVERSITY BETWEEN COMPARTMENTS ───────────────────
+# 5. BETA DIVERSITY BETWEEN COMPARTMENTS
 cat("\n=== 5. Resistome Beta-Diversity (Bray-Curtis) ===\n")
 
 # Sample up to 500 per compartment for efficiency
@@ -190,7 +190,7 @@ print(bd$group.distances)
 bd_test <- permutest(bd, permutations = 999)
 cat("Betadisper permutation test p-value:", round(bd_test$tab$`Pr(>F)`[1], 4), "\n")
 
-# ── 6. SHARED ARG PROFILES ───────────────────────────────────
+# 6. SHARED ARG PROFILES
 cat("\n=== 6. Shared ARG Profiles Across Compartments ===\n")
 
 # Genes present in ALL 3 compartments (>10% prevalence in each)
@@ -216,7 +216,7 @@ if (nrow(comp_prev) == 3) {
   fwrite(conv_dt, "~/matrix_output_v2/one_health_convergence.csv")
 }
 
-# ── 7. SAVE OUTPUTS ─────────────────────────────────────────
+# 7. SAVE OUTPUTS
 fwrite(kw_dt,       "~/matrix_output_v2/one_health_kruskal.csv")
 fwrite(comp_topo_dt,"~/matrix_output_v2/one_health_topology.csv")
 fwrite(prev_by_comp,"~/matrix_output_v2/one_health_prevalence.csv")

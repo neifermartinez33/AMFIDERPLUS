@@ -38,9 +38,7 @@ from pathlib import Path
 import pandas as pd
 from argnorm.normalizers import AMRFinderPlusNormalizer, ResFinderNormalizer
 
-# ─────────────────────────────────────────────
 # 0. CONFIGURATION
-# ─────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -75,11 +73,9 @@ PREV_MAX         = 0.98   # 98% — above = core resistome
 # Include both to enable ARG-HMG co-occurrence analysis (Fig. S2)
 AMR_SCOPES = ["core", "plus"]
 
-# ─────────────────────────────────────────────
 # DRUG CLASS HARMONIZATION MAP
 # Collapses RGI subclasses to AMRFinder macro classes
 # so that drug-class-level merge works correctly
-# ─────────────────────────────────────────────
 DRUG_CLASS_MAP = {
     # Beta-lactam subclasses -> macro class
     "carbapenem":                          "beta-lactam antibiotic",
@@ -159,9 +155,7 @@ WHITELIST_PATTERNS = [
 ]
 
 
-# ─────────────────────────────────────────────
 # HELPERS
-# ─────────────────────────────────────────────
 def normalize_class(val: str) -> set:
     """Split and normalize drug class strings (comma or semicolon separated)."""
     if pd.isna(val):
@@ -239,9 +233,7 @@ def is_whitelisted(symbol: str) -> bool:
     return False
 
 
-# ─────────────────────────────────────────────
 # 1. LOAD METADATA
-# ─────────────────────────────────────────────
 def load_metadata(meta_file: Path) -> pd.DataFrame:
     log.info("Loading genome metadata...")
     meta = pd.read_csv(meta_file, usecols=[
@@ -253,9 +245,7 @@ def load_metadata(meta_file: Path) -> pd.DataFrame:
     return meta
 
 
-# ─────────────────────────────────────────────
 # 2. PARSE AMRFINDERPLUS (backbone)
-# ─────────────────────────────────────────────
 def parse_amrfinder(amr_dir: Path) -> pd.DataFrame:
     """
     Read all AMRFinderPlus .tsv files via argNorm.
@@ -327,9 +317,7 @@ def parse_amrfinder(amr_dir: Path) -> pd.DataFrame:
     return amr
 
 
-# ─────────────────────────────────────────────
 # 3. PARSE CARD-RGI (drug class validator)
-# ─────────────────────────────────────────────
 def parse_rgi_classes(rgi_dir: Path) -> pd.DataFrame:
     """
     Extract drug classes per genome from CARD-RGI (all Cut_Off).
@@ -366,9 +354,7 @@ def parse_rgi_classes(rgi_dir: Path) -> pd.DataFrame:
     return rgi_classes
 
 
-# ─────────────────────────────────────────────
 # 4. PARSE RESFINDER (drug class validator)
-# ─────────────────────────────────────────────
 def parse_resfinder_classes(res_dir: Path) -> pd.DataFrame:
     """
     Extract drug classes per genome from ResFinder via argNorm.
@@ -415,9 +401,7 @@ def parse_resfinder_classes(res_dir: Path) -> pd.DataFrame:
     return res_classes
 
 
-# ─────────────────────────────────────────────
 # 5. ASYMMETRIC VALIDATION
-# ─────────────────────────────────────────────
 def validate_genes(amr: pd.DataFrame,
                    rgi_classes: pd.DataFrame,
                    res_classes: pd.DataFrame) -> pd.DataFrame:
@@ -435,7 +419,7 @@ def validate_genes(amr: pd.DataFrame,
     args = amr[~amr["is_hmg"]].copy()
     hmgs = amr[amr["is_hmg"]].copy()
 
-    # ── Validate ARGs via RGI/ResFinder drug class merge ──
+    # Validate ARGs via RGI/ResFinder drug class merge
     rgi_classes = rgi_classes.copy()
     res_classes = res_classes.copy()
 
@@ -449,7 +433,7 @@ def validate_genes(amr: pd.DataFrame,
     confirmed_args = confirmed_args[["Genome_ID", "gene_symbol", "gene_family",
                                      "drug_class", "whitelisted", "is_hmg"]].drop_duplicates()
 
-    # ── HMGs: single-source validation ──
+    # HMGs: single-source validation
     # Documented limitation: no equivalent HMG database in CARD-RGI/ResFinder
     hmgs["confirmed"] = True  # AMRFinder with --plus is sufficient for HMGs
     confirmed_hmgs = hmgs[["Genome_ID", "gene_symbol", "gene_family",
@@ -469,9 +453,7 @@ def validate_genes(amr: pd.DataFrame,
     return confirmed
 
 
-# ─────────────────────────────────────────────
 # 6. WHITELIST DETAILED REPORT
-# ─────────────────────────────────────────────
 def generate_whitelist_report(confirmed: pd.DataFrame,
                                meta: pd.DataFrame,
                                n_genomes: int) -> pd.DataFrame:
@@ -522,9 +504,7 @@ def generate_whitelist_report(confirmed: pd.DataFrame,
     return report
 
 
-# ─────────────────────────────────────────────
 # 7. PREVALENCE FILTER + WHITELIST
-# ─────────────────────────────────────────────
 def apply_prevalence_filter(df: pd.DataFrame,
                              id_col: str,
                              n_genomes: int,
@@ -564,9 +544,7 @@ def apply_prevalence_filter(df: pd.DataFrame,
     return retained, core_df, prev_df
 
 
-# ─────────────────────────────────────────────
 # 8. BUILD BINARY MATRIX
-# ─────────────────────────────────────────────
 def build_matrix(df: pd.DataFrame,
                  id_col: str,
                  all_genomes: list,
@@ -591,9 +569,7 @@ def build_matrix(df: pd.DataFrame,
     return matrix
 
 
-# ─────────────────────────────────────────────
 # MAIN
-# ─────────────────────────────────────────────
 if __name__ == "__main__":
 
     log.info("=" * 60)
@@ -620,7 +596,7 @@ if __name__ == "__main__":
     confirmed   = validate_genes(amr, rgi_classes, res_classes)
     wl_report   = generate_whitelist_report(confirmed, meta, n_genomes)
 
-    # ── Matrix 1: Gene families (network inference) ──
+    # Matrix 1: Gene families (network inference)
     log.info("-" * 40)
     fam = confirmed[["Genome_ID", "gene_family", "whitelisted"]].drop_duplicates()
     fam_retained, fam_core, fam_prev = apply_prevalence_filter(
@@ -630,7 +606,7 @@ if __name__ == "__main__":
     matrix1.to_csv(OUT_DIR / "matrix1_gene_families.csv")
     fam_prev.to_csv(OUT_DIR / "matrix1_prevalence.csv", index=False)
 
-    # ── Matrix 2: Individual genes (secondary analysis) ──
+    # Matrix 2: Individual genes (secondary analysis)
     log.info("-" * 40)
     gene = confirmed[["Genome_ID", "gene_symbol", "whitelisted"]].drop_duplicates()
     gene_retained, gene_core, gene_prev = apply_prevalence_filter(
@@ -640,7 +616,7 @@ if __name__ == "__main__":
     matrix2.to_csv(OUT_DIR / "matrix2_individual_genes.csv")
     gene_prev.to_csv(OUT_DIR / "matrix2_prevalence.csv", index=False)
 
-    # ── Core resistome report ──
+    # Core resistome report
     if not fam_core.empty:
         core_report = (fam_core.groupby("gene_family")["Genome_ID"]
                        .nunique().reset_index())
